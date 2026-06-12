@@ -36,13 +36,23 @@ python3 -m http.server 8000
 Ou simplesmente abra o `index.html` no navegador. Também funciona direto no
 GitHub Pages.
 
+## PWA (instalar no celular)
+
+O app é um PWA: servido por HTTPS (ou GitHub Pages), o navegador oferece
+**"Adicionar à tela inicial"** — ele abre como app, com ícone próprio, e
+funciona **offline** (o service worker guarda todas as 800 práticas; as
+imagens de contemplação ficam em cache depois da primeira visualização).
+
 ## Estrutura
 
 ```
-index.html          # página única do app
-css/style.css       # estilos
-js/app.js           # cards, sorteio sem repetição e tela da prática
-js/data/*.js        # 8 arquivos, 100 práticas cada (texto + fundamento)
+index.html           # página única do app
+manifest.webmanifest # manifesto do PWA
+sw.js                # service worker (offline)
+css/style.css        # estilos
+js/app.js            # cards, sorteio sem repetição e tela da prática
+js/data/*.js         # 8 arquivos, 100 práticas cada (texto + fundamento)
+icons/               # ícones do app (gerados por tools/gen_icons.py)
 ```
 
 > Estas práticas são um convite ao cuidado — não substituem acompanhamento
