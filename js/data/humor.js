@@ -2,134 +2,133 @@ window.PRACTICES = window.PRACTICES || {};
 window.PRACTICES["humor"] = {
   tarefas: [
     {
-      t: "Três coisas engraçadas: antes de dormir hoje, anote as três coisas mais engraçadas que você viveu ou viu no dia, e por que aconteceram.",
-      f: "O exercício “three funny things” aumentou a felicidade e reduziu sintomas depressivos por até 6 meses em ensaios controlados de intervenções baseadas em humor.",
-      fonte: "Aging & Mental Health · Gander et al., intervenções de humor"
+      t: "O que o pato disse para a pata? — Vem quá!",
+      f: "Rir, mesmo de piada boba, libera endorfinas e relaxa a musculatura por até 45 minutos.",
+      fonte: "Loma Linda University · Berk et al., fisiologia do riso",
+      n: "Repasse para alguém: rir junto dobra o efeito."
     },
     {
-      t: "Assista agora a um vídeo que sempre te faz rir — aquele que você já mandou para todo mundo.",
-      f: "O riso genuíno reduz cortisol e adrenalina e eleva endorfinas, segundo a linha de estudos sobre “riso alegre” iniciada por Lee Berk.",
-      fonte: "American Journal of the Medical Sciences · Berk et al., Loma Linda"
+      t: "Por que o livro de matemática vive triste? — Porque tem problemas demais.",
+      f: "O humor de trocadilho ativa o circuito de resolução de incongruência: o cérebro ganha uma microrrecompensa ao “sacar” a piada.",
+      fonte: "Journal of Cognitive Neuroscience · processamento de humor"
     },
     {
-      t: "Conte para alguém, hoje, a situação mais engraçada que você já viveu. Capriche nos detalhes.",
-      f: "Rir junto eleva o limiar de dor por liberação de endorfinas — efeito demonstrado em experimentos com grupos assistindo comédia.",
-      fonte: "Proceedings of the Royal Society B, 2011 · Dunbar et al.",
-      n: "Histórias engraçadas repetidas são patrimônio afetivo: cada recontagem renova o vínculo."
+      t: "O que é um pontinho amarelo no céu? — Um Fanta-sma.",
+      f: "Piadas absurdas reduzem a tensão ao quebrar expectativas sem ameaça — o alívio é fisiológico, não só subjetivo.",
+      fonte: "Psychophysiology · riso e resposta de estresse"
     },
     {
-      t: "Sorria de propósito por 30 segundos — um sorriso largo, envolvendo os olhos — e observe o que muda por dentro.",
-      f: "Participantes que sorriram durante tarefas estressantes tiveram frequência cardíaca mais baixa na recuperação, mesmo quando o sorriso foi induzido.",
+      t: "O que o zero disse para o oito? — Que cinto maneiro!",
+      f: "O riso eleva o limiar de dor por liberação de endorfinas, em experimentos com grupos assistindo comédia.",
+      fonte: "Proceedings of the Royal Society B, 2011 · Dunbar et al."
+    },
+    {
+      t: "O que uma impressora disse para a outra? — Essa folha é sua ou é impressão minha?",
+      f: "Sorrir durante o estresse reduz a frequência cardíaca na recuperação, mesmo quando o sorriso é induzido.",
       fonte: "Psychological Science, 2012 · Kraft & Pressman"
     },
     {
-      t: "Riso sem motivo: ria de mentira por 60 segundos — sons, barriga, tudo. Se virar riso de verdade no meio, deixe.",
-      f: "Protocolos de yoga do riso reduziram sintomas de depressão e melhoraram o humor em ensaios randomizados com idosos; o corpo não distingue bem o ensaio da estreia.",
-      fonte: "International Journal of Geriatric Psychiatry · ensaios de laughter yoga"
+      t: "Qual é o rei dos queijos? — O rei-queijão.",
+      f: "Humor leve compartilhado é um dos sinais mais fortes de intimidade nas relações próximas.",
+      fonte: "Personal Relationships · humor e proximidade",
+      n: "Manda para a pessoa mais séria que você conhece."
     },
     {
-      t: "Mande um meme para um amigo agora — aquele tipo de humor que só vocês dois entendem.",
-      f: "Humor compartilhado é um dos sinais mais fortes de intimidade nas relações; piadas internas criam identidade de dupla e reforçam o vínculo.",
-      fonte: "Personal Relationships · humor compartilhado e proximidade",
-      n: "Uma piada interna é um abraço criptografado: só vocês têm a chave."
-    },
-    {
-      t: "Dê um apelido carinhoso e ridículo para a sua preocupação de hoje, e use-o mentalmente sempre que ela aparecer.",
-      f: "O humor é uma estratégia de reavaliação cognitiva: rir de um estressor reduz a emoção negativa de forma mais duradoura que apenas distração, em estudos experimentais.",
-      fonte: "Cognition and Emotion · Samson & Gross, Stanford"
-    },
-    {
-      t: "Faça a careta mais absurda que conseguir no espelho. Mantenha por 10 segundos. Tente não rir (você vai perder).",
-      f: "Quebrar a expressão facial séria interrompe o feedback facial da tensão; movimentos faciais exagerados relaxam a musculatura que sustenta o humor fechado.",
-      fonte: "Psychological Bulletin · hipótese do feedback facial (meta-análise)"
-    },
-    {
-      t: "Veja fotos antigas suas — cortes de cabelo, roupas, poses. Ria com carinho de quem você foi.",
-      f: "Rir de si mesmo com gentileza correlaciona com maior bem-estar e estabilidade de humor; é o estilo de humor mais protetor entre os mapeados na pesquisa.",
-      fonte: "Journal of Research in Personality · estilos de humor (Martin)"
-    },
-    {
-      t: "Brinque com uma criança ou um pet por 10 minutos, no ritmo deles, sem pressa de voltar ao mundo adulto.",
-      f: "A brincadeira com cães eleva oxitocina em humanos e animais — o mesmo circuito do vínculo entre pais e bebês, demonstrado em estudo japonês publicado na Science.",
-      fonte: "Science, 2015 · Nagasawa et al., oxitocina e vínculo com cães",
-      n: "Crianças e bichos são professores de leveza: ninguém leva o presente mais a sério que eles."
-    },
-    {
-      t: "Conte uma piada ruim de propósito hoje — quanto pior, melhor. O constrangimento é parte do remédio.",
-      f: "Humor autodepreciativo leve em doses sociais aumenta a percepção de proximidade e autenticidade, segundo estudos sobre humor nas relações.",
-      fonte: "Journal of Personality and Social Psychology · humor e conexão social"
-    },
-    {
-      t: "Assista a 10 minutos de stand-up ou comédia hoje, como compromisso de saúde, não como enrolação.",
-      f: "Assistir comédia melhorou a função dos vasos sanguíneos (vasodilatação endotelial) em medidas feitas antes e depois, em estudos da Universidade de Maryland.",
+      t: "Por que o astronauta terminou o namoro? — Porque precisava de espaço.",
+      f: "Assistir e ouvir comédia melhorou a função dos vasos sanguíneos em medidas antes/depois na Universidade de Maryland.",
       fonte: "Heart · Michael Miller, Univ. de Maryland"
     },
     {
-      t: "Procure o lado cômico da sua situação mais irritante desta semana: se ela fosse uma cena de seriado, qual seria a piada?",
-      f: "Transformar estressores em narrativa cômica é reavaliação cognitiva em ação — reduz afeto negativo sem negar o problema, segundo a pesquisa em regulação emocional.",
-      fonte: "Cognition and Emotion · humor como reappraisal"
+      t: "O que um cromossomo disse para o outro? — Cromossomos felizes!",
+      f: "O riso genuíno reduz cortisol e adrenalina, hormônios centrais da resposta de estresse.",
+      fonte: "American Journal of the Medical Sciences · Berk et al."
     },
     {
-      t: "Ria por extenso numa mensagem hoje: em vez de só “kkk”, conte para a pessoa o que exatamente te fez rir.",
-      f: "Capitalização — compartilhar ativamente o que nos fez bem — amplifica o afeto positivo de quem conta e de quem ouve, efeito robusto na pesquisa de relacionamentos.",
-      fonte: "Journal of Personality and Social Psychology · Gable, capitalização"
+      t: "Como o elétron atende o telefone? — Próton!",
+      f: "Piadas de nicho criam cumplicidade instantânea: rir do mesmo absurdo sinaliza visão de mundo compartilhada.",
+      fonte: "Journal of Personality and Social Psychology · humor e afiliação"
     },
     {
-      t: "Monte uma pasta de emergência com seus 5 vídeos/memes mais infalíveis. Deixe salva para dias cinzas.",
-      f: "Preparar indutores de afeto positivo antecipadamente aumenta o uso real em momentos difíceis — princípio das “primeiras ajudas emocionais” da psicologia clínica.",
-      fonte: "Behaviour Research and Therapy · regulação emocional planejada"
+      t: "Qual é a fruta mais paciente? — A pera. Ela só espera.",
+      f: "Anotar as coisas engraçadas do dia (“three funny things”) aumentou felicidade por até 6 meses em ensaios controlados.",
+      fonte: "Aging & Mental Health · Gander et al."
     },
     {
-      t: "Pergunte a alguém mais velho da família qual foi a maior mancada engraçada da história da casa. Prepare-se para descobrir clássicos.",
-      f: "Reminiscência humorística em família fortalece identidade e vínculo entre gerações; rir das memórias compartilhadas consolida-as de forma positiva.",
-      fonte: "Memory · reminiscência compartilhada",
-      n: "As mancadas da família, contadas com riso, viram herança em vez de vergonha."
+      t: "O que o oceano faz quando vê a praia? — Acena.",
+      f: "O riso é contagioso por neurônios-espelho: ouvir gargalhadas prepara o córtex motor da sua própria risada.",
+      fonte: "The Journal of Neuroscience · Sophie Scott, contágio do riso"
     },
     {
-      t: "Caminhe 2 minutos pela casa balançando os braços de forma exageradamente alegre, como criança indo ao recreio. Sinta o ridículo — e o efeito.",
-      f: "Adotar o corpo da alegria convida a emoção correspondente: padrões de movimento expansivos elevaram o humor em estudos de embodiment.",
-      fonte: "Journal of Behavior Therapy and Experimental Psychiatry · movimento e emoção"
+      t: "Qual é o doce favorito do átomo? — Pé de mol-écula.",
+      f: "O humor funciona como reavaliação cognitiva: rir de algo muda a relação com aquilo de forma mais duradoura que distração.",
+      fonte: "Cognition and Emotion · Samson & Gross, Stanford"
     },
     {
-      t: "Hoje, quando algo pequeno der errado (café caiu, chave sumiu), responda em voz alta: “plot twist!” — e siga.",
-      f: "Rotular contratempos com humor reduz a resposta de estresse e treina flexibilidade cognitiva, a capacidade que protege o humor dos tropeços do dia.",
-      fonte: "Anxiety, Stress & Coping · humor e resiliência cotidiana"
+      t: "O que acontece quando chove na Inglaterra? — O Reino Unido vira Reino Molhado.",
+      f: "Pausas de humor no meio de tarefas restauram o autocontrole e melhoram o desempenho em seguida, em estudos de pausas no trabalho.",
+      fonte: "Journal of Business and Psychology · pausas e humor"
     },
     {
-      t: "Troque 10 minutos de noticiário por 10 minutos de conteúdo que te faz rir, só por hoje, e compare como se sente.",
-      f: "Dietas de mídia afetam o humor de forma mensurável; substituições simples de conteúdo mudaram afeto e ansiedade em estudos experimentais de uso de mídia.",
-      fonte: "Journal of Experimental Psychology · mídia e afeto"
+      t: "O que uma parede disse para a outra? — Te encontro na esquina.",
+      f: "Piadas clássicas de infância carregam memória afetiva: o riso vem da piada e da lembrança de quem a contava.",
+      fonte: "Memory · memória afetiva e humor",
+      n: "Quem contava piada assim na sua casa?"
     },
     {
-      t: "Lembre da última vez que você chorou de rir. Reconstrua a cena: onde, com quem, o que aconteceu. Conte para alguém que estava lá.",
-      f: "Reviver episódios de riso intenso reativa o circuito original da alegria — e compartilhar a lembrança com quem estava presente dobra o efeito pela via social.",
-      fonte: "Emotion · reminiscência positiva compartilhada",
-      n: "Rir junto duas vezes da mesma história é viver o momento de novo — de graça."
+      t: "Qual é o animal mais antigo do mundo? — A zebra, porque ainda é em preto e branco.",
+      f: "Dez a quinze minutos de riso por dia gastam energia mensurável e melhoram o humor — é exercício cardiovascular leve disfarçado.",
+      fonte: "International Journal of Obesity · gasto energético do riso"
     },
     {
-      t: "Invente uma legenda engraçada para o que você está vendo agora, como se fosse postar (não precisa postar).",
-      f: "A produção ativa de humor — não só o consumo — é a parte com maior ganho de bem-estar nas intervenções estudadas; criar piada exige reenquadrar a realidade.",
-      fonte: "The Journal of Positive Psychology · Wellenzohn et al."
+      t: "Por que o jacaré tirou o filho da escola? — Porque ele réptil de ano.",
+      f: "O riso melhora a tolerância ao desconforto físico e emocional — por isso rimos mais justamente nos dias difíceis.",
+      fonte: "Proceedings of the Royal Society B · endorfinas e riso"
     },
     {
-      t: "Sorria primeiro para 3 pessoas hoje, antes que elas sorriam para você.",
-      f: "Expressões faciais são contagiosas por imitação automática; quem inicia sorrisos recebe mais sorrisos de volta, mudando o clima emocional dos ambientes que atravessa.",
-      fonte: "Trends in Cognitive Sciences · mimetismo facial"
+      t: "O que o tomate foi fazer no banco? — Tirar um extrato.",
+      f: "Compartilhar conteúdo engraçado fortalece laços: quem manda piada é percebido como mais próximo e mais confiável.",
+      fonte: "Journal of Personality and Social Psychology · humor e confiança"
     },
     {
-      t: "Estabeleça a regra do riso diário: pelo menos uma gargalhada de verdade por dia. Comece procurando a de hoje agora.",
-      f: "A frequência de riso diário correlaciona com satisfação com a vida e menor percepção de estresse — e sobe quando vira meta deliberada, mostram os estudos de intervenção.",
+      t: "Qual é o contrário de papelada? — Papel sentada.",
+      f: "O humor bobo (não cínico) é o estilo mais associado a bem-estar entre os quatro estilos mapeados na pesquisa.",
+      fonte: "Journal of Research in Personality · estilos de humor (Martin)"
+    },
+    {
+      t: "Por que a plantinha não foi atendida no pronto-socorro? — Porque só tinha médico de plantão.",
+      f: "Rir relaxa a musculatura esquelética por até 45 minutos após a gargalhada — um miorrelaxante sem receita.",
+      fonte: "Loma Linda University · fisiologia do riso"
+    },
+    {
+      t: "Qual instrumento o peixe toca? — O baixo.",
+      f: "Trocadilhos exercitam a flexibilidade semântica: o cérebro alterna significados em milissegundos, treino cognitivo em forma de piada.",
+      fonte: "Brain and Language · processamento de trocadilhos"
+    },
+    {
+      t: "Por que o café foi prestar depoimento? — Porque ele estava coado.",
+      f: "O humor verbal sofisticado e o bobo ativam o mesmo circuito final de recompensa — não existe piada “pequena” para o cérebro.",
+      fonte: "Neuron · circuito de recompensa do humor"
+    },
+    {
+      t: "O que o semáforo disse para o carro? — Não olha agora que eu estou mudando.",
+      f: "Personificar objetos é a base do humor infantil — e reativá-lo no adulto reabre o modo lúdico, estado oposto ao da ansiedade.",
+      fonte: "American Journal of Play · brincar no adulto"
+    },
+    {
+      t: "Por que o esqueleto não brigou com ninguém? — Porque ele não tem estômago para isso.",
+      f: "Uma gargalhada diária correlaciona com menor percepção de estresse — e vira hábito quando é procurada de propósito.",
       fonte: "Applied Psychology: Health and Well-Being · frequência de riso"
     },
     {
-      t: "Relembre um apelido ou bordão engraçado do seu grupo de amigos e mande no grupo agora, do nada.",
-      f: "Símbolos compartilhados de humor reativam instantaneamente a identidade do grupo e o afeto associado a ela — atalho social com alto retorno emocional.",
-      fonte: "Personal Relationships · rituais e identidade de grupo"
+      t: "O que o pintinho foi fazer na aula de música? — Piu-ano.",
+      f: "Rir em sequência (uma piada puxa a outra) cria um estado de leveza que dura além do momento — o humor tem efeito cumulativo.",
+      fonte: "Psychophysiology · efeito cumulativo do riso",
+      n: "Quer mais uma? Toque em “Outra prática”."
     },
     {
-      t: "Experimente o “riso espelhado”: assista a alguém tendo uma crise de riso (vídeos de gargalhada contagiante) e deixe-se contaminar.",
-      f: "O riso é comportamentalmente contagioso: ouvir gargalhadas ativa o córtex motor da própria risada, preparando o corpo para rir junto.",
-      fonte: "The Journal of Neuroscience · Sophie Scott, contágio do riso"
+      t: "Por que a vassoura ganhou o concurso? — Porque varreu a concorrência.",
+      f: "O riso após o expediente acelera a transição do modo trabalho para o modo descanso, melhorando a recuperação do dia.",
+      fonte: "Journal of Occupational Health Psychology · recuperação e lazer"
     }
   ]
 };

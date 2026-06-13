@@ -43,9 +43,10 @@ window.PRACTICES["musicas"] = {
       fonte: "Cochrane Review · música para ansiedade (Bradt et al.)"
     },
     {
-      t: "Ouça 5 minutos de sons da natureza — chuva, mar, floresta — de olhos fechados.",
+      t: "Ouça 5 minutos de sons da natureza — chuva, mar, floresta — de olhos fechados. Use o player abaixo, se quiser.",
       f: "Sons naturais aceleraram a recuperação fisiológica pós-estresse em comparação com ruído urbano, em estudo experimental com medidas de condutância da pele.",
-      fonte: "International Journal of Environmental Research and Public Health, 2010 · Alvarsson et al."
+      fonte: "International Journal of Environmental Research and Public Health, 2010 · Alvarsson et al.",
+      som: "chuva"
     },
     {
       t: "Ouça uma música inteira prestando atenção em um único instrumento, do início ao fim. Se a atenção fugir, volte ao instrumento.",
@@ -116,9 +117,10 @@ window.PRACTICES["musicas"] = {
       fonte: "Psychology of Music · música funcional e tarefas"
     },
     {
-      t: "Termine o dia com uma música calma escolhida para encerrar bem, em volume baixo, antes de dormir.",
+      t: "Termine o dia com um som calmo, em volume baixo, antes de dormir. Os tons abaixo servem bem.",
       f: "Música relaxante ao deitar melhorou a qualidade do sono em ensaios com adultos com insônia leve, com efeito crescente ao longo de 3 semanas.",
-      fonte: "Journal of Advanced Nursing · música e sono"
+      fonte: "Journal of Advanced Nursing · música e sono",
+      som: "tons"
     },
     {
       t: "Defina o despertador com uma música que você ama, para que o primeiro som do dia seja um presente.",
