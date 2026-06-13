@@ -509,6 +509,8 @@ body {
   width: max-content;
 }
 
+.practice-mode[hidden] { display: none; }
+
 .mode-opt {
   border: none;
   background: transparent;
