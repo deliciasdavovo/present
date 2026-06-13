@@ -5,7 +5,15 @@ window.PRACTICES["movimentos"] = {
       t: "Abertura do tai chi: em pé, pés na largura dos ombros, suba os braços devagar ao inspirar e desça-os ao expirar, como se a água os movesse. Repita 10 vezes.",
       f: "Programas de tai chi melhoram equilíbrio, humor e qualidade de vida em dezenas de ensaios clínicos revisados pelo grupo de pesquisa de Harvard dedicado à prática.",
       fonte: "Harvard Medical School · Peter Wayne, Guide to Tai Chi",
-      n: "No tai chi, o gesto lento ensina o corpo a não travar: fluidez fora, fluidez dentro."
+      n: "No tai chi, o gesto lento ensina o corpo a não travar: fluidez fora, fluidez dentro.",
+      mov: {
+        type: "arms",
+        reps: 10,
+        phases: [
+          { label: "Suba os braços", dur: 4, to: 1 },
+          { label: "Desça os braços", dur: 4, to: 0 }
+        ]
+      }
     },
     {
       t: "Caminhe por 10 minutos, agora se possível. Sem fone, sem meta — apenas num ritmo que deixe a respiração levemente mais profunda.",
@@ -15,7 +23,15 @@ window.PRACTICES["movimentos"] = {
     {
       t: "Relaxamento muscular progressivo: tensione com força os ombros por 5 segundos e solte de uma vez. Repita com mãos, rosto e pernas, sentindo o contraste.",
       f: "A técnica de Jacobson reduz ansiedade e insônia em ensaios clínicos há décadas; o contraste ensina o corpo a reconhecer e desligar a tensão escondida.",
-      fonte: "Harvard Health Publishing · relaxamento muscular progressivo"
+      fonte: "Harvard Health Publishing · relaxamento muscular progressivo",
+      mov: {
+        type: "squeeze",
+        reps: 4,
+        phases: [
+          { label: "Tensione com força", dur: 5, to: 1 },
+          { label: "Solte de uma vez", dur: 7, to: 0 }
+        ]
+      }
     },
     {
       t: "Dance uma música inteira, do seu jeito, sem plateia. Vale fechar a porta.",
@@ -31,7 +47,15 @@ window.PRACTICES["movimentos"] = {
       t: "Balanço de qigong: pés firmes, gire o tronco para os lados deixando os braços soltos baterem suavemente no corpo, por 2 minutos.",
       f: "Revisões de qigong mostram redução de ansiedade e de pressão arterial; movimentos rítmicos e repetitivos com respiração lenta são o ingrediente ativo comum.",
       fonte: "American Journal of Health Promotion · Jahnke et al., revisão de qigong",
-      n: "Na medicina chinesa, o balanço solta o qi estagnado da cintura, território dos rins."
+      n: "Na medicina chinesa, o balanço solta o qi estagnado da cintura, território dos rins.",
+      mov: {
+        type: "sway",
+        reps: 12,
+        phases: [
+          { label: "Gire para um lado", dur: 1.6, to: 1 },
+          { label: "e para o outro", dur: 1.6, to: 0 }
+        ]
+      }
     },
     {
       t: "Massageie as próprias mãos por 2 minutos: amasse a palma com o polegar oposto, deslize por cada dedo, sem pressa.",
@@ -68,7 +92,15 @@ window.PRACTICES["movimentos"] = {
     {
       t: "Gato-vaca: em quatro apoios ou sentado, arredonde as costas ao expirar e abra o peito ao inspirar, 8 vezes, no seu ritmo.",
       f: "Práticas de yoga com movimento e respiração elevaram os níveis de GABA — neurotransmissor ligado à calma — em estudos de espectroscopia da Universidade de Boston.",
-      fonte: "Journal of Alternative and Complementary Medicine · Streeter et al."
+      fonte: "Journal of Alternative and Complementary Medicine · Streeter et al.",
+      mov: {
+        type: "squeeze",
+        reps: 8,
+        phases: [
+          { label: "Arredonde as costas", dur: 4, to: 1 },
+          { label: "Abra o peito", dur: 4, to: 0 }
+        ]
+      }
     },
     {
       t: "Sacuda o corpo por 1 minuto: mãos, braços, pernas, ombros, como se chacoalhasse a poeira do dia. Termine parado, sentindo o formigamento.",

@@ -79,8 +79,10 @@
   var NOTES_KEY = "presente-notas";
   var currentDim = null;
   var breathCtl = null;
+  var moveCtl = null;
   var timerCtl = null;
   var audioCtl = null;
+  var fadeTimer = null;
 
   // ---------- sorteio sem repetição ----------
 
@@ -169,7 +171,42 @@
   var writeArea = document.getElementById("write-area");
   var writeStatus = document.getElementById("write-status");
   var modeEl = document.getElementById("practice-mode");
+  var moveEl = document.getElementById("move-guide");
+  var gratidaoHead = document.getElementById("gratidao-head");
+  var gratidaoDate = document.getElementById("gratidao-date");
+  var gratidaoPrompt = document.getElementById("gratidao-prompt");
+  var streakFeedback = document.getElementById("streak-feedback");
+  var heroStreak = document.getElementById("hero-streak");
   var sheetEl = document.querySelector(".practice-card");
+
+  var MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho",
+    "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+
+  function renderHeroStreak() {
+    if (!window.Streak || !heroStreak) return;
+    var txt = window.Streak.label();
+    heroStreak.textContent = txt;
+    heroStreak.hidden = !txt;
+  }
+
+  var PROMPT_KEY = "presente-gratidao-prompt";
+
+  function showGratidaoHead() {
+    var data = window.PRACTICES && window.PRACTICES.gratidao;
+    var prompts = data && data.prompts;
+    if (!prompts || !prompts.length) { gratidaoHead.hidden = true; return; }
+
+    var i = parseInt(localStorage.getItem(PROMPT_KEY), 10);
+    if (isNaN(i)) i = -1;
+    i = (i + 1) % prompts.length; // gira a cada prática, sem repetir em sequência
+    try { localStorage.setItem(PROMPT_KEY, String(i)); } catch (e) { /* ok */ }
+
+    var hoje = new Date();
+    gratidaoDate.textContent = hoje.getDate() + " de " + MESES[hoje.getMonth()];
+    gratidaoPrompt.textContent = prompts[i];
+    writeArea.setAttribute("placeholder", prompts[i]);
+    gratidaoHead.hidden = false;
+  }
 
   DIMENSIONS.forEach(function (dim) {
     var btn = document.createElement("button");
@@ -185,14 +222,21 @@
 
   function stopExtras() {
     if (breathCtl) { breathCtl.stop(); breathCtl = null; }
+    if (moveCtl) { moveCtl.stop(); moveCtl = null; }
     if (timerCtl) { timerCtl.stop(); timerCtl = null; }
     if (audioCtl) { audioCtl.stop(); audioCtl = null; }
+    if (fadeTimer) { clearTimeout(fadeTimer); fadeTimer = null; }
     guideEl.hidden = true;
+    moveEl.hidden = true;
     timerEl.hidden = true;
     audioEl.hidden = true;
     poemEl.hidden = true;
     writeEl.hidden = true;
     modeEl.hidden = true;
+    gratidaoHead.hidden = true;
+    streakFeedback.hidden = true;
+    textEl.classList.remove("fade-out");
+    overlay.classList.remove("is-playing");
   }
 
   function getContemplacaoModo() {
@@ -243,8 +287,10 @@
         "Prática " + (result.total - result.restantes) + " de " + result.total + " desta rodada";
 
       if (t.img) {
-        imgEl.src = "https://picsum.photos/seed/" + encodeURIComponent(t.img) + "/800/500";
+        imgEl.src = "https://picsum.photos/seed/" + encodeURIComponent(t.img) + "/1200/1600";
         imgWrap.hidden = false;
+        // imersão: a instrução aparece e some, deixando só a imagem
+        fadeTimer = setTimeout(function () { textEl.classList.add("fade-out"); }, 3500);
       } else {
         imgWrap.hidden = true;
         imgEl.removeAttribute("src");
@@ -258,6 +304,8 @@
 
       if (t.anim && window.BreathGuide) {
         breathCtl = window.BreathGuide.mount(guideEl, t.anim);
+      } else if (t.mov && window.MoveGuide) {
+        moveCtl = window.MoveGuide.mount(moveEl, t.mov);
       } else {
         var secs = parseTimer(t);
         if (secs >= 20 && window.PracticeTimer) {
@@ -266,10 +314,13 @@
       }
 
       if (dim.id === "musicas" && window.SoundPlayer) {
-        audioCtl = window.SoundPlayer.mount(audioEl, t.som);
+        audioCtl = window.SoundPlayer.mount(audioEl, t.som, function (playing) {
+          overlay.classList.toggle("is-playing", playing);
+        });
       }
 
       if (dim.id === "gratidao") {
+        showGratidaoHead();
         writeArea.value = "";
         writeStatus.textContent = "";
         writeEl.hidden = false;
@@ -281,6 +332,13 @@
     sheetEl.style.setProperty("--accent", dim.accent);
     document.querySelector(".practice-head").style.setProperty("--accent", dim.accent);
     dimEl.textContent = dim.titulo;
+
+    // personalidade por card: o CSS reage a data-theme e às classes de modo
+    overlay.dataset.theme = dim.id;
+    var contemplaImg = dim.id === "contemplacao" && getContemplacaoModo() === "imagem";
+    overlay.classList.toggle("is-imagem", contemplaImg);
+    overlay.classList.toggle("is-vida", dim.id === "contemplacao" && !contemplaImg);
+
     overlay.hidden = false;
     document.body.style.overflow = "hidden";
     sheetEl.scrollTop = 0;
@@ -318,12 +376,27 @@
     }
   });
 
+  function completePractice() {
+    if (window.Streak) {
+      var n = window.Streak.record();
+      renderHeroStreak();
+      if (navigator.vibrate) navigator.vibrate(30);
+      streakFeedback.textContent = "Feito ✓" + (n > 0 ? "  ·  " + window.Streak.label(n) : "");
+      streakFeedback.hidden = false;
+      setTimeout(closePractice, 850);
+    } else {
+      closePractice();
+    }
+  }
+
   document.getElementById("close-btn").addEventListener("click", closePractice);
-  document.getElementById("done-btn").addEventListener("click", closePractice);
+  document.getElementById("done-btn").addEventListener("click", completePractice);
   document.getElementById("another-btn").addEventListener("click", function () {
     if (currentDim) openPractice(currentDim);
   });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && !overlay.hidden) closePractice();
   });
+
+  renderHeroStreak();
 })();

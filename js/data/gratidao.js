@@ -1,5 +1,19 @@
 window.PRACTICES = window.PRACTICES || {};
 window.PRACTICES["gratidao"] = {
+  // perguntas-guia da "coluna do dia" — giram a cada prática, para tirar
+  // o peso do "não sei o que escrever" (gratidão específica > genérica).
+  prompts: [
+    "Pelo que você sorriu hoje, mesmo que pequeno?",
+    "Quem facilitou a sua vida essa semana sem você pedir?",
+    "Que parte do seu corpo merece um obrigado hoje?",
+    "Que som, cheiro ou sabor das últimas horas valeu a pena?",
+    "Qual dificuldade já superada deixou uma força em você?",
+    "O que de absolutamente banal funcionou bem hoje?",
+    "Quem acreditou em você num momento frágil?",
+    "Que coisa boa está por vir nos próximos dias?",
+    "Qual conversa recente deixou você um pouco melhor?",
+    "Que canto da sua casa te acolheu hoje?"
+  ],
   tarefas: [
     {
       t: "Escreva três coisas boas que aconteceram hoje e, para cada uma, o porquê de ela ter acontecido. Quanto mais específico, melhor.",
