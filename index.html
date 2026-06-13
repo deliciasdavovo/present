@@ -39,11 +39,29 @@
         <span id="practice-icon" class="practice-icon" aria-hidden="true"></span>
         <span id="practice-dim" class="practice-dim"></span>
       </div>
+      <div id="practice-mode" class="practice-mode" hidden>
+        <button class="mode-opt" data-mode="imagem">Com imagem</button>
+        <button class="mode-opt" data-mode="vida">Na vida real</button>
+      </div>
       <div id="breath-guide" class="breath-guide" hidden></div>
       <div id="practice-img-wrap" class="practice-img-wrap" hidden>
         <img id="practice-img" alt="Imagem para contemplação" />
       </div>
       <p id="practice-text" class="practice-text"></p>
+      <div id="practice-poem" class="practice-poem" hidden>
+        <p id="poem-text" class="poem-text"></p>
+        <p id="poem-author" class="poem-author"></p>
+      </div>
+      <div id="practice-timer" class="practice-timer" hidden></div>
+      <div id="practice-audio" class="practice-audio" hidden></div>
+      <div id="practice-write" class="practice-write" hidden>
+        <p class="write-label">Escreva aqui</p>
+        <textarea id="write-area" class="write-area" placeholder="Hoje eu agradeço por..."></textarea>
+        <div class="write-row">
+          <button id="write-save" class="write-save">Guardar</button>
+          <span id="write-status" class="write-status"></span>
+        </div>
+      </div>
       <div id="practice-science" class="practice-science" hidden>
         <p id="practice-why" class="practice-why"></p>
         <p id="practice-source" class="practice-source"></p>
@@ -65,7 +83,10 @@
   <script src="js/data/musicas.js"></script>
   <script src="js/data/humor.js"></script>
   <script src="js/data/bondade.js"></script>
+  <script src="js/data/palavras.js"></script>
   <script src="js/breath.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/audio.js"></script>
   <script src="js/app.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
