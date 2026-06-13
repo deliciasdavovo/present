@@ -1,105 +1,251 @@
 window.PRACTICES = window.PRACTICES || {};
 window.PRACTICES["respiracao"] = {
   tarefas: [
-    { t: "Faça o suspiro fisiológico: duas inspirações seguidas pelo nariz (uma longa, uma curtinha por cima) e uma expiração bem lenta pela boca. Repita 3 vezes.", f: "Neurociência: o suspiro duplo reabre os alvéolos e é o jeito mais rápido conhecido de reduzir o estresse em tempo real." },
-    { t: "Respire no ritmo 4-7-8: inspire contando até 4, segure contando até 7, solte pela boca contando até 8. Faça 4 ciclos.", f: "Neurociência: a expiração prolongada ativa o nervo vago e desacelera o coração em poucos minutos." },
-    { t: "Pratique a respiração quadrada: inspire em 4, segure em 4, expire em 4, segure vazio em 4. Desenhe um quadrado imaginário enquanto faz. 8 ciclos.", f: "Neurociência: ritmos respiratórios regulares sincronizam a atividade cerebral e aumentam o foco." },
-    { t: "Coloque uma mão no peito e outra na barriga. Respire de modo que só a mão da barriga se mova, por 10 respirações.", f: "Medicina chinesa: a respiração baixa leva o qi ao dan tian, o centro de energia abaixo do umbigo, enraizando a mente." },
-    { t: "Respire na cadência da coerência cardíaca: 5 segundos para entrar, 5 segundos para sair, durante 3 minutos, sem pausas.", f: "Neurociência: a cadência de 6 respirações por minuto harmoniza a variabilidade cardíaca e equilibra o sistema nervoso." },
-    { t: "Inspire pensando 'Senhor' e expire pensando 'tem misericórdia'. Use o ritmo natural do seu fôlego por 2 minutos.", f: "Cristianismo: a oração do coração, repetida com a respiração, é prática milenar para aquietar a alma na presença de Deus." },
-    { t: "Inspire imaginando que recebe amor; expire imaginando que envia amor a alguém querido. 10 respirações.", f: "Amor: respirar pensando em alguém amado libera ocitocina e aquece a sensação de conexão." },
-    { t: "Experimente a narina alternada: feche a narina direita com o polegar, inspire pela esquerda; troque, expire pela direita; inspire pela direita, troque e expire pela esquerda. 6 rodadas, sem pressa.", f: "Medicina chinesa: alternar as narinas equilibra yin e yang e clareia a mente como vento limpa o céu." },
-    { t: "Apenas observe sua respiração por 2 minutos, sem mudar absolutamente nada. Note onde o ar toca, a temperatura, o ritmo.", f: "Neurociência: a observação sem julgamento ativa a ínsula e treina a interocepção, base da regulação emocional." },
-    { t: "Expire primeiro. Esvazie tudo, devagar, até o fim — e deixe a inspiração acontecer sozinha. Repita 8 vezes.", f: "Medicina chinesa: esvaziar antes de encher segue o princípio do vazio fértil: só a taça vazia pode receber." },
-    { t: "Respire contando regressivamente: inspire no 10, expire no 9, inspire no 8... até chegar ao 1. Se perder a conta, recomece do 10 sorrindo.", f: "Neurociência: a contagem ocupa a memória de trabalho e interrompe o ciclo de ruminação." },
-    { t: "Coloque a mão no coração, sinta os batimentos e respire lentamente até perceber o coração acalmar junto.", f: "Amor: o toque da própria mão no peito libera os mesmos sinais de segurança de um abraço recebido." },
-    { t: "Inspire pelo nariz por 3 segundos e expire pela boca fazendo um som suave de 'haaa' por 6 segundos, como se embaçasse um vidro. 8 vezes.", f: "Neurociência: expirações sonoras e longas estimulam o nervo vago e relaxam a musculatura do rosto e garganta." },
-    { t: "Respire imaginando uma onda do mar: a inspiração é a onda chegando, a expiração é ela voltando. Acompanhe 10 ondas.", f: "Medicina chinesa: a água acalma o fogo do coração; respirar como o mar devolve o ritmo natural ao corpo." },
-    { t: "Faça 5 respirações profundas agradecendo por cada uma: 'obrigado por este fôlego'.", f: "Cristianismo: tudo o que respira louve ao Senhor — cada fôlego pode ser um pequeno louvor." },
-    { t: "Sente-se ereto, relaxe os ombros e respire imaginando que sua coluna cresce um centímetro a cada inspiração.", f: "Medicina chinesa: a postura ereta e o fôlego amplo permitem que o qi suba livre pela coluna." },
-    { t: "Respire para o seu cansaço: localize onde o corpo está mais cansado e dirija 5 respirações para lá, como quem rega uma planta.", f: "Neurociência: direcionar a atenção respiratória a regiões do corpo aumenta o fluxo sanguíneo local e o relaxamento." },
-    { t: "Pratique 2 minutos de respiração sorrindo levemente, com os lábios e os olhos. Note o que muda por dentro.", f: "Neurociência: o sorriso, mesmo intencional, sinaliza segurança ao cérebro e suaviza o estado emocional." },
-    { t: "Ande devagar pela casa sincronizando: 3 passos inspirando, 4 passos expirando. Caminhe assim por 2 minutos.", f: "Neurociência: unir passo e fôlego ocupa os circuitos motores e atencionais, esvaziando a mente ansiosa." },
-    { t: "Inspire imaginando luz entrando pelo alto da cabeça; expire imaginando que a tensão escorre pelos pés para a terra.", f: "Medicina chinesa: do ponto bai hui no alto da cabeça ao yong quan na sola dos pés, o qi desce e a agitação se assenta." },
-    { t: "Respire em 4 tempos só na expiração: inspire normal e solte o ar em 4 pequenas etapas, como degraus. 6 vezes.", f: "Neurociência: expirações fracionadas prolongam a fase calmante do ciclo respiratório." },
-    { t: "Antes de responder àquela mensagem ou tomar aquela decisão, faça 3 respirações completas. Só depois aja.", f: "Neurociência: três respirações dão ao córtex pré-frontal o tempo de retomar o comando da amígdala." },
-    { t: "Respire com as palavras de um salmo: inspire com 'O Senhor é meu pastor', expire com 'nada me faltará'. 10 vezes.", f: "Cristianismo: unir a Palavra ao fôlego grava a confiança no corpo, não só na mente." },
-    { t: "Deite-se, coloque um objeto leve (livro, almofada) sobre a barriga e respire fazendo o objeto subir e descer lentamente por 3 minutos.", f: "Neurociência: o feedback visual e tátil ensina o corpo a respirar com o diafragma, o músculo da calma." },
-    { t: "Inspire pelo nariz cheirando uma fruta, um café ou algo de aroma bom, devagar, 5 vezes, como se fosse a primeira vez.", f: "Neurociência: o olfato chega direto ao sistema límbico; aromas agradáveis com respiração lenta acalmam por duas vias." },
-    { t: "Respire pensando em alguém que precisa de paz: inspire com o nome da pessoa, expire enviando-lhe calma.", f: "Amor: a intenção amorosa durante a respiração transforma um exercício em gesto de cuidado." },
-    { t: "Boceje de propósito 3 vezes, bem aberto, e depois faça 5 respirações lentas. O bocejo prepara, a respiração assenta.", f: "Neurociência: o bocejo resfria o cérebro e relaxa o rosto, abrindo caminho para a respiração profunda." },
-    { t: "Pratique o ritmo 4-6: inspire em 4 segundos, expire em 6. Sem segurar. Mantenha por 3 minutos.", f: "Neurociência: expirar mais longo do que se inspira é a fórmula mais simples de ativação parassimpática." },
-    { t: "Respire imaginando que o ar tem cor: escolha uma cor de calma para inspirar e veja a tensão saindo cinza na expiração.", f: "Medicina chinesa: cada cor nutre um órgão; o verde suaviza o fígado, o branco fortalece o pulmão, o azul profundo nutre o rim." },
-    { t: "Faça uma pausa de 30 segundos: pare tudo, feche os olhos e conte 6 respirações naturais, sem modificá-las.", f: "Neurociência: micropausas respiratórias ao longo do dia previnem o acúmulo de estresse melhor que uma pausa longa e rara." },
-    { t: "Inspire elevando os ombros até as orelhas; expire soltando-os de uma vez, com um suspiro audível. 5 vezes.", f: "Medicina chinesa: os ombros guardam tensão do triplo aquecedor; soltá-los com o fôlego libera o fluxo estagnado." },
-    { t: "Respire com gratidão pelo seu pulmão: imagine os dois pulmões como asas que se abrem a cada inspiração. 10 fôlegos.", f: "Medicina chinesa: o pulmão rege o qi de todo o corpo e se fortalece quando respiramos com presença e reverência." },
-    { t: "Faça a respiração do 7-11: inspire contando até 7, expire contando até 11. Apenas 5 ciclos já mudam o estado.", f: "Neurociência: contagens longas exigem foco total e estendem a expiração, dupla via de acalmar." },
-    { t: "Respire em silêncio diante de uma janela aberta ou do ar mais fresco que encontrar, por 2 minutos, só recebendo.", f: "Cristianismo: como o Espírito que sopra onde quer, o ar fresco recebido em silêncio renova por dentro." },
-    { t: "Antes de dormir hoje, faça 10 respirações lentas de barriga, cada expiração afundando você mais no colchão.", f: "Neurociência: a respiração abdominal noturna reduz o cortisol e encurta o tempo para adormecer." },
-    { t: "Respire 'para baixo': imagine a cada expiração que você desce um andar de elevador, ficando mais pesado e tranquilo. Desça 8 andares.", f: "Neurociência: imagens de descida combinadas à expiração aprofundam o relaxamento por sugestão e fisiologia juntas." },
-    { t: "Una as mãos em posição de oração, toque os polegares no peito e respire 10 vezes devagar nessa postura.", f: "Cristianismo: o gesto orante recolhe o corpo e a respiração lenta recolhe a mente — corpo e alma rezam juntos." },
-    { t: "Inspire pelo nariz e solte o ar vibrando os lábios, como cavalo relinchando suave. 5 vezes. Pode rir no meio.", f: "Neurociência: a vibração labial relaxa o rosto e o riso que escapa é bônus de endorfina." },
-    { t: "Respire contando só as expirações até 10. Chegou em 10? Recomece. Mente fugiu? Volte ao 1 com paciência de amigo.", f: "Neurociência: cada retorno gentil da atenção é uma repetição que fortalece o músculo do foco." },
-    { t: "Faça 3 respirações profundas com as mãos abertas sobre as costelas, sentindo-as abrirem para os lados como sanfona.", f: "Medicina chinesa: abrir as costelas laterais libera o meridiano da vesícula biliar, aliviando irritação e rigidez." },
-    { t: "Respire imaginando que cada inspiração acende uma vela dentro do peito e cada expiração espalha sua luz pelo corpo.", f: "Cristianismo: a luz acesa por dentro lembra que o corpo é templo, habitado e iluminado." },
-    { t: "Pratique a respiração 3-3-3 em pé: inspire subindo os braços em 3 tempos, segure em 3 com os braços no alto, expire descendo-os em 3.", f: "Medicina chinesa: o movimento dos braços com o fôlego bombeia o qi como os exercícios clássicos de qigong." },
-    { t: "Quando notar ansiedade, diga mentalmente 'inspirando, eu acolho; expirando, eu solto' no ritmo do seu fôlego, 10 vezes.", f: "Neurociência: rotular e acompanhar a experiência com frases reduz a atividade da amígdala." },
-    { t: "Respire pelo nariz com a língua tocando o céu da boca, atrás dos dentes, por 2 minutos.", f: "Medicina chinesa: a língua no palato conecta os vasos concepção e governador, fechando o circuito da pequena órbita celeste." },
-    { t: "Faça 5 respirações dedicadas a perdoar: a cada expiração, solte um pouco da mágoa que estiver à mão hoje.", f: "Cristianismo: perdoar é soltar — e o corpo aprende o gesto quando o fôlego o ensaia." },
-    { t: "Respire como quem cheira uma flor (inspiração suave pelo nariz) e sopra uma vela distante sem apagá-la (expiração fina e longa). 8 vezes.", f: "Neurociência: essa imagem dupla regula automaticamente a proporção ideal entre inspirar e expirar." },
-    { t: "Sente no chão ou na cadeira, feche os olhos e respire 1 minuto apenas notando o ar frio entrando e morno saindo.", f: "Neurociência: notar contrastes de temperatura ancora a atenção em sensações reais e silencia o ruído mental." },
-    { t: "Inspire para os rins: leve as mãos na parte de trás da cintura, sinta o calor delas e respire imaginando essa região se expandindo. 8 fôlegos.", f: "Medicina chinesa: os rins guardam a essência e temem o medo; aquecê-los e respirá-los devolve coragem." },
-    { t: "Respire em dupla, se houver alguém por perto: sentem-se juntos e respirem devagar no mesmo ritmo por 1 minuto, sem falar.", f: "Amor: a co-regulação respiratória sincroniza os sistemas nervosos e aprofunda o vínculo sem precisar de palavras." },
-    { t: "Faça 4 respirações lentas antes da próxima refeição, olhando para a comida.", f: "Neurociência: respirar antes de comer ativa o modo descansar-e-digerir, melhorando a digestão e a saciedade." },
-    { t: "Respire soltando a mandíbula: deixe os dentes separados, língua solta, e expire pela boca entreaberta 6 vezes.", f: "Neurociência: a mandíbula é um dos maiores depósitos de tensão; soltá-la manda sinal de paz ao tronco cerebral." },
-    { t: "Imagine que você respira pelos pés: a cada inspiração o ar sobe da sola dos pés até o peito, e desce de volta na expiração. 8 ciclos.", f: "Medicina chinesa: respirar pelos pés enraíza o qi no yong quan, a fonte borbulhante, baixando a agitação da cabeça." },
-    { t: "Faça agora a respiração mais lenta e gentil que você conseguir, como se ninasse um bebê com o próprio fôlego. 5 ciclos.", f: "Amor: tratar o próprio corpo com a ternura que se dá a um bebê reeduca o sistema nervoso para a segurança." },
-    { t: "Inspire em 4, expire em 8, e na pausa vazia diga mentalmente 'estou aqui'. Repita 6 vezes.", f: "Neurociência: a frase de presença na pausa respiratória consolida o estado de atenção plena." },
-    { t: "Respire diante de uma dificuldade: traga o problema à mente e responda a ele apenas com 5 respirações lentas, sem pensar em soluções ainda.", f: "Neurociência: acalmar o corpo antes de pensar melhora a qualidade das decisões que vêm depois." },
-    { t: "Pratique 1 minuto de respiração energizante: inspirações e expirações rápidas e curtas pelo nariz (como cachorrinho), depois 3 fôlegos longos.", f: "Medicina chinesa: o fôlego rápido atiça o yang quando há cansaço e sonolência; os longos no final o assentam." },
-    { t: "Respire com as mãos: abra os dedos ao inspirar, feche suavemente ao expirar, 10 vezes, acompanhando com o olhar.", f: "Neurociência: sincronizar movimento fino e respiração ativa o cerebelo e aprofunda o foco calmante." },
-    { t: "Faça 3 respirações oferecendo o seu dia: 'recebo, agradeço, entrego' — uma palavra para cada fôlego.", f: "Cristianismo: oferecer o dia em três fôlegos é uma liturgia mínima que reordena o coração." },
-    { t: "Respire escutando: feche os olhos e, a cada expiração, deixe os ouvidos captarem um som mais distante que o anterior.", f: "Neurociência: expandir o campo auditivo com a expiração amplia a atenção e dissolve o túnel da ansiedade." },
-    { t: "Conte quantos segundos dura sua expiração natural. Agora adicione 2 segundos a ela, por 8 ciclos.", f: "Neurociência: pequenos alongamentos graduais da expiração mudam o estado sem esforço nem tontura." },
-    { t: "Respire com a imagem da videira: inspire como quem recebe seiva, expire como quem amadurece fruto, permanecendo ligado ao tronco.", f: "Cristianismo: permanecei em mim — a respiração pode ensaiar essa permanência a cada ciclo." },
-    { t: "Deite de lado, dobre os joelhos e faça 10 respirações sentindo as costas se abrirem a cada inspiração.", f: "Neurociência: a posição fetal lateral mais respiração lenta evoca segurança profunda no sistema nervoso." },
-    { t: "Inspire e expire só pelo nariz durante os próximos 5 minutos, em qualquer atividade que estiver fazendo.", f: "Neurociência: a respiração nasal produz óxido nítrico, melhora a oxigenação e regula o ritmo naturalmente." },
-    { t: "Respire em gratidão dupla: inspire dizendo 'recebo a vida', expire dizendo 'devolvo em amor'. 8 ciclos.", f: "Amor: cada respiração é uma troca com o mundo; nomeá-la transforma fisiologia em relação." },
-    { t: "Faça uma expiração de descarga: inspire fundo e solte o ar de uma vez com som de 'tchhh', deixando os braços caírem. 4 vezes.", f: "Medicina chinesa: o som expulsa o calor estagnado do fígado, dissipando irritação acumulada." },
-    { t: "Respire em câmera lenta por 1 minuto: tudo igual, só 50% mais devagar do que o seu normal.", f: "Neurociência: desacelerar o fôlego pela metade reduz a frequência cardíaca em poucos ciclos." },
-    { t: "Coloque as duas mãos sobre a barriga, imagine um pequeno sol atrás do umbigo e respire para ele crescer suavemente. 10 fôlegos.", f: "Medicina chinesa: o dan tian inferior é o reservatório do qi original; aquecê-lo com fôlego e intenção restaura energia." },
-    { t: "Respire antes de orar: 5 fôlegos lentos para chegar inteiro, e então diga o que precisa dizer a Deus.", f: "Cristianismo: aquietai-vos e sabei que eu sou Deus — o corpo quieto abre espaço para o encontro." },
-    { t: "Pratique o fôlego do riso: inspire fundo e expire em pequenas rajadas de 'ha-ha-ha' até esvaziar. 4 vezes. Se virar riso de verdade, melhor.", f: "Neurociência: o padrão respiratório do riso libera endorfinas mesmo quando começa artificialmente." },
-    { t: "Respire pensando na palavra 'paz' escrita devagar, letra por letra, uma letra por fôlego, três vezes.", f: "Neurociência: visualizar palavras calmas durante a respiração une linguagem e fisiologia no mesmo estado." },
-    { t: "Faça 10 respirações com os olhos fechados imaginando que está em seu lugar favorito do mundo. Inclua o cheiro do lugar.", f: "Neurociência: o cérebro responde ao lugar imaginado com parte das mesmas respostas do lugar real." },
-    { t: "Respire alternando profundidades: 2 fôlegos profundos, 2 médios, 2 superficiais e leves, depois deixe o corpo escolher. 3 rodadas.", f: "Neurociência: variar conscientemente a profundidade aumenta a flexibilidade do sistema respiratório e a percepção corporal." },
-    { t: "Antes de entrar em casa (ou na próxima sala), pare na porta e faça 3 respirações para chegar de verdade.", f: "Cristianismo: a paz esteja nesta casa — atravessar a porta em paz é levar bênção para dentro." },
-    { t: "Respire para o seu coração acelerado, se ele estiver: sem brigar com ele, apenas faça expirações longas e diga 'estamos seguros'.", f: "Neurociência: validar a reação do corpo enquanto se expira devagar acalma sem gerar luta interna." },
-    { t: "Inspire abrindo os braços para os lados como quem abraça o horizonte; expire trazendo as mãos ao peito. 6 vezes, bem lento.", f: "Medicina chinesa: abrir e recolher é o pulso do yin-yang; o gesto ensina ao corpo o ritmo da vida." },
-    { t: "Respire 2 minutos com um cronômetro, sem outra tarefa. Só você e o ar. Este é o seu spa de bolso.", f: "Neurociência: dois minutos diários de respiração consciente já mostram efeito mensurável no estresse em poucas semanas." },
-    { t: "Expire as palavras que machucam: pense numa palavra dura que você ouviu ou disse e sopre-a para longe, 3 vezes, até ela perder força.", f: "Amor: rituais simbólicos de soltar ajudam o coração a não fazer casa para a dor." },
-    { t: "Respire como uma árvore: inspire imaginando raízes descendo pelos pés, expire imaginando a copa se abrindo acima da cabeça. 8 ciclos.", f: "Medicina chinesa: enraizar embaixo e abrir em cima equilibra os movimentos de descida e subida do qi." },
-    { t: "Faça 5 fôlegos em homenagem a alguém que você ama: cada inspiração lembra um motivo de amar essa pessoa.", f: "Amor: unir fôlego e afeto grava a presença do outro no ritmo mais íntimo do corpo." },
-    { t: "Respire contando até 100 fôlegos hoje, em qualquer momento, podendo dividir em partes. Comece agora com os primeiros 10.", f: "Neurociência: metas simples e contáveis transformam a respiração em hábito, e o hábito em saúde." },
-    { t: "Inspire pelo nariz e expire cantando uma nota só, a mais confortável, até o ar acabar. 5 vezes.", f: "Neurociência: a expiração cantada prolonga a fase calmante e a vibração estimula o nervo vago na garganta." },
-    { t: "Respire diante do espelho, olhando nos próprios olhos com gentileza, por 5 fôlegos lentos.", f: "Amor: sustentar o próprio olhar com calma é um ato raro de amizade consigo mesmo." },
-    { t: "Faça a respiração da montanha: sente-se firme, imagine-se uma montanha e deixe os pensamentos passarem como nuvens enquanto respira. 3 minutos.", f: "Neurociência: a imagem de estabilidade reduz a identificação com pensamentos e fortalece o observador interno." },
-    { t: "Inspire em 4 e expire em 4 enquanto lava as mãos ou a louça, sentindo a água como parte do exercício.", f: "Medicina chinesa: água corrente nas mãos acalma o coração; com fôlego ritmado, vira meditação doméstica." },
-    { t: "Respire pela manhã (ou agora) voltado para a luz do dia: 5 fôlegos de olhos fechados recebendo claridade.", f: "Neurociência: luz natural pela manhã mais respiração lenta regula o relógio biológico e o humor do dia." },
-    { t: "Faça 6 respirações com a palavra 'confio': inspire com 'con', expire com 'fio', sentindo o fio invisível que te sustenta.", f: "Cristianismo: entrega o teu caminho ao Senhor e confia — a confiança também se treina no corpo." },
-    { t: "Respire para alguém que está doente ou em luta: a cada expiração, envie-lhe mentalmente força e companhia.", f: "Amor: a intercessão silenciosa muda quem a faz e, em mistério, alcança quem a recebe." },
-    { t: "Quando estiver esperando (fila, semáforo, carregamento), use a espera para 5 respirações conscientes em vez de pegar o celular.", f: "Neurociência: transformar esperas em pausas respiratórias substitui microestresses por microdescansos." },
-    { t: "Termine seu expediente (ou tarefa) de hoje com 3 respirações de encerramento: 'feito é melhor que perfeito; agora descanso'.", f: "Neurociência: rituais de encerramento ajudam o cérebro a desligar o modo trabalho e iniciar a recuperação." },
-    { t: "Respire abraçado: abrace alguém (ou um travesseiro) e faça 6 respirações lentas dentro do abraço, sem pressa de soltar.", f: "Amor: abraços longos com respiração calma liberam ocitocina, o hormônio do vínculo e da paz." },
-    { t: "Inspire imaginando o cheiro de chuva na terra, expire soltando o peso da semana. 8 ciclos, com olhos fechados.", f: "Neurociência: memórias olfativas imaginadas ativam o sistema límbico e evocam estados de calma reais." },
-    { t: "Pratique a pausa sagrada: antes de qualquer reunião ou conversa importante hoje, 3 fôlegos em silêncio pedindo sabedoria.", f: "Cristianismo: se algum de vós tem falta de sabedoria, peça-a — e o fôlego abre espaço para escutar a resposta." },
-    { t: "Respire deitado com as pernas elevadas na parede por 3 minutos, expirações bem longas.", f: "Medicina chinesa: elevar as pernas inverte suavemente o fluxo, drena o cansaço e acalma o coração agitado." },
-    { t: "Faça uma respiração de bondade em 4 direções: um fôlego desejando paz para quem está ao norte, outro ao sul, leste e oeste de você.", f: "Amor: expandir o desejo de bem em todas as direções dissolve o egocentrismo da ansiedade." },
-    { t: "Inspire e tensione tudo (mãos, rosto, ombros) por 3 segundos; expire soltando tudo de uma vez. 4 rodadas.", f: "Neurociência: o contraste tensão-relaxamento ensina o corpo a reconhecer e soltar a tensão escondida." },
-    { t: "Respire com a chama de uma vela (real ou imaginada): inspire vendo a luz firme, expire sem apagá-la, suave assim. 10 ciclos.", f: "Cristianismo: a chama que não se apaga lembra a esperança; o fôlego aprende a ser suave para guardá-la." },
-    { t: "Dedique 5 respirações ao seu futuro: inspire coragem para o que vem, expire o medo do que ainda nem aconteceu.", f: "Neurociência: a ansiedade vive no futuro imaginado; trazer o fôlego ao presente desarma o alarme antecipado." },
-    { t: "Respire agora mesmo, do jeito que estiver, e considere: você já fez o mais importante. O resto da prática é lapidação.", f: "Amor: começar onde se está, sem exigência, é o primeiro gesto de compaixão consigo." },
-    { t: "Respire em três andares: encha primeiro a barriga, depois as costelas, depois o peito; esvazie na ordem inversa. 6 ciclos lentos.", f: "Neurociência: a respiração completa em camadas usa toda a capacidade pulmonar e aprofunda o relaxamento progressivamente." },
-    { t: "Feche este momento com uma respiração inteira e consciente — uma só, mas com toda a sua presença dentro dela.", f: "Cristianismo: basta a cada dia o seu cuidado; basta a cada momento o seu fôlego, vivido por inteiro." }
+    {
+      t: "Respiração do triângulo: inspire em 4 segundos, segure em 4, expire em 4. Siga o ponto percorrendo cada lado do triângulo.",
+      f: "Ritmos respiratórios regulares e lentos aumentam a variabilidade da frequência cardíaca e reduzem marcadores de estresse, segundo revisões de estudos sobre respiração lenta controlada.",
+      fonte: "Frontiers in Human Neuroscience, 2018 · Zaccaro et al.",
+      anim: { type: "triangle", cycles: 6, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Segure", dur: 4, to: 1 },
+        { label: "Expire", dur: 4, to: 0 }
+      ] }
+    },
+    {
+      t: "Narina alternada: com o polegar, tampe a narina indicada e respire pela outra, seguindo o guia. Sem pressa, sem forçar.",
+      f: "Ensaios clínicos com a respiração por narinas alternadas mostram redução da pressão arterial e da frequência cardíaca e melhora de índices de equilíbrio autonômico após algumas semanas de prática.",
+      fonte: "Medical Science Monitor Basic Research · Telles et al.",
+      n: "Na medicina chinesa, alternar as narinas é visto como um modo de equilibrar yin e yang.",
+      anim: { type: "nostril", cycles: 5, phases: [
+        { label: "Tampe a direita · inspire pela esquerda", dur: 4, to: 1, side: "L" },
+        { label: "Tampe a esquerda · expire pela direita", dur: 6, to: 0, side: "R" },
+        { label: "Inspire pela direita", dur: 4, to: 1, side: "R" },
+        { label: "Tampe a direita · expire pela esquerda", dur: 6, to: 0, side: "L" }
+      ] }
+    },
+    {
+      t: "Suspiro fisiológico: duas inspirações pelo nariz (uma longa e uma curta por cima) e uma expiração lenta e completa pela boca.",
+      f: "Em um ensaio randomizado de Stanford, 5 minutos diários de suspiros cíclicos melhoraram o humor e reduziram a frequência respiratória de repouso mais do que meditação mindfulness.",
+      fonte: "Cell Reports Medicine, 2023 · Balban et al., Universidade Stanford",
+      anim: { type: "sigh", cycles: 8, phases: [
+        { label: "Inspire", dur: 2, to: 0.75 },
+        { label: "Inspire mais um pouco", dur: 1, to: 1 },
+        { label: "Expire devagar pela boca", dur: 6, to: 0 }
+      ] }
+    },
+    {
+      t: "Respiração quadrada (box breathing): inspire em 4, segure em 4, expire em 4, segure vazio em 4. Acompanhe o ponto pelo quadrado.",
+      f: "A respiração em caixa é usada em programas de manejo de estresse de alta pressão; padrões respiratórios simétricos e lentos ativam o sistema nervoso parassimpático e melhoram o foco.",
+      fonte: "Harvard Health Publishing · técnicas de relaxamento",
+      anim: { type: "box", cycles: 6, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Segure", dur: 4, to: 1 },
+        { label: "Expire", dur: 4, to: 0 },
+        { label: "Segure vazio", dur: 4, to: 0 }
+      ] }
+    },
+    {
+      t: "Coerência cardíaca: respire no ritmo do círculo — 5 segundos para encher, 5 segundos para esvaziar — por cerca de 3 minutos.",
+      f: "Respirar perto de 6 ciclos por minuto maximiza a variabilidade da frequência cardíaca (ressonância), um dos índices mais estudados de regulação do sistema nervoso autônomo.",
+      fonte: "Frontiers in Psychology · Lehrer & Gevirtz, biofeedback de VFC",
+      anim: { type: "circle", cycles: 18, phases: [
+        { label: "Inspire", dur: 5, to: 1 },
+        { label: "Expire", dur: 5, to: 0 }
+      ] }
+    },
+    {
+      t: "Respiração 4-7-8: inspire pelo nariz em 4, segure em 7 e expire pela boca em 8, com um sopro suave.",
+      f: "Popularizada pelo médico Andrew Weil, formado em Harvard, combina retenção e expiração prolongada — a fase do ciclo respiratório que mais desacelera o coração via nervo vago.",
+      fonte: "Universidade do Arizona · Andrew Weil, M.D.",
+      anim: { type: "triangle", cycles: 4, phases: [
+        { label: "Inspire pelo nariz", dur: 4, to: 1 },
+        { label: "Segure", dur: 7, to: 1 },
+        { label: "Expire pela boca", dur: 8, to: 0 }
+      ] }
+    },
+    {
+      t: "Respiração diafragmática: mão na barriga, respire de modo que só ela se mova. O círculo cresce quando a barriga enche.",
+      f: "Oito semanas de treino de respiração diafragmática reduziram o cortisol salivar e melhoraram a atenção sustentada em adultos saudáveis em estudo controlado.",
+      fonte: "Frontiers in Psychology, 2017 · Ma et al.",
+      n: "Na medicina chinesa, respirar para o baixo-ventre leva o qi ao dan tian, o centro de energia do corpo.",
+      anim: { type: "circle", cycles: 10, phases: [
+        { label: "Inspire para a barriga", dur: 4, to: 1 },
+        { label: "Expire soltando", dur: 6, to: 0 }
+      ] }
+    },
+    {
+      t: "Resposta de relaxamento: a cada expiração, repita mentalmente uma palavra neutra (como “calma” ou “um”). Deixe os pensamentos passarem e volte à palavra.",
+      f: "Descrita pelo cardiologista Herbert Benson, de Harvard, a resposta de relaxamento reduz pressão arterial, frequência cardíaca e consumo de oxigênio — o oposto fisiológico da resposta de estresse.",
+      fonte: "Harvard Medical School · Herbert Benson, The Relaxation Response",
+      anim: { type: "circle", cycles: 15, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Expire · repita a palavra", dur: 6, to: 0 }
+      ] }
+    },
+    {
+      t: "Expiração estendida 4-6: inspire em 4 segundos e expire em 6, sem pausas. Deixe cada saída de ar ser mais longa que a entrada.",
+      f: "Expirar mais devagar do que se inspira aumenta a atividade vagal — revisões mostram efeito calmante mensurável já em poucos minutos de prática.",
+      fonte: "Frontiers in Human Neuroscience, 2018 · Zaccaro et al.",
+      anim: { type: "circle", cycles: 12, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Expire longo", dur: 6, to: 0 }
+      ] }
+    },
+    {
+      t: "Contagem de respirações: conte mentalmente cada expiração até 9 e recomece. Se perder a conta, volte ao 1 sem se criticar.",
+      f: "A contagem de respirações foi validada como treino e medida objetiva de atenção plena; praticantes mostram menos divagação mental e melhor humor.",
+      fonte: "Frontiers in Psychology, 2014 · Levinson et al., Universidade de Wisconsin",
+      anim: { type: "circle", cycles: 9, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Expire · conte", dur: 5, to: 0 }
+      ] }
+    },
+    {
+      t: "Observação pura: por alguns minutos, apenas observe sua respiração natural, sem mudar nada. Note onde o ar toca e o ritmo que ele tem hoje.",
+      f: "Oito semanas de atenção à respiração e ao corpo aumentaram a densidade de massa cinzenta no hipocampo e reduziram a da amígdala em exames de ressonância magnética.",
+      fonte: "Psychiatry Research, 2011 · Sara Lazar, Mass. General Hospital / Harvard",
+      anim: { type: "circle", cycles: 12, phases: [
+        { label: "Inspire · apenas observe", dur: 4, to: 1 },
+        { label: "Expire · apenas observe", dur: 5, to: 0 }
+      ] }
+    },
+    {
+      t: "Cantarolar na expiração: inspire pelo nariz e expire emitindo um “mmm” contínuo, sentindo a vibração no rosto e no peito.",
+      f: "Cantarolar multiplica em até 15 vezes o óxido nítrico nasal, gás que dilata vasos e vias aéreas, além de prolongar a expiração — a fase calmante do ciclo.",
+      fonte: "American Journal of Respiratory and Critical Care Medicine, 2002 · Weitzberg & Lundberg, Instituto Karolinska",
+      anim: { type: "circle", cycles: 8, phases: [
+        { label: "Inspire pelo nariz", dur: 3, to: 1 },
+        { label: "Expire com “mmm”", dur: 8, to: 0 }
+      ] }
+    },
+    {
+      t: "Respiração com lábios semicerrados: inspire pelo nariz em 2 tempos e expire em 4 pela boca quase fechada, como soprando por um canudo.",
+      f: "Técnica clássica da reabilitação pulmonar: a leve resistência na saída mantém as vias aéreas abertas, desacelera a respiração e reduz a sensação de falta de ar e ansiedade.",
+      fonte: "American Lung Association · pursed-lip breathing",
+      anim: { type: "circle", cycles: 10, phases: [
+        { label: "Inspire pelo nariz", dur: 2, to: 1 },
+        { label: "Expire pelos lábios", dur: 4, to: 0 }
+      ] }
+    },
+    {
+      t: "Respiração 7-11: inspire contando até 7 e expire contando até 11. Contagens longas exigem atenção total — e atenção total acalma.",
+      f: "Expirações prolongadas estimulam o nervo vago, e a carga cognitiva da contagem interrompe ciclos de ruminação, dupla via de redução de ansiedade descrita na literatura de respiração lenta.",
+      fonte: "Frontiers in Human Neuroscience, 2018 · Zaccaro et al.",
+      anim: { type: "circle", cycles: 8, phases: [
+        { label: "Inspire", dur: 7, to: 1 },
+        { label: "Expire", dur: 11, to: 0 }
+      ] }
+    },
+    {
+      t: "Três respirações antes de agir: antes da próxima resposta difícil ou decisão, faça apenas 3 ciclos completos e lentos.",
+      f: "Pausas respiratórias breves reduzem a reatividade da amígdala e dão ao córtex pré-frontal tempo de retomar o controle — melhorando a qualidade da resposta que vem depois.",
+      fonte: "Harvard Health Publishing · estresse e tomada de decisão",
+      anim: { type: "circle", cycles: 3, phases: [
+        { label: "Inspire fundo", dur: 4, to: 1 },
+        { label: "Expire devagar", dur: 6, to: 0 }
+      ] }
+    },
+    {
+      t: "Mão no coração: pouse a mão sobre o peito, sinta o calor e respire lento até perceber o corpo ceder.",
+      f: "O toque afetivo — mesmo o próprio — ativa fibras nervosas ligadas a segurança e conforto e reduz a resposta de estresse, segundo a pesquisa em neurociência do toque.",
+      fonte: "Neuroscience & Biobehavioral Reviews · toque afetivo (fibras C-táteis)",
+      n: "Amor e conexão começam no próprio corpo: este é o gesto de acolhimento que você daria a alguém querido.",
+      anim: { type: "circle", cycles: 10, phases: [
+        { label: "Inspire sentindo a mão", dur: 4, to: 1 },
+        { label: "Expire soltando o peso", dur: 6, to: 0 }
+      ] }
+    },
+    {
+      t: "Quadrado lento de 5: a mesma respiração em caixa, com 5 segundos por lado, para quando você já domina a de 4.",
+      f: "Alongar gradualmente as fases respiratórias aumenta o efeito sobre a variabilidade cardíaca sem gerar desconforto — a progressão é o que consolida a adaptação fisiológica.",
+      fonte: "Psychophysiology · Lehrer et al., treino de respiração lenta",
+      anim: { type: "box", cycles: 5, phases: [
+        { label: "Inspire", dur: 5, to: 1 },
+        { label: "Segure", dur: 5, to: 1 },
+        { label: "Expire", dur: 5, to: 0 },
+        { label: "Segure vazio", dur: 5, to: 0 }
+      ] }
+    },
+    {
+      t: "Suspiros cíclicos por 5 minutos: repita o suspiro fisiológico com calma, deixando cada expiração mais solta que a anterior.",
+      f: "No estudo de Stanford, o protocolo de 5 minutos diários por um mês foi a técnica com maior ganho de afeto positivo entre as testadas, com efeito crescente ao longo das semanas.",
+      fonte: "Cell Reports Medicine, 2023 · Balban et al., Universidade Stanford",
+      anim: { type: "sigh", cycles: 18, phases: [
+        { label: "Inspire", dur: 2, to: 0.75 },
+        { label: "Complete a inspiração", dur: 1, to: 1 },
+        { label: "Expire bem devagar", dur: 7, to: 0 }
+      ] }
+    },
+    {
+      t: "Respiração nasal lenta: por 2 minutos, respire apenas pelo nariz, deixando o ritmo cair naturalmente.",
+      f: "A respiração nasal filtra e umidifica o ar e envolve o óxido nítrico produzido nos seios da face, que melhora a oxigenação — além de favorecer ritmos mais lentos que os da respiração bucal.",
+      fonte: "Harvard Health Publishing · respiração nasal",
+      anim: { type: "circle", cycles: 12, phases: [
+        { label: "Inspire pelo nariz", dur: 4, to: 1 },
+        { label: "Expire pelo nariz", dur: 5, to: 0 }
+      ] }
+    },
+    {
+      t: "Triângulo invertido 4-4-8: inspire em 4, segure em 4 e expire em 8 — todo o peso da prática na saída do ar.",
+      f: "A proporção expiratória dobrada acentua o predomínio parassimpático; protocolos com expiração longa mostram queda de frequência cardíaca e de ansiedade-estado em poucos minutos.",
+      fonte: "Frontiers in Human Neuroscience, 2018 · Zaccaro et al.",
+      anim: { type: "triangle", cycles: 6, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Segure", dur: 4, to: 1 },
+        { label: "Expire bem longo", dur: 8, to: 0 }
+      ] }
+    },
+    {
+      t: "Narina alternada com pausa: inspire por uma narina, segure 2 segundos com as duas tampadas, e expire pela outra.",
+      f: "Variações com retenção breve aparecem nos protocolos de pranayama estudados clinicamente, com melhora de atenção e redução de pressão arterial em praticantes regulares.",
+      fonte: "International Journal of Yoga · revisões de nadi shodhana",
+      anim: { type: "nostril", cycles: 4, phases: [
+        { label: "Inspire pela esquerda", dur: 4, to: 1, side: "L" },
+        { label: "Segure as duas", dur: 2, to: 1, side: "L" },
+        { label: "Expire pela direita", dur: 6, to: 0, side: "R" },
+        { label: "Inspire pela direita", dur: 4, to: 1, side: "R" },
+        { label: "Segure as duas", dur: 2, to: 1, side: "R" },
+        { label: "Expire pela esquerda", dur: 6, to: 0, side: "L" }
+      ] }
+    },
+    {
+      t: "Respiração para dormir: deitado, inspire em 4 e expire em 8, deixando o corpo afundar no colchão a cada saída de ar.",
+      f: "Técnicas de respiração lenta antes de dormir reduzem a ativação fisiológica pré-sono e estão entre as recomendações não medicamentosas da medicina do sono comportamental.",
+      fonte: "Harvard Medical School, Division of Sleep Medicine",
+      anim: { type: "circle", cycles: 10, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Expire afundando", dur: 8, to: 0 }
+      ] }
+    },
+    {
+      t: "Um minuto de pausa: pare o que estiver fazendo e siga o círculo por apenas 6 ciclos. É curto de propósito — para caber em qualquer dia.",
+      f: "Micropausas respiratórias distribuídas ao longo do dia previnem o acúmulo de carga de estresse com mais eficiência do que uma única pausa longa, segundo a pesquisa sobre recuperação no trabalho.",
+      fonte: "Journal of Applied Psychology · pesquisa sobre micropausas",
+      anim: { type: "circle", cycles: 6, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Expire", dur: 6, to: 0 }
+      ] }
+    },
+    {
+      t: "Respiração em dupla: sente-se ao lado de alguém e respirem juntos no ritmo do círculo, em silêncio, por 2 minutos.",
+      f: "A co-regulação é real: parceiros em interação calma sincronizam ritmos cardíacos e respiratórios, e a presença de um vínculo seguro reduz a resposta neural a ameaças.",
+      fonte: "Psychological Science · Coan et al., hand-holding e regulação",
+      n: "Respirar junto é uma forma silenciosa de dizer: você não está só.",
+      anim: { type: "circle", cycles: 12, phases: [
+        { label: "Inspirem juntos", dur: 4, to: 1 },
+        { label: "Expirem juntos", dur: 6, to: 0 }
+      ] }
+    },
+    {
+      t: "Box de foco pré-tarefa: antes de começar algo que exige concentração, faça 4 ciclos de respiração quadrada.",
+      f: "Padrões respiratórios regulares modulam a atividade do locus coeruleus, centro de noradrenalina ligado ao alerta — ajudando a chegar à tarefa no nível certo de ativação.",
+      fonte: "Journal of Neurophysiology · respiração e locus coeruleus",
+      anim: { type: "box", cycles: 4, phases: [
+        { label: "Inspire", dur: 4, to: 1 },
+        { label: "Segure", dur: 4, to: 1 },
+        { label: "Expire", dur: 4, to: 0 },
+        { label: "Segure vazio", dur: 4, to: 0 }
+      ] }
+    }
   ]
 };

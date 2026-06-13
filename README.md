@@ -1,47 +1,51 @@
-# Presente 🤍
+# Presente
 
-Um app de práticas para a saúde mental e do coração — para o **agora**.
+Um app de práticas para a saúde mental — para o **agora**. Visual limpo e
+leve, sem distrações, com conteúdo baseado em pesquisas publicadas.
 
-Na página inicial você encontra 8 cards, um para cada dimensão de cuidado:
+Na página inicial, 8 dimensões de cuidado:
 
-| Card | O que oferece |
+| Dimensão | O que oferece |
 |---|---|
-| 🌅 Visualização | Imaginar cenas que acalmam e fortalecem a mente |
-| 🙏 Gratidão | Treinar o olhar para o que já é presente |
-| 🌬️ Respiração | Usar o fôlego para acalmar corpo e coração |
-| 🌿 Movimentos que curam | Gestos suaves que soltam tensão e despertam energia |
-| 🕊️ Contemplação | Descansar o olhar na beleza (com imagens) |
-| 🎵 Músicas | Som, canto e ritmo como remédio para a alma |
-| 😄 Senso de humor | Leveza e riso para arejar a mente |
-| 💛 Fazer o bem | Sair de si com um gesto de amor por alguém |
+| Respiração | Exercícios com **guia animado** (triângulo, quadrado, círculo, narina alternada, suspiro fisiológico) |
+| Gratidão | Práticas com efeito demonstrado sobre humor e sono |
+| Visualização | Imagens mentais validadas em pesquisa clínica |
+| Movimentos que curam | Alongamento, tai chi, qigong e caminhada |
+| Contemplação | Pausas de atenção com imagens, baseadas em psicologia ambiental |
+| Música | Escuta, canto e ritmo como reguladores do humor |
+| Humor | Riso e leveza com efeitos mensuráveis no estresse |
+| Fazer o bem | Atos de generosidade que elevam o bem-estar de quem pratica |
 
-Ao tocar em um card, o app sorteia **1 entre 100 práticas** daquela dimensão
-(800 práticas no total). Cada prática vem com um pequeno fundamento, alternando
-quatro prismas: **neurociência atual, medicina tradicional chinesa,
-espiritualidade cristã e o poder do amor/conexão**.
+Ao tocar em um card, o app sorteia uma prática da dimensão, **sem repetir**
+até passar por todas (controle via `localStorage`). Cada prática traz:
 
-O sorteio não repete: o app embaralha as 100 práticas de cada dimensão e só
-volta a repetir depois que você passou por todas (guardado no `localStorage`).
+- a instrução, clara e acionável;
+- a **base científica** com a fonte (Harvard Medical School, Stanford,
+  BMJ, Science, entre outras);
+- quando faz sentido, uma nota complementar de medicina tradicional chinesa
+  ou sobre amor e conexão.
+
+As práticas de respiração abrem com um **guia visual animado e sincronizado**
+com os tempos de inspirar, segurar e expirar — incluindo a respiração do
+triângulo e a narina alternada ilustrada.
 
 ## Como rodar
 
-É um site estático, sem build e sem dependências:
+Site estático, sem build e sem dependências:
 
 ```bash
-# qualquer servidor estático serve, por exemplo:
 python3 -m http.server 8000
-# e abra http://localhost:8000
+# abra http://localhost:8000
 ```
 
-Ou simplesmente abra o `index.html` no navegador. Também funciona direto no
-GitHub Pages.
+Também funciona direto no GitHub Pages.
 
-## PWA (instalar no celular)
+## PWA
 
-O app é um PWA: servido por HTTPS (ou GitHub Pages), o navegador oferece
-**"Adicionar à tela inicial"** — ele abre como app, com ícone próprio, e
-funciona **offline** (o service worker guarda todas as 800 práticas; as
-imagens de contemplação ficam em cache depois da primeira visualização).
+Servido por HTTPS, o navegador oferece **"Adicionar à tela inicial"**: o app
+abre em tela cheia, com ícone próprio, e funciona **offline** (service worker
+guarda todas as práticas; imagens de contemplação ficam em cache após a
+primeira visualização).
 
 ## Estrutura
 
@@ -49,9 +53,10 @@ imagens de contemplação ficam em cache depois da primeira visualização).
 index.html           # página única do app
 manifest.webmanifest # manifesto do PWA
 sw.js                # service worker (offline)
-css/style.css        # estilos
-js/app.js            # cards, sorteio sem repetição e tela da prática
-js/data/*.js         # 8 arquivos, 100 práticas cada (texto + fundamento)
+css/style.css        # design system
+js/app.js            # cards, ícones, sorteio e tela da prática
+js/breath.js         # motor do guia animado de respiração
+js/data/*.js         # 8 arquivos de práticas (texto + base científica + fonte)
 icons/               # ícones do app (gerados por tools/gen_icons.py)
 ```
 

@@ -1,115 +1,135 @@
 window.PRACTICES = window.PRACTICES || {};
 window.PRACTICES["humor"] = {
   tarefas: [
-    // 1-10
-    { t: "Assista agora aquele vídeo que sempre te faz rir, mesmo que você já o tenha visto mil vezes.", f: "Neurociência: o riso libera dopamina e endorfinas, aliviando a tensão em poucos minutos." },
-    { t: "Sorria intencionalmente por 30 segundos, mesmo sem vontade, e observe o que muda no seu corpo.", f: "Medicina chinesa: o sorriso interior suaviza o coração e ajuda o Qi a circular livremente." },
-    { t: "Lembre a situação mais engraçada que você já viveu e conte para alguém hoje.", f: "Cristianismo: a alegria compartilhada é um eco da festa que Deus prepara para os seus." },
-    { t: "Mande um meme para um amigo agora, só para arrancar um sorriso dele.", f: "Amor: rir junto, mesmo a distância, fortalece o fio invisível que une as pessoas." },
-    { t: "Faça uma careta bem exagerada no espelho e segure por 10 segundos antes de desmanchar.", f: "Neurociência: expressões faciais enviam sinais ao cérebro que podem suavizar o estado emocional." },
-    { t: "Ria sem motivo por 1 minuto, mesmo forçado, como na yoga do riso. Deixe o riso falso virar verdadeiro.", f: "Medicina chinesa: o riso movimenta o Qi do peito e desfaz a estagnação que pesa no humor." },
-    { t: "Invente um apelido carinhoso e bobo para a sua preocupação de hoje e chame ela pelo nome.", f: "Cristianismo: nomear o medo com leveza lembra que nenhum fardo é maior que o cuidado de Deus." },
-    { t: "Procure agora uma foto antiga sua que te faça rir e mande para quem estava com você naquele dia.", f: "Amor: relembrar momentos cômicos juntos reacende o afeto e renova vínculos antigos." },
-    { t: "Conte uma piada bem ruim de propósito para alguém e aproveite a careta de protesto.", f: "Neurociência: o humor compartilhado ativa circuitos sociais de recompensa, mesmo quando a piada é péssima." },
-    { t: "Brinque por 5 minutos com uma criança ou um pet, entrando de verdade na brincadeira.", f: "Medicina chinesa: o brincar desperta o Shen, o espírito vital que habita o coração." },
-    // 11-20
-    { t: "Lembre uma mancada sua e ria dela com carinho, como riria de um amigo querido.", f: "Cristianismo: rir de si mesmo com mansidão é um exercício de humildade que liberta a alma." },
-    { t: "Procure algo absurdo ou cômico na sua situação atual, como se fosse cena de um filme.", f: "Amor: olhar a própria vida com ternura e humor é uma forma de se amar nos dias difíceis." },
-    { t: "Dance de um jeito propositalmente ridículo por 1 minuto, com a música que estiver tocando na sua cabeça.", f: "Neurociência: movimento ritmado e bobo reduz cortisol e desarma o modo de alerta do cérebro." },
-    { t: "Imite com exagero a sua própria cara de estresse e depois desmanche tudo com um suspiro.", f: "Medicina chinesa: soltar o rosto e suspirar libera o Qi preso do Fígado, associado à irritação." },
-    { t: "Pergunte a alguém qual foi a coisa mais engraçada que essa pessoa viveu e escute com gosto.", f: "Cristianismo: alegrar-se com a alegria do outro é uma forma simples de comunhão." },
-    { t: "Ligue para a pessoa que mais te faz rir e diga que precisava ouvir a voz dela.", f: "Amor: a presença de quem nos faz rir é remédio que nenhuma farmácia vende." },
-    { t: "Veja 3 minutos de vídeos de animais fazendo coisas engraçadas, sem culpa nenhuma.", f: "Neurociência: imagens fofas e cômicas ativam o sistema de recompensa e baixam a tensão rapidamente." },
-    { t: "Tente equilibrar algo improvável no nariz ou na cabeça por 30 segundos. Falhe com estilo.", f: "Medicina chinesa: a leveza do jogo dissolve o excesso de preocupação, que pesa sobre o Baço." },
-    { t: "Recorde um momento em que você riu até chorar e deixe a lembrança aquecer o peito.", f: "Cristianismo: a memória das alegrias passadas é um salmo silencioso de gratidão." },
-    { t: "Mande um áudio para alguém imitando um locutor de rádio anunciando o seu dia.", f: "Amor: transformar a rotina em piada para alguém querido é um presente de leveza." },
-    // 21-30
-    { t: "Escreva a sua preocupação atual como manchete de jornal sensacionalista bem exagerada.", f: "Neurociência: o exagero cômico cria distância psicológica e reduz a carga emocional do problema." },
-    { t: "Faça 3 respirações profundas terminando cada uma com um sorriso de canto de boca.", f: "Medicina chinesa: respirar fundo sorrindo nutre o Pulmão e acalma o coração agitado." },
-    { t: "Agradeça em voz alta por algo bobo e pequeno, tipo o café não ter derramado hoje.", f: "Cristianismo: o humor na gratidão lembra que Deus também habita as pequenas coisas." },
-    { t: "Combine com um amigo de trocarem a piada mais sem graça que conhecem.", f: "Amor: cumplicidade no riso bobo cria intimidade que conversas sérias nem sempre alcançam." },
-    { t: "Caminhe pela casa andando de um jeito engraçado, como um pinguim ou um robô, por 1 minuto.", f: "Neurociência: quebrar padrões motores habituais desperta o cérebro e interrompe ruminações." },
-    { t: "Boceje e se espreguice de forma teatral, com direito a sons exagerados.", f: "Medicina chinesa: alongar com som solta o Qi estagnado e relaxa os canais do corpo." },
-    { t: "Lembre de um apelido engraçado da sua infância e conte a história dele para alguém.", f: "Cristianismo: revisitar a infância com leveza honra a criança que Deus vê em você." },
-    { t: "Tire uma selfie fazendo a careta mais feia que conseguir e mande para alguém de confiança.", f: "Amor: mostrar-se ridículo para alguém é um voto de confiança que aprofunda o laço." },
-    { t: "Assista a um trecho de stand-up ou programa de humor por 5 minutos.", f: "Neurociência: gargalhar oxigena o corpo e libera endorfinas com efeito quase imediato." },
-    { t: "Bata palmas rindo alto 3 vezes seguidas, como nos exercícios de yoga do riso.", f: "Medicina chinesa: as palmas estimulam pontos energéticos das mãos e despertam o Qi." },
-    // 31-40
-    { t: "Pense em algo que te irritou hoje e imagine a cena narrada por um comentarista de futebol.", f: "Cristianismo: rir das pequenas irritações ajuda a não guardar no coração o que não vale a pena." },
-    { t: "Crie uma legenda engraçada para a foto mais recente do seu celular e envie a alguém.", f: "Amor: o humor enviado a alguém diz, nas entrelinhas, que você pensou nessa pessoa." },
-    { t: "Cante uma música séria com voz de desenho animado por 30 segundos.", f: "Neurociência: brincar com a própria voz ativa regiões ligadas ao jogo e relaxa o sistema nervoso." },
-    { t: "Massageie as próprias bochechas e mandíbula por 1 minuto, sorrindo no final.", f: "Medicina chinesa: soltar a mandíbula libera tensão acumulada nos meridianos do rosto." },
-    { t: "Liste 3 trapalhadas suas que hoje viraram boas histórias e perceba como tudo passa.", f: "Cristianismo: o tempo transforma tropeços em graça, sinal de que nada é desperdiçado." },
-    { t: "Pergunte a alguém da família qual a história mais engraçada que essa pessoa lembra de você.", f: "Amor: deixar o outro contar as suas histórias é deixar o outro participar da sua vida." },
-    { t: "Desenhe a sua preocupação como um monstrinho bobo de palito em 2 minutos.", f: "Neurociência: dar forma cômica a um medo o move da amígdala para áreas de criatividade e controle." },
-    { t: "Sopre o ar fazendo barulho de cavalo com os lábios 5 vezes, soltando o rosto inteiro.", f: "Medicina chinesa: vibrar os lábios relaxa o diafragma e ajuda o Qi a descer do peito." },
-    { t: "Agradeça mentalmente pelo seu senso de humor, mesmo nos dias em que ele se esconde.", f: "Cristianismo: a alegria é fruto do Espírito, semente plantada que floresce de novo." },
-    { t: "Conte a alguém a coisa mais engraçada que uma criança já te disse.", f: "Amor: as pérolas das crianças passadas adiante espalham ternura por onde chegam." },
-    // 41-50
-    { t: "Veja fotos antigas engraçadas no seu celular por 3 minutos e deixe o riso vir.", f: "Neurociência: relembrar memórias positivas reativa os circuitos de prazer da experiência original." },
-    { t: "Estique os braços para o alto e ria 3 vezes em tons diferentes, agudo, médio e grave.", f: "Medicina chinesa: variar o som do riso movimenta o Qi em diferentes alturas do corpo." },
-    { t: "Reconheça com bom humor um defeito seu inofensivo e diga, é, eu sou assim mesmo.", f: "Cristianismo: aceitar-se com leveza é confiar que a graça trabalha nas imperfeições." },
-    { t: "Planeje uma pequena surpresa engraçada para alguém da casa, como um bilhete bobo escondido.", f: "Amor: pequenas travessuras carinhosas dizem ao outro que ele importa." },
-    { t: "Leia em voz alta um texto sério qualquer com sotaque inventado.", f: "Neurociência: o absurdo deliberado interrompe o piloto automático e refresca a mente." },
-    { t: "Sorria para si mesmo no espelho e sustente o olhar por 20 segundos.", f: "Medicina chinesa: o sorriso dirigido a si nutre o Shen e acalma o espírito do coração." },
-    { t: "Lembre uma cena cômica de um filme que marcou você e reveja-a se puder.", f: "Cristianismo: cultivar boas alegrias é encher o coração daquilo que é bom e amável." },
-    { t: "Pergunte no grupo da família ou dos amigos qual foi o mico mais memorável do grupo.", f: "Amor: rir juntos das histórias antigas reafirma o pertencimento de cada um." },
-    { t: "Imagine seu problema atual contado daqui a 10 anos como história engraçada de jantar.", f: "Neurociência: projetar distância temporal reduz a intensidade emocional percebida do problema." },
-    { t: "Faça 10 segundos de risada silenciosa, só com o corpo balançando, e veja se ela vira riso de verdade.", f: "Medicina chinesa: o tremor suave do riso solta o diafragma e destrava o fluxo de energia." },
-    // 51-60
-    { t: "Use uma roupa ou acessório bobo por alguns minutos só para quebrar a seriedade do dia.", f: "Cristianismo: a leveza voluntária é um protesto alegre contra o peso do mundo." },
-    { t: "Mande uma figurinha absurda para alguém sem contexto nenhum e aguarde a reação.", f: "Amor: o riso inesperado que você provoca é um carinho que chega sem aviso." },
-    { t: "Tente dizer um trava-língua 3 vezes rápido e ria das versões que saírem.", f: "Neurociência: errar em jogo seguro treina o cérebro a tratar falhas com leveza." },
-    { t: "Esfregue as mãos até esquentarem e cubra o rosto sorrindo por 20 segundos.", f: "Medicina chinesa: o calor das palmas no rosto conforta os meridianos e suaviza o semblante." },
-    { t: "Lembre alguém que já te fez rir muito e agradeça em pensamento por essa pessoa existir.", f: "Cristianismo: quem nos traz alegria é presente de Deus em forma de gente." },
-    { t: "Conte para um colega uma situação engraçada de trabalho que vocês viveram juntos.", f: "Amor: memórias cômicas compartilhadas são o cimento afetivo das equipes." },
-    { t: "Invente um nome pomposo e ridículo para a tarefa chata que você precisa fazer agora.", f: "Neurociência: reenquadrar com humor diminui a resistência e facilita começar." },
-    { t: "Dê 3 gargalhadas falsas bem teatrais, com a mão na barriga, e note o que acontece.", f: "Medicina chinesa: o corpo não distingue riso encenado de real, e o Qi se alegra do mesmo jeito." },
-    { t: "Releia uma conversa antiga e divertida no seu celular por 3 minutos.", f: "Cristianismo: guardar e revisitar alegrias é colher os frutos que o tempo amadureceu." },
-    { t: "Pergunte a alguém qual meme define a semana dessa pessoa.", f: "Amor: interessar-se pelo humor do outro é interessar-se pelo coração do outro." },
-    // 61-70
-    { t: "Observe pessoas ou pets pela janela por 2 minutos procurando algo que te faça sorrir.", f: "Neurociência: a atenção deliberada ao cômico treina o cérebro a captar o positivo." },
-    { t: "Faça caretas alternadas, apertando e relaxando o rosto, por 30 segundos.", f: "Medicina chinesa: contrair e soltar a face desperta o fluxo de Qi nos canais da cabeça." },
-    { t: "Ria de uma expectativa irreal que você criou e ajuste-a com carinho.", f: "Cristianismo: o humor com as próprias ilusões abre espaço para a confiança em algo maior." },
-    { t: "Combine um código secreto engraçado com alguém querido para usarem em momentos tensos.", f: "Amor: piadas internas são abraços disfarçados que só dois corações entendem." },
-    { t: "Descreva o seu dia até agora como se fosse um documentário de natureza, em voz dramática.", f: "Neurociência: a narração em terceira pessoa cria distanciamento e reduz o estresse." },
-    { t: "Pule levemente no lugar 10 vezes sorrindo, sem motivo nenhum.", f: "Medicina chinesa: saltar desperta o Yang e tira o corpo da letargia." },
-    { t: "Lembre um sermão, aula ou reunião em que alguém riu na hora errada e sorria da cena.", f: "Cristianismo: o riso que escapa nos lugares solenes lembra que somos humanos amados." },
-    { t: "Ensine para alguém a piada mais boba que você sabe e peça uma em troca.", f: "Amor: trocar piadas é uma forma antiga e simples de dizer eu gosto de você." },
-    { t: "Coloque uma música animada e faça uma coreografia improvisada de 30 segundos.", f: "Neurociência: música e movimento juntos elevam dopamina e quebram o ciclo de tensão." },
-    { t: "Sorria por dentro, imaginando um sorriso atrás dos olhos e no peito, por 1 minuto.", f: "Medicina chinesa: o sorriso interior é prática clássica para nutrir os órgãos com energia suave." },
-    // 71-80
-    { t: "Escreva uma oração curta e bem-humorada agradecendo até pelas confusões de hoje.", f: "Cristianismo: falar com Deus com leveza é sinal de intimidade, não de desrespeito." },
-    { t: "Mostre para alguém o vídeo mais engraçado que você viu este mês.", f: "Amor: dividir o que nos faz rir é dividir um pedaço do nosso mundo." },
-    { t: "Dê um nome de novela mexicana para o seu dia de hoje e anuncie o capítulo em voz alta.", f: "Neurociência: dramatizar com ironia ativa o córtex pré-frontal e dilui a carga emocional." },
-    { t: "Bata de leve no peito como um gorila por 10 segundos, terminando com uma risada.", f: "Medicina chinesa: percutir o peito estimula o ponto do Timo e desperta a energia defensiva." },
-    { t: "Recorde um mal-entendido engraçado que acabou bem e agradeça pelo desfecho.", f: "Cristianismo: até os enganos podem virar motivo de graça quando vistos com fé." },
-    { t: "Faça uma chamada de vídeo rápida com alguém só para mostrar uma careta.", f: "Amor: trinta segundos de bobagem em tempo real valem mais que muitas mensagens." },
-    { t: "Tente não rir enquanto se olha sério no espelho por 30 segundos.", f: "Neurociência: o paradoxo de proibir o riso costuma provocá-lo, ativando o circuito do jogo." },
-    { t: "Espreguice-se como um gato, com lentidão exagerada e cara de tédio dramático.", f: "Medicina chinesa: alongar imitando animais é raiz do Qi Gong e harmoniza corpo e mente." },
-    { t: "Liste mentalmente 3 absurdos engraçados que já deram certo na sua vida.", f: "Cristianismo: relembrar saídas improváveis fortalece a confiança na providência." },
-    { t: "Envie para um amigo a frase, lembrei de você com esse meme, junto com o meme certo.", f: "Amor: ser lembrado com humor é uma das formas mais doces de ser lembrado." },
-    // 81-90
-    { t: "Conte nos dedos 5 coisas levemente ridículas do seu cotidiano e sorria de cada uma.", f: "Neurociência: nomear o cômico do dia a dia fortalece vias neurais de reavaliação positiva." },
-    { t: "Ria baixinho com a boca fechada por 20 segundos, sentindo a vibração no peito.", f: "Medicina chinesa: a vibração suave do riso massageia internamente o aquecedor superior." },
-    { t: "Pense em alguém de quem você cuida e prepare uma piada para contar a essa pessoa hoje.", f: "Cristianismo: levar alegria a alguém é um pequeno ministério do cotidiano." },
-    { t: "Relembre com alguém uma viagem em que tudo deu errado e hoje rende boas risadas.", f: "Amor: os perrengues compartilhados viram patrimônio afetivo de quem os viveu junto." },
-    { t: "Substitua uma reclamação de hoje por uma versão cômica e exagerada dela.", f: "Neurociência: transformar queixa em piada muda a rota neural da frustração para o humor." },
-    { t: "Faça um desfile de 30 segundos pelo corredor como se fosse uma passarela de moda.", f: "Medicina chinesa: postura ereta e passo alegre elevam o Qi e abrem o peito." },
-    { t: "Sorria para um desconhecido hoje e observe se o sorriso volta para você.", f: "Cristianismo: um sorriso gratuito é uma bênção silenciosa lançada ao mundo." },
-    { t: "Pergunte a uma criança da família o que a fez rir hoje e ria junto.", f: "Amor: entrar no riso de uma criança é visitar o lugar mais puro da conexão." },
-    { t: "Invente um slogan publicitário exagerado para o seu cansaço de hoje.", f: "Neurociência: a criatividade aplicada ao desconforto reduz a sensação de ameaça." },
-    { t: "Boceje de propósito 3 vezes com som dramático e termine com um sorriso largo.", f: "Medicina chinesa: o bocejo provocado libera o Qi do peito e umedece os olhos do espírito." },
-    // 91-100
-    { t: "Agradeça pela capacidade de rir, dizendo em pensamento, obrigado por este alívio que mora em mim.", f: "Cristianismo: o riso é graça gratuita, lembrete de que a alegria nos foi dada de presente." },
-    { t: "Crie com alguém próximo um ranking das 3 melhores histórias engraçadas de vocês.", f: "Amor: eleger as melhores memórias juntos é celebrar a história que vocês construíram." },
-    { t: "Assista a um vídeo de pessoas rindo contagiosamente por 2 minutos e veja se você resiste.", f: "Neurociência: neurônios-espelho fazem o riso alheio acender o nosso quase sem esforço." },
-    { t: "Solte 3 suspiros sonoros e termine o último com uma risadinha proposital.", f: "Medicina chinesa: o suspiro libera o Qi estagnado do Fígado e a risada o põe em movimento." },
-    { t: "Perdoe-se com humor por algo pequeno de hoje, dizendo, fui eu mesmo, perdão, gente.", f: "Cristianismo: a misericórdia consigo mesmo, dita com leveza, imita a ternura de Deus." },
-    { t: "Monte uma playlist curta com músicas que te lembram momentos divertidos.", f: "Amor: cada música alegre guarda o rosto de alguém com quem você sorriu." },
-    { t: "Faça a sua melhor imitação de um personagem engraçado por 30 segundos.", f: "Neurociência: encarnar outro personagem dá folga ao ego e reduz a autocrítica." },
-    { t: "Estale os dedos, role os ombros e termine com uma careta de alívio cômico.", f: "Medicina chinesa: destravar as articulações abre as comportas por onde o Qi flui." },
-    { t: "Antes de dormir, lembre a coisa mais leve ou engraçada do seu dia e sorria no escuro.", f: "Cristianismo: encerrar o dia com um sorriso é uma oração sem palavras de gratidão." },
-    { t: "Prometa a si mesmo provocar pelo menos um sorriso em alguém ainda hoje, e cumpra.", f: "Amor: quem decide espalhar leveza descobre que ela sempre volta multiplicada." }
+    {
+      t: "Três coisas engraçadas: antes de dormir hoje, anote as três coisas mais engraçadas que você viveu ou viu no dia, e por que aconteceram.",
+      f: "O exercício “three funny things” aumentou a felicidade e reduziu sintomas depressivos por até 6 meses em ensaios controlados de intervenções baseadas em humor.",
+      fonte: "Aging & Mental Health · Gander et al., intervenções de humor"
+    },
+    {
+      t: "Assista agora a um vídeo que sempre te faz rir — aquele que você já mandou para todo mundo.",
+      f: "O riso genuíno reduz cortisol e adrenalina e eleva endorfinas, segundo a linha de estudos sobre “riso alegre” iniciada por Lee Berk.",
+      fonte: "American Journal of the Medical Sciences · Berk et al., Loma Linda"
+    },
+    {
+      t: "Conte para alguém, hoje, a situação mais engraçada que você já viveu. Capriche nos detalhes.",
+      f: "Rir junto eleva o limiar de dor por liberação de endorfinas — efeito demonstrado em experimentos com grupos assistindo comédia.",
+      fonte: "Proceedings of the Royal Society B, 2011 · Dunbar et al.",
+      n: "Histórias engraçadas repetidas são patrimônio afetivo: cada recontagem renova o vínculo."
+    },
+    {
+      t: "Sorria de propósito por 30 segundos — um sorriso largo, envolvendo os olhos — e observe o que muda por dentro.",
+      f: "Participantes que sorriram durante tarefas estressantes tiveram frequência cardíaca mais baixa na recuperação, mesmo quando o sorriso foi induzido.",
+      fonte: "Psychological Science, 2012 · Kraft & Pressman"
+    },
+    {
+      t: "Riso sem motivo: ria de mentira por 60 segundos — sons, barriga, tudo. Se virar riso de verdade no meio, deixe.",
+      f: "Protocolos de yoga do riso reduziram sintomas de depressão e melhoraram o humor em ensaios randomizados com idosos; o corpo não distingue bem o ensaio da estreia.",
+      fonte: "International Journal of Geriatric Psychiatry · ensaios de laughter yoga"
+    },
+    {
+      t: "Mande um meme para um amigo agora — aquele tipo de humor que só vocês dois entendem.",
+      f: "Humor compartilhado é um dos sinais mais fortes de intimidade nas relações; piadas internas criam identidade de dupla e reforçam o vínculo.",
+      fonte: "Personal Relationships · humor compartilhado e proximidade",
+      n: "Uma piada interna é um abraço criptografado: só vocês têm a chave."
+    },
+    {
+      t: "Dê um apelido carinhoso e ridículo para a sua preocupação de hoje, e use-o mentalmente sempre que ela aparecer.",
+      f: "O humor é uma estratégia de reavaliação cognitiva: rir de um estressor reduz a emoção negativa de forma mais duradoura que apenas distração, em estudos experimentais.",
+      fonte: "Cognition and Emotion · Samson & Gross, Stanford"
+    },
+    {
+      t: "Faça a careta mais absurda que conseguir no espelho. Mantenha por 10 segundos. Tente não rir (você vai perder).",
+      f: "Quebrar a expressão facial séria interrompe o feedback facial da tensão; movimentos faciais exagerados relaxam a musculatura que sustenta o humor fechado.",
+      fonte: "Psychological Bulletin · hipótese do feedback facial (meta-análise)"
+    },
+    {
+      t: "Veja fotos antigas suas — cortes de cabelo, roupas, poses. Ria com carinho de quem você foi.",
+      f: "Rir de si mesmo com gentileza correlaciona com maior bem-estar e estabilidade de humor; é o estilo de humor mais protetor entre os mapeados na pesquisa.",
+      fonte: "Journal of Research in Personality · estilos de humor (Martin)"
+    },
+    {
+      t: "Brinque com uma criança ou um pet por 10 minutos, no ritmo deles, sem pressa de voltar ao mundo adulto.",
+      f: "A brincadeira com cães eleva oxitocina em humanos e animais — o mesmo circuito do vínculo entre pais e bebês, demonstrado em estudo japonês publicado na Science.",
+      fonte: "Science, 2015 · Nagasawa et al., oxitocina e vínculo com cães",
+      n: "Crianças e bichos são professores de leveza: ninguém leva o presente mais a sério que eles."
+    },
+    {
+      t: "Conte uma piada ruim de propósito hoje — quanto pior, melhor. O constrangimento é parte do remédio.",
+      f: "Humor autodepreciativo leve em doses sociais aumenta a percepção de proximidade e autenticidade, segundo estudos sobre humor nas relações.",
+      fonte: "Journal of Personality and Social Psychology · humor e conexão social"
+    },
+    {
+      t: "Assista a 10 minutos de stand-up ou comédia hoje, como compromisso de saúde, não como enrolação.",
+      f: "Assistir comédia melhorou a função dos vasos sanguíneos (vasodilatação endotelial) em medidas feitas antes e depois, em estudos da Universidade de Maryland.",
+      fonte: "Heart · Michael Miller, Univ. de Maryland"
+    },
+    {
+      t: "Procure o lado cômico da sua situação mais irritante desta semana: se ela fosse uma cena de seriado, qual seria a piada?",
+      f: "Transformar estressores em narrativa cômica é reavaliação cognitiva em ação — reduz afeto negativo sem negar o problema, segundo a pesquisa em regulação emocional.",
+      fonte: "Cognition and Emotion · humor como reappraisal"
+    },
+    {
+      t: "Ria por extenso numa mensagem hoje: em vez de só “kkk”, conte para a pessoa o que exatamente te fez rir.",
+      f: "Capitalização — compartilhar ativamente o que nos fez bem — amplifica o afeto positivo de quem conta e de quem ouve, efeito robusto na pesquisa de relacionamentos.",
+      fonte: "Journal of Personality and Social Psychology · Gable, capitalização"
+    },
+    {
+      t: "Monte uma pasta de emergência com seus 5 vídeos/memes mais infalíveis. Deixe salva para dias cinzas.",
+      f: "Preparar indutores de afeto positivo antecipadamente aumenta o uso real em momentos difíceis — princípio das “primeiras ajudas emocionais” da psicologia clínica.",
+      fonte: "Behaviour Research and Therapy · regulação emocional planejada"
+    },
+    {
+      t: "Pergunte a alguém mais velho da família qual foi a maior mancada engraçada da história da casa. Prepare-se para descobrir clássicos.",
+      f: "Reminiscência humorística em família fortalece identidade e vínculo entre gerações; rir das memórias compartilhadas consolida-as de forma positiva.",
+      fonte: "Memory · reminiscência compartilhada",
+      n: "As mancadas da família, contadas com riso, viram herança em vez de vergonha."
+    },
+    {
+      t: "Caminhe 2 minutos pela casa balançando os braços de forma exageradamente alegre, como criança indo ao recreio. Sinta o ridículo — e o efeito.",
+      f: "Adotar o corpo da alegria convida a emoção correspondente: padrões de movimento expansivos elevaram o humor em estudos de embodiment.",
+      fonte: "Journal of Behavior Therapy and Experimental Psychiatry · movimento e emoção"
+    },
+    {
+      t: "Hoje, quando algo pequeno der errado (café caiu, chave sumiu), responda em voz alta: “plot twist!” — e siga.",
+      f: "Rotular contratempos com humor reduz a resposta de estresse e treina flexibilidade cognitiva, a capacidade que protege o humor dos tropeços do dia.",
+      fonte: "Anxiety, Stress & Coping · humor e resiliência cotidiana"
+    },
+    {
+      t: "Troque 10 minutos de noticiário por 10 minutos de conteúdo que te faz rir, só por hoje, e compare como se sente.",
+      f: "Dietas de mídia afetam o humor de forma mensurável; substituições simples de conteúdo mudaram afeto e ansiedade em estudos experimentais de uso de mídia.",
+      fonte: "Journal of Experimental Psychology · mídia e afeto"
+    },
+    {
+      t: "Lembre da última vez que você chorou de rir. Reconstrua a cena: onde, com quem, o que aconteceu. Conte para alguém que estava lá.",
+      f: "Reviver episódios de riso intenso reativa o circuito original da alegria — e compartilhar a lembrança com quem estava presente dobra o efeito pela via social.",
+      fonte: "Emotion · reminiscência positiva compartilhada",
+      n: "Rir junto duas vezes da mesma história é viver o momento de novo — de graça."
+    },
+    {
+      t: "Invente uma legenda engraçada para o que você está vendo agora, como se fosse postar (não precisa postar).",
+      f: "A produção ativa de humor — não só o consumo — é a parte com maior ganho de bem-estar nas intervenções estudadas; criar piada exige reenquadrar a realidade.",
+      fonte: "The Journal of Positive Psychology · Wellenzohn et al."
+    },
+    {
+      t: "Sorria primeiro para 3 pessoas hoje, antes que elas sorriam para você.",
+      f: "Expressões faciais são contagiosas por imitação automática; quem inicia sorrisos recebe mais sorrisos de volta, mudando o clima emocional dos ambientes que atravessa.",
+      fonte: "Trends in Cognitive Sciences · mimetismo facial"
+    },
+    {
+      t: "Estabeleça a regra do riso diário: pelo menos uma gargalhada de verdade por dia. Comece procurando a de hoje agora.",
+      f: "A frequência de riso diário correlaciona com satisfação com a vida e menor percepção de estresse — e sobe quando vira meta deliberada, mostram os estudos de intervenção.",
+      fonte: "Applied Psychology: Health and Well-Being · frequência de riso"
+    },
+    {
+      t: "Relembre um apelido ou bordão engraçado do seu grupo de amigos e mande no grupo agora, do nada.",
+      f: "Símbolos compartilhados de humor reativam instantaneamente a identidade do grupo e o afeto associado a ela — atalho social com alto retorno emocional.",
+      fonte: "Personal Relationships · rituais e identidade de grupo"
+    },
+    {
+      t: "Experimente o “riso espelhado”: assista a alguém tendo uma crise de riso (vídeos de gargalhada contagiante) e deixe-se contaminar.",
+      f: "O riso é comportamentalmente contagioso: ouvir gargalhadas ativa o córtex motor da própria risada, preparando o corpo para rir junto.",
+      fonte: "The Journal of Neuroscience · Sophie Scott, contágio do riso"
+    }
   ]
 };
