@@ -27,9 +27,9 @@ def in_heart(nx, ny):
     v = (x * x + y * y - 1) ** 3 - x * x * y ** 3
     return v <= 0
 
-def make_icon(size, path, heart_scale=0.62):
-    top, bottom = (246, 162, 107), (226, 102, 111)  # gradiente do card de visualização
-    white = (255, 253, 249)
+def make_icon(size, path, heart_scale=0.56):
+    bg = (251, 251, 253)        # off-white da identidade do app
+    heart = (29, 29, 31)        # quase-preto, tom único, sem gradiente
     cx, cy = size / 2, size / 2 + size * 0.02
     half = size * heart_scale / 2
     ss = 3  # supersampling para bordas suaves
@@ -44,9 +44,8 @@ def make_icon(size, path, heart_scale=0.62):
                     ny = (y + (sy + 0.5) / ss - cy) / half
                     if in_heart(nx, ny):
                         hits += 1
-            bg = lerp(top, bottom, y / (size - 1))
             a = hits / (ss * ss)
-            row.append(lerp(bg, white, a))
+            row.append(lerp(bg, heart, a))
         rows.append(row)
     with open(path, "wb") as f:
         f.write(png_bytes(size, size, rows))

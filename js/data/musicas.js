@@ -1,105 +1,135 @@
 window.PRACTICES = window.PRACTICES || {};
 window.PRACTICES["musicas"] = {
   tarefas: [
-    { t: "Escolha uma música que te acalma e ouça-a inteira prestando atenção em apenas um instrumento, do início ao fim.", f: "Neurociência: a escuta seletiva ocupa por completo a atenção auditiva e interrompe a ruminação mental." },
-    { t: "Cantarole de boca fechada (mmm...) uma melodia qualquer por 2 minutos, sentindo a vibração no peito e no rosto.", f: "Neurociência: o humming faz o ar vibrar na garganta e estimula o nervo vago, acalmando o corpo por dentro." },
-    { t: "Cante uma música que você ama, mesmo baixinho, e coloque a mão no peito para sentir a própria voz vibrar.", f: "Amor: a própria voz cantando é um afago interno — o corpo embala a si mesmo como embalaria alguém querido." },
-    { t: "Ouça um louvor ou hino que te toca e deixe a letra virar oração: cada frase cantada, uma frase dita a Deus.", f: "Cristianismo: quem canta reza duas vezes — a música leva a palavra aonde só a melodia alcança." },
-    { t: "Escolha uma música da sua adolescência e ouça notando as memórias que chegam, sem julgá-las, como visitas.", f: "Neurociência: a música é uma das chaves mais potentes da memória autobiográfica e das emoções guardadas com ela." },
-    { t: "Monte uma playlist de 3 músicas para o sentimento que você quer cultivar hoje: paz, coragem ou alegria.", f: "Neurociência: escolher música pela emoção desejada usa a trilha sonora como ferramenta de regulação deliberada." },
-    { t: "Ouça 5 minutos de sons da natureza (chuva, mar, floresta) de olhos fechados, como se estivesse lá.", f: "Neurociência: sons naturais reduzem a frequência cardíaca e a pressão arterial mais que o silêncio absoluto." },
-    { t: "Dance uma música inteira sem parar, do seu jeito, sem espelho e sem juiz.", f: "Neurociência: música mais movimento libera dopamina e endorfina — antidepressivo caseiro de 4 minutos." },
-    { t: "Faça percussão corporal: marque um ritmo simples batendo palmas, peito e coxas, por 1 minuto, repetindo o padrão.", f: "Medicina chinesa: percutir o corpo em ritmo desperta o qi e tira a estagnação de quem ficou parado demais." },
-    { t: "Mande uma música para alguém com a mensagem: ouvi e lembrei de você.", f: "Amor: dedicar uma música diz 'você mora nos meus pensamentos' — um presente que custa um toque e vale um abraço." },
-    { t: "Ouça uma música de uma cultura bem diferente da sua e procure nela algo que te toque mesmo sem entender a língua.", f: "Amor: emocionar-se com a música de um povo distante lembra que somos uma família maior do que pensamos." },
-    { t: "Assobie ou cantarole enquanto faz uma tarefa doméstica, transformando a obrigação em musical.", f: "Neurociência: trilha sonora autoproduzida eleva o humor e torna tarefas repetitivas mais suportáveis ao cérebro." },
-    { t: "Fique 3 minutos em silêncio total, tratando o silêncio como uma música rara: note suas texturas e camadas.", f: "Medicina chinesa: o silêncio nutre o yin; depois dele, todo som chega mais limpo, e a mente, mais clara." },
-    { t: "Ouça sua música favorita com fones, de olhos fechados, sem fazer mais nada. Só ela e você.", f: "Neurociência: a escuta exclusiva, sem multitarefa, multiplica a liberação de dopamina nos picos da música." },
-    { t: "Cante no chuveiro hoje, com vontade, escolhendo uma música alegre de propósito.", f: "Neurociência: cantar alto expande a respiração e a alegria — e o banheiro perdoa qualquer desafinação." },
-    { t: "Crie um pequeno ritmo com os dedos na mesa e mantenha-o por 1 minuto, variando devagar, como um baterista zen.", f: "Neurociência: criar e sustentar ritmos engaja os circuitos motores e de previsão, tirando o foco da preocupação." },
-    { t: "Escute uma música instrumental e imagine que ela conta uma história: invente o enredo do começo ao fim.", f: "Neurociência: unir música e imaginação narrativa ativa redes criativas e dá descanso ao circuito da ansiedade." },
-    { t: "Ouça uma música lenta e respire no andamento dela: inspire em uma frase musical, expire na seguinte.", f: "Medicina chinesa: quando o fôlego segue a música lenta, o qi se ajusta ao ritmo da calma, como rio à correnteza suave." },
-    { t: "Pergunte a alguém querido qual música marcou a vida dela e ouça juntos (ou cada um no seu canto, ao mesmo tempo).", f: "Amor: conhecer a trilha sonora de alguém é conhecer seus capítulos — escutar junto é reler a história a dois." },
-    { t: "Cante uma música de ninar (a que cantaram para você, ou a mais conhecida) para o seu próprio cansaço.", f: "Amor: a canção de ninar dirigida a si mesmo acorda a memória mais antiga de cuidado que o corpo guarda." },
-    { t: "Ouça os sons do ambiente agora por 2 minutos como se fossem uma composição: graves, agudos, ritmos, pausas.", f: "Neurociência: tratar o ruído como música transforma incômodo em curiosidade — mesma orelha, outro cérebro." },
-    { t: "Toque (ou ouça) uma nota grave e longa e sinta onde ela ressoa no seu corpo.", f: "Medicina chinesa: sons graves descem e enraízam a energia, nutrindo o rim e dando chão ao corpo agitado." },
-    { t: "Escolha um cântico ou refrão espiritual curto e repita-o cantando por 3 minutos, deixando-o virar respiração.", f: "Cristianismo: a repetição cantada aquieta a mente tagarela e abre espaço interior para a presença de Deus." },
-    { t: "Faça uma caminhada com música no ritmo do seu passo, deixando os pés virarem o tambor da canção.", f: "Neurociência: a sincronia entre passo e batida economiza energia mental e gera uma euforia leve e natural." },
-    { t: "Ouça uma música triste, se a tristeza estiver aí, e deixe-a fazer companhia em vez de lutar contra ela.", f: "Neurociência: música triste na hora certa oferece catarse e consolo — o cérebro a recebe como empatia sonora." },
-    { t: "Depois de ouvir uma música triste, escolha conscientemente uma que aponte para a esperança, e ouça-a inteira.", f: "Cristianismo: o lamento que vira louvor é o caminho dos salmos — a alma desce com verdade e sobe com fé." },
-    { t: "Bata palmas em ritmos diferentes por 1 minuto: rápido, lento, sincopado, e termine com uma salva de palmas para você.", f: "Neurociência: variar ritmos exercita a flexibilidade dos circuitos temporais do cérebro — e o aplauso final é mereci-dopamina." },
-    { t: "Ouça uma música clássica ou instrumental suave enquanto olha pela janela, sem pressa, como se fosse cinema.", f: "Neurociência: música e contemplação visual juntas geram o estado de devaneio restaurador, que recarrega a atenção." },
-    { t: "Invente agora uma melodia de 5 segundos para a frase: vai dar tudo certo. Cante-a 3 vezes.", f: "Neurociência: mensagens cantadas gravam mais fundo que faladas — a música é cola de memória." },
-    { t: "Pegue um copo, uma colher, uma caixa: monte uma minibateria e toque 1 minuto de ritmo livre.", f: "Neurociência: improvisar ritmo com objetos comuns ativa o sistema de recompensa criativa e o humor lúdico." },
-    { t: "Ouça uma música que era do seu pai, mãe ou avós, e deixe-a te contar como eles eram.", f: "Amor: a música dos que vieram antes é herança sonora — ouvi-la é visitá-los." },
-    { t: "Cante o seu nome em 3 melodias diferentes: uma alegre, uma solene, uma engraçada.", f: "Amor: brincar com o próprio nome em música é gesto de amizade consigo — leveza dirigida a quem mais precisa dela." },
-    { t: "Escute 2 minutos de canto gregoriano ou música sacra antiga e note o efeito no seu ritmo interno.", f: "Cristianismo: séculos de oração cantada moldaram essas melodias para aquietar a alma — elas sabem o caminho." },
-    { t: "Faça do trânsito ou transporte de hoje um show particular: playlist boa e atenção plena nas músicas, não no relógio.", f: "Neurociência: reenquadrar o trajeto como tempo musical reduz o estresse de deslocamento que acumula no dia." },
-    { t: "Hum-cante uma nota só, a mais confortável, por 30 segundos seguidos. Descanse e repita 3 vezes.", f: "Neurociência: a exalação vibrada e prolongada é das formas mais eficientes de estimular o nervo vago pela voz." },
-    { t: "Ouça uma música muito alegre e permita-se sorrir e mexer os ombros, mesmo sentado.", f: "Medicina chinesa: a alegria é o alimento do coração; música alegre com movimento espalha esse alimento pelo corpo." },
-    { t: "Procure uma versão acústica ou ao vivo de uma música que você conhece bem e ache 3 diferenças da original.", f: "Neurociência: a escuta comparativa ativa a atenção aos detalhes e renova o prazer da surpresa musical." },
-    { t: "Coloque uma música e desenhe (rabisque mesmo) o que ela te faz sentir, enquanto toca.", f: "Neurociência: traduzir som em traço integra os sentidos e dá forma a emoções sem nome." },
-    { t: "Agradeça em oração por existir música no mundo: pelos compositores, vozes e instrumentos que já te consolaram.", f: "Cristianismo: a música é dom; agradecer por ela é reconhecer que beleza também é pão de cada dia." },
-    { t: "Ouça uma música em volume bem baixo, quase no limite da audição, e note como a atenção muda.", f: "Neurociência: o volume mínimo obriga a escuta total — meditação disfarçada de música baixa." },
-    { t: "Cante junto uma música inteira, com a letra na tela se precisar, sem se importar com a afinação.", f: "Neurociência: cantar em sincronia com a gravação melhora o fôlego, o humor e a sensação de companhia." },
-    { t: "Pense em qual música você gostaria que tocasse agora e cante você mesmo o pedaço que lembra.", f: "Amor: ser o próprio rádio é um jeito carinhoso de se atender — você pediu, você tocou." },
-    { t: "Escute uma música nova hoje, de um estilo que você nunca explora, até o final, com curiosidade de criança.", f: "Neurociência: novidade musical libera dopamina e mantém o cérebro plástico — ouvido novo, mente nova." },
-    { t: "Marque com o pé o pulso de qualquer música (ou do tic-tac de um relógio) por 1 minuto, sem perder a batida.", f: "Neurociência: acompanhar pulsos treina os circuitos de tempo do cérebro, ligados à atenção e à linguagem." },
-    { t: "Faça uma playlist chamada 'remédio' com as 5 músicas que mais te acalmam, e deixe-a pronta para os dias difíceis.", f: "Neurociência: preparar recursos de regulação antes da crise é o que diferencia hábito de socorro improvisado." },
-    { t: "Ouça uma música que te lembra alguém que partiu e deixe a saudade vir com a melodia, com gratidão pela história.", f: "Amor: a saudade cantada dói mais bonito — a música dá colo ao que as palavras não seguram." },
-    { t: "Sussurre uma música em vez de cantá-la, inteira, e perceba a intimidade que o sussurro cria.", f: "Neurociência: o sussurro ativa a escuta fina e cria um espaço de calma quase tátil ao redor da voz." },
-    { t: "Toque de leve um instrumento, se houver um por perto, mesmo sem saber tocar: explore 5 sons diferentes nele.", f: "Neurociência: a exploração sonora sem meta acende a curiosidade lúdica, estado oposto ao da ansiedade." },
-    { t: "Ouça o som da chuva (real ou gravado) e imagine cada gota lavando um pouco do seu cansaço.", f: "Medicina chinesa: a água que desce limpa e renova; unir som e imagem dá ao corpo um banho por dentro." },
-    { t: "Cante um parabéns (sim, o de aniversário) para alguma conquista sua desta semana, por menor que seja.", f: "Amor: celebrar-se com música ensina ao coração que vitórias pequenas também merecem festa." },
-    { t: "Escute uma valsa ou música em três tempos e balance o corpo no um-dois-três, nem que seja só a cabeça.", f: "Neurociência: o compasso ternário embala como ninar — o cérebro reconhece o balanço e relaxa." },
-    { t: "Preste atenção na música de fundo do lugar onde você estiver hoje (loja, rua, série) como se fosse a atração principal.", f: "Neurociência: promover o fundo a figura treina o controle voluntário da atenção, músculo da saúde mental." },
-    { t: "Ouça um coral cantando e tente acompanhar uma voz só (soprano, ou a mais grave) por toda a música.", f: "Cristianismo: no coral, cada voz é única e nenhuma basta sozinha — retrato sonoro da comunhão." },
-    { t: "Coloque uma música animada e arrume a cama (ou uma gaveta) no ritmo dela, como coreografia doméstica.", f: "Neurociência: acoplar tarefas ao ritmo musical reduz o esforço percebido e acelera o início da ação." },
-    { t: "Grave um áudio de você cantando 15 segundos de uma música e mande para alguém que vai sorrir ao ouvir.", f: "Amor: a voz cantada enviada a alguém é vulnerabilidade e presente — coragem embrulhada em melodia." },
-    { t: "Ouça os pássaros (de manhã cedo ou em gravação) por 3 minutos, tentando distinguir quantos cantos diferentes há.", f: "Neurociência: o canto de pássaros sinaliza ambiente seguro ao cérebro ancestral, baixando a vigilância." },
-    { t: "Cante uma música mudando a emoção: uma vez alegre, uma vez dramática, uma vez como ópera. Ria do resultado.", f: "Neurociência: brincar com registros emocionais na voz aumenta a flexibilidade emocional real." },
-    { t: "Escolha uma música para ser o hino da sua semana e ouça-a todas as manhãs até domingo. Comece agora.", f: "Neurociência: âncoras musicais repetidas criam atalhos de estado — ouviu, sentiu, lembrou quem decidiu ser." },
-    { t: "Ouça 2 minutos de tambores ou percussão e deixe o corpo responder como quiser: pé, cabeça, ombros.", f: "Medicina chinesa: o tambor fala direto com o yang do corpo, acordando a energia que a apatia adormeceu." },
-    { t: "Pesquise a história por trás de uma música que você ama: quem fez, por quê, em que momento da vida.", f: "Amor: conhecer a dor e a alegria de quem compôs aprofunda a gratidão por cada nota recebida." },
-    { t: "Cante ou ouça uma música de gratidão antes de uma refeição hoje, como bênção cantada.", f: "Cristianismo: abençoar a mesa com música une corpo, alma e alimento numa só ação de graças." },
-    { t: "Faça um dueto com um som da casa: a geladeira, o ventilador, o chuveiro. Cantarole por cima do ruído, afinando com ele.", f: "Neurociência: transformar ruído em base musical converte irritação em humor e criatividade." },
-    { t: "Ouça uma música épica (trilha de filme) e visualize-se vencendo o desafio atual da sua vida, em câmera lenta.", f: "Neurociência: música épica mais visualização de vitória ensaia no cérebro a coragem que a vida vai pedir." },
-    { t: "Deixe tocando uma música suave enquanto toma banho, e saia do banho só quando ela acabar, sem pressa.", f: "Medicina chinesa: água morna e som suave nutrem o yin juntos — banho que lava também o excesso de mente." },
-    { t: "Tente lembrar e cantarolar a primeira música que você amou na vida. Onde você estava quando a ouviu?", f: "Neurociência: as primeiras músicas amadas ficam gravadas com emoção intensa — revisitá-las é reencontrar-se." },
-    { t: "Ouça uma música segurando a mão de alguém (ou com seu pet no colo), sem falar nada até o fim.", f: "Amor: música compartilhada em silêncio e toque sincroniza dois corações no mesmo compasso." },
-    { t: "Componha um verso (duas linhas bastam) sobre o seu dia e cante-o em qualquer melodia.", f: "Neurociência: transformar o vivido em canção organiza a experiência e dá leveza ao que pesava." },
-    { t: "Ouça uma música de outra década (anos 50, 60, 70) e imagine a vida de quem dançou com ela na época.", f: "Amor: a empatia que viaja no tempo amplia o coração — outras gerações também amaram, sofreram e dançaram." },
-    { t: "Use uma música como cronômetro de pausa: enquanto ela toca, você não trabalha, não resolve, só existe.", f: "Neurociência: pausas com duração definida e agradável vencem a resistência do cérebro produtivista." },
-    { t: "Assobie a melodia mais alegre que você conhece, andando pela casa, por 1 minuto.", f: "Neurociência: o assobio exige expiração controlada e leveza — impossível assobiar e ruminar ao mesmo tempo." },
-    { t: "Ouça uma música de adoração de braços abertos, em pé, e deixe o corpo participar da entrega.", f: "Cristianismo: o corpo que se abre na adoração ensina a alma a soltar o controle e confiar." },
-    { t: "Escute o silêncio entre as faixas ou no fim de uma música, por inteiro, antes de tocar a próxima.", f: "Medicina chinesa: a pausa é parte da música como o vazio é parte da taça — sem ela, nada se recebe." },
-    { t: "Faça uma lista de 3 músicas que te fazem dançar sem perceber, e toque a primeira agora.", f: "Neurociência: mapear os próprios gatilhos de alegria torna o bem-estar reproduzível em dias cinzentos." },
-    { t: "Cante para uma planta, um pet ou um bebê da família, sem vergonha, por 1 minuto.", f: "Amor: cantar para outro ser vivo é das formas mais antigas de amar — a voz vira cuidado audível." },
-    { t: "Ouça uma música e conte quantos instrumentos diferentes você consegue identificar nela.", f: "Neurociência: a análise auditiva ativa o foco analítico de modo prazeroso, descansando o circuito da preocupação." },
-    { t: "Termine seu dia hoje com uma música escolhida para encerrar bem: calma, bonita, em volume baixo, antes de dormir.", f: "Neurociência: rituais sonoros de encerramento sinalizam ao cérebro que é seguro desligar e descansar." },
-    { t: "Bata o ritmo do seu coração: sinta o pulso no peito ou pulso e acompanhe-o com batidinhas do dedo por 1 minuto.", f: "Medicina chinesa: escutar o próprio pulso é dialogar com o imperador coração — atenção que o acalma." },
-    { t: "Ouça uma música que sua melhor amizade ama, inteira, pensando nela com carinho do início ao fim.", f: "Amor: ouvir com os ouvidos do outro é um exercício de empatia que aproxima mesmo à distância." },
-    { t: "Improvise 30 segundos de 'scat': cante sílabas sem sentido (ba-da-bi-du) sobre qualquer batida, rindo do resultado.", f: "Neurociência: a improvisação vocal desliga o censor interno e ativa as redes da criatividade espontânea." },
-    { t: "Procure uma versão da sua música favorita em outro idioma ou estilo e celebre o reencontro com a melodia.", f: "Neurociência: o familiar em roupa nova une o conforto do conhecido à dopamina da novidade." },
-    { t: "Reserve a próxima música que tocar (onde quer que seja) para ouvir como se fosse a última vez. Total atenção.", f: "Cristianismo: viver como quem sabe que tudo é dom transforma a escuta comum em pequena eternidade." },
-    { t: "Cantarole enquanto alonga os braços e o pescoço: deixe a melodia conduzir a velocidade do alongamento.", f: "Medicina chinesa: som e gesto unidos movem o qi em harmonia, como vento e bandeira." },
-    { t: "Crie a trilha sonora da sua manhã ideal: 3 músicas em sequência (despertar, animar, agradecer) e use amanhã cedo.", f: "Neurociência: a primeira hora do dia molda o humor das demais; a música certa é leme barato e potente." },
-    { t: "Ouça uma música apoiando a cabeça em algo confortável, de olhos fechados, e não faça absolutamente mais nada.", f: "Neurociência: o descanso com música suave ativa o modo padrão do cérebro, essencial para criatividade e memória." },
-    { t: "Toque uma música que sua família ouvia nos almoços ou viagens, e mande depois para alguém da família.", f: "Amor: a música da família é o álbum sonoro da casa — compartilhá-la é reunir a mesa de novo." },
-    { t: "Acompanhe uma música respirando só pelo nariz, e perceba se o fôlego dança junto.", f: "Medicina chinesa: o fôlego nasal e a música suave afinam o corpo como instrumentos da mesma orquestra." },
-    { t: "Defina um alarme do celular com uma música que você ama, para que o próprio despertar vire presente.", f: "Neurociência: acordar com som agradável reduz a inércia do sono e melhora o humor da primeira hora." },
-    { t: "Ouça hoje uma música sobre esperança ou recomeço e anote uma frase da letra que sirva de lema para a semana.", f: "Cristianismo: guardar uma palavra boa no coração é prover-se de pão para o caminho." },
-    { t: "Brinque de adivinhar: peça a alguém para cantarolar uma música e adivinhe qual é. Depois troquem.", f: "Amor: jogos musicais a dois criam risadas e cumplicidade — o vínculo cresce onde há brincadeira." },
-    { t: "Escute uma música muito calma e imagine cada nota massageando um ponto tenso do seu corpo.", f: "Neurociência: a sinestesia guiada (som como toque) recruta o córtex somatossensorial para o relaxamento." },
-    { t: "Cante a plenos pulmões dentro do carro (ou de um quarto fechado) uma música que pede grito, e saia leve.", f: "Neurociência: cantar forte descarrega tensão acumulada e expande o fôlego reprimido pelo estresse." },
-    { t: "Escolha um verso de salmo ou frase espiritual e invente para ele uma melodia simples, sua, secreta.", f: "Cristianismo: a melodia própria para a Palavra é como construir um pequeno altar interior portátil." },
-    { t: "Ouça 1 minuto de uma música e depois fique 1 minuto em silêncio relembrando-a por dentro, nota a nota.", f: "Neurociência: a audição imaginada ativa o córtex auditivo quase como a real — e treina memória e atenção juntas." },
-    { t: "Pergunte a uma criança qual música ela ama e ouça com ela, com o entusiasmo que ela tiver.", f: "Amor: entrar na música de uma criança é visitar o país da alegria sem alfândega." },
-    { t: "Faça uma dança de 30 segundos para celebrar qualquer coisa de hoje: o café, o sol, o fim de uma tarefa.", f: "Neurociência: minicelebrações dançadas ancoram emoções positivas no corpo e pedem bis ao cérebro." },
-    { t: "Ouça uma música enquanto olha fotos antigas, e deixe trilha e imagens conversarem.", f: "Neurociência: música e fotografia juntas dobram a evocação emocional — memória com som entra mais fundo." },
-    { t: "Aprenda 2 linhas de uma música nova de cor, agora, e cante-as sem olhar.", f: "Neurociência: memorizar letras exercita o hipocampo e dá ao cérebro a alegria do domínio recém-conquistado." },
-    { t: "Termine este momento cantarolando a música que estiver na sua cabeça agora — ela tocou aí por algum motivo.", f: "Amor: acolher a música interna é escutar o próprio coração, que às vezes fala em melodia." },
-    { t: "Ouça uma música deitado no chão, com os olhos fechados, sentindo o som chegar pelo corpo além dos ouvidos.", f: "Neurociência: a escuta de corpo inteiro, sem outras tarefas, amplia a percepção das vibrações e aprofunda o relaxamento." },
-    { t: "Agradeça pela sua audição (ou pela música que sente no corpo): um privilégio que merece um momento de reconhecimento.", f: "Cristianismo: quem tem ouvidos, ouça — e quem ouve, agradeça, pois cada som é palavra do mundo criado." }
+    {
+      t: "Ouça uma música que te emociona com fones, de olhos fechados, sem fazer mais nada. Espere o arrepio chegar.",
+      f: "Os “calafrios musicais” liberam dopamina no estriado — o mesmo circuito de recompensa de comida e afeto —, demonstrado por neuroimagem na Universidade McGill.",
+      fonte: "Nature Neuroscience, 2011 · Salimpoor et al., McGill"
+    },
+    {
+      t: "Depois de um momento estressante, coloque uma música lenta e tranquila e ouça-a inteira antes de voltar às tarefas.",
+      f: "Música relaxante acelerou a queda do cortisol após estresse agudo em ensaio controlado — o corpo se recuperou mais rápido do que em silêncio.",
+      fonte: "PLOS ONE, 2013 · Thoma et al."
+    },
+    {
+      t: "Cantarole de boca fechada (mmm) uma melodia qualquer por 2 minutos, sentindo a vibração no rosto e no peito.",
+      f: "O humming multiplica o óxido nítrico nasal em até 15 vezes e prolonga a expiração, combinação que relaxa vias aéreas e sistema nervoso.",
+      fonte: "American Journal of Respiratory and Critical Care Medicine, 2002 · Instituto Karolinska"
+    },
+    {
+      t: "Cante junto uma música inteira — no chuveiro, no carro, onde puder. Volume e afinação não importam.",
+      f: "Cantar reduz cortisol e eleva o humor em estudos com cantores amadores; o efeito vem da respiração expandida e da vibração vocal, não da qualidade do canto.",
+      fonte: "Evolution and Human Behavior · Fancourt, canto e estresse"
+    },
+    {
+      t: "Se puder, cante com alguém hoje — em coro, em dupla, com seus filhos. Uma música basta.",
+      f: "Cantar em grupo sincroniza os batimentos cardíacos dos participantes e fortalece vínculos mais rápido que outras atividades sociais — o “efeito quebra-gelo” do canto.",
+      fonte: "Frontiers in Psychology, 2013 · Vickhoff et al.",
+      n: "Vozes juntas fazem em minutos o que conversas levam semanas para construir."
+    },
+    {
+      t: "Ouça uma música marcante da sua adolescência e deixe as memórias virem, sem editar nenhuma.",
+      f: "Música é uma das chaves mais potentes da memória autobiográfica: trechos familiares ativam o córtex pré-frontal medial, que guarda memórias ligadas à identidade.",
+      fonte: "Cerebral Cortex, 2009 · Janata, música e memória autobiográfica"
+    },
+    {
+      t: "Está triste? Ouça uma música triste primeiro, e só depois algo mais leve. Sem pular a primeira etapa.",
+      f: "Música triste oferece consolo e regulação emocional sem piorar o humor na maioria das pessoas — o cérebro a recebe como empatia, não como ameaça.",
+      fonte: "PLOS ONE, 2014 · Taruffi & Koelsch"
+    },
+    {
+      t: "Monte agora uma playlist “remédio” com as 5 músicas que mais te acalmam. Deixe-a pronta para os dias difíceis.",
+      f: "Preparar recursos de regulação antes da crise aumenta muito a chance de uso; a música autoescolhida supera a escolhida por terceiros em efeito ansiolítico.",
+      fonte: "Cochrane Review · música para ansiedade (Bradt et al.)"
+    },
+    {
+      t: "Ouça 5 minutos de sons da natureza — chuva, mar, floresta — de olhos fechados.",
+      f: "Sons naturais aceleraram a recuperação fisiológica pós-estresse em comparação com ruído urbano, em estudo experimental com medidas de condutância da pele.",
+      fonte: "International Journal of Environmental Research and Public Health, 2010 · Alvarsson et al."
+    },
+    {
+      t: "Ouça uma música inteira prestando atenção em um único instrumento, do início ao fim. Se a atenção fugir, volte ao instrumento.",
+      f: "A escuta seletiva é treino de atenção executiva disfarçado de lazer — a mesma função treinada em protocolos formais de atenção, com estímulo mais agradável.",
+      fonte: "Frontiers in Neuroscience · escuta musical e redes atencionais"
+    },
+    {
+      t: "Mande uma música para alguém com a frase: “ouvi e lembrei de você”.",
+      f: "Pequenos gestos de lembrança fortalecem vínculos com custo mínimo; quem recebe valoriza mais do que quem envia imagina, segundo a pesquisa sobre subestimação do impacto social.",
+      fonte: "Psychological Science · Kumar & Epley",
+      n: "Uma música enviada diz: você mora nos meus pensamentos."
+    },
+    {
+      t: "Dance uma música inteira do seu jeito, sem espelho e sem juiz.",
+      f: "A dança apareceu entre as modalidades de exercício com maior efeito antidepressivo na maior meta-análise já publicada sobre o tema.",
+      fonte: "BMJ, 2024 · Noetel et al."
+    },
+    {
+      t: "Caminhe com música no ritmo do passo, deixando os pés virarem o tambor da canção, por 10 minutos.",
+      f: "Sincronizar movimento à batida reduz o esforço percebido e melhora o humor durante o exercício — efeito de entrainment bem documentado na psicologia do esporte.",
+      fonte: "Psychology of Sport and Exercise · Karageorghis, música e movimento"
+    },
+    {
+      t: "Antes de uma situação tensa (consulta, prova, conversa), ouça uma música calma escolhida por você.",
+      f: "Música pré-procedimento reduziu ansiedade em dezenas de ensaios clínicos com pacientes cirúrgicos — em alguns, com efeito comparável a ansiolíticos leves.",
+      fonte: "Cochrane Review · Bradt, Dileo & Shim"
+    },
+    {
+      t: "Tamborile um ritmo simples na mesa ou no corpo e mantenha-o por 1 minuto, variando devagar.",
+      f: "Criar e sustentar ritmos engaja circuitos motores e de previsão temporal, deslocando recursos da ruminação; programas de percussão em grupo reduziram depressão em ensaio controlado.",
+      fonte: "PLOS ONE, 2016 · Fancourt et al., drumming e humor"
+    },
+    {
+      t: "Ouça uma música de um estilo que você nunca explora — de outra cultura, outra década — até o fim, com curiosidade.",
+      f: "Novidade musical recruta dopamina e mantém a plasticidade dos circuitos de recompensa; a abertura a experiências é um dos traços mais ligados a bem-estar no envelhecimento.",
+      fonte: "Nature Neuroscience · novidade e sistema de recompensa"
+    },
+    {
+      t: "Silêncio como faixa: fique 3 minutos em silêncio deliberado, tratando-o como se fosse uma música rara.",
+      f: "Pausas de silêncio de 2 minutos entre músicas reduziram frequência cardíaca e pressão mais do que a própria música relaxante, em estudo de fisiologia da escuta.",
+      fonte: "Heart, 2006 · Bernardi et al., música, silêncio e sistema cardiovascular",
+      n: "O silêncio depois do som é onde o corpo termina de escutar."
+    },
+    {
+      t: "Cante uma nota só, a mais confortável, segurando-a até o ar acabar. Repita 5 vezes.",
+      f: "A expiração cantada e prolongada estimula o nervo vago pela vibração da laringe e pelo ritmo respiratório — dois canais calmantes ao mesmo tempo.",
+      fonte: "Frontiers in Psychology · canto e tônus vagal"
+    },
+    {
+      t: "Ouça a música favorita de alguém querido, inteira, pensando nessa pessoa do início ao fim.",
+      f: "Adotar a perspectiva musical de alguém ativa empatia e proximidade percebida — músicas compartilhadas funcionam como “moeda social” dos vínculos.",
+      fonte: "Frontiers in Psychology · música e vínculo social",
+      n: "Ouvir com os ouvidos do outro é uma forma silenciosa de abraço."
+    },
+    {
+      t: "Use uma música como cronômetro de pausa: enquanto ela toca, você não trabalha, não resolve, só existe.",
+      f: "Pausas com duração definida e conteúdo agradável vencem a resistência do cérebro a parar — e pausas frequentes melhoram desempenho e humor ao longo do dia.",
+      fonte: "Journal of Applied Psychology · micropausas e recuperação"
+    },
+    {
+      t: "Toque a música da sua família — aquela dos almoços, viagens ou festas — e depois mande para alguém de lá.",
+      f: "Memórias musicais compartilhadas reativam o vínculo como se o momento acontecesse de novo; nostalgia musical aumenta conexão social e sentido de vida em estudos experimentais.",
+      fonte: "Emotion · nostalgia e pertencimento (Sedikides)"
+    },
+    {
+      t: "Assobie ou cantarole enquanto faz uma tarefa doméstica, transformando a obrigação em trilha sonora.",
+      f: "Trilha autoproduzida eleva o humor e reduz a percepção de esforço em tarefas repetitivas — o mesmo princípio das canções de trabalho presentes em todas as culturas.",
+      fonte: "Psychology of Music · música funcional e tarefas"
+    },
+    {
+      t: "Termine o dia com uma música calma escolhida para encerrar bem, em volume baixo, antes de dormir.",
+      f: "Música relaxante ao deitar melhorou a qualidade do sono em ensaios com adultos com insônia leve, com efeito crescente ao longo de 3 semanas.",
+      fonte: "Journal of Advanced Nursing · música e sono"
+    },
+    {
+      t: "Defina o despertador com uma música que você ama, para que o primeiro som do dia seja um presente.",
+      f: "Acordar com sons melódicos (em vez de alarmes abruptos) reduziu a inércia do sono em estudo com medidas de alerta ao despertar.",
+      fonte: "PLOS ONE, 2020 · McFarlane et al., alarmes melódicos"
+    },
+    {
+      t: "Ouça uma música nova hoje indicada por alguém — peça a indicação agora: “qual música está te acompanhando ultimamente?”",
+      f: "Trocar músicas é trocar estados emocionais embalados: a recomendação musical aumenta proximidade percebida e dá ao cérebro a dupla recompensa da novidade e do vínculo.",
+      fonte: "Frontiers in Psychology · música como sinal social",
+      n: "A música que alguém te indica é um pedaço do mundo interno dela, entregue em mãos."
+    }
   ]
 };

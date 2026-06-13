@@ -1,115 +1,158 @@
 window.PRACTICES = window.PRACTICES || {};
 window.PRACTICES["contemplacao"] = {
   tarefas: [
-    // 1-10
-    { t: "Deixe seu olhar descansar na imagem da tela, sem procurar nada nela. Apenas receba o que ela mostra, como quem olha uma paisagem pela janela do trem.", f: "Neurociência: o olhar suave e sem objetivo reduz a atividade das redes de alerta do cérebro e acalma o sistema nervoso.", img: "ceu-aberto" },
-    { t: "Observe a imagem e encontre nela três tons de cor diferentes. Nomeie cada um em silêncio, bem devagar.", f: "Medicina chinesa: pousar a atenção nas cores ajuda a assentar o shen, a mente do coração, e acalma o qi agitado.", img: "floresta-nevoa" },
-    { t: "Contemple a imagem como quem faz uma visio divina simples: pergunte em silêncio o que Deus gostaria de te mostrar através dela hoje.", f: "Cristianismo: na tradição da visio divina, contemplar uma imagem abre espaço para escutar Deus sem precisar de palavras.", img: "luz-catedral" },
-    { t: "Olhe a imagem imaginando que alguém que você ama está ao seu lado, vendo a mesma cena. O que vocês comentariam juntos?", f: "Amor: compartilhar uma beleza, mesmo em imaginação, desperta a sensação de companhia que aquieta o coração.", img: "mar-calmo-42" },
-    { t: "Vá até uma janela e olhe para fora por dois minutos, sem pressa e sem celular. Deixe os olhos irem aonde quiserem.", f: "Neurociência: olhar para longe relaxa os músculos dos olhos e envia ao cérebro um sinal de segurança e amplitude.", img: "janela-manha" },
-    { t: "Encontre um pedaço de céu e fique com ele um pouco. Note se as nuvens se movem, e em que direção.", f: "Medicina chinesa: contemplar o céu expande o qi do peito e suaviza a respiração presa.", img: "nuvens-passando" },
-    { t: "Olhe para uma planta perto de você, real ou pela janela. Contemple-a como um presente da criação, e agradeça em silêncio por ela existir.", f: "Cristianismo: contemplar a criação com gratidão é uma forma antiga de oração que devolve o coração ao seu lugar.", img: "planta-verde" },
-    { t: "Abra uma foto de alguém que você ama. Repare nos olhos, no jeito do sorriso, em algum detalhe que você nunca tinha notado.", f: "Amor: olhar com atenção o rosto de quem amamos libera no corpo a química do vínculo e do acolhimento.", img: "retrato-querido" },
-    { t: "Vire as palmas das mãos para cima e observe-as por um minuto: as linhas, as marcas, tudo o que elas já fizeram por você.", f: "Neurociência: focar o olhar em uma parte do próprio corpo ancora a atenção no presente e reduz o ruído mental.", img: "maos-abertas" },
-    { t: "Procure a luz batendo em uma parede ou no chão. Contemple a forma da mancha de luz e como ela muda quando algo se move.", f: "Medicina chinesa: observar a luz e a sombra equilibra a percepção de yang e yin e traz quietude ao olhar.", img: "parede-luz" },
-    // 11-20
-    { t: "Se puder, acenda uma vela e contemple a chama por dois ou três minutos. Deixe que ela seja a única coisa do mundo por um instante.", f: "Cristianismo: a chama da vela lembra a presença silenciosa de Deus, que não grita, mas permanece acesa.", img: "vela-acesa" },
-    { t: "Pense em uma pessoa querida e contemple, de memória, uma cena boa que vocês viveram juntos. Fique nela como quem revê um filme devagar.", f: "Amor: revisitar lembranças de afeto reacende no corpo a mesma sensação de calor de quando elas aconteceram.", img: "lembranca-doce" },
-    { t: "Volte à imagem da tela e escolha um único ponto dela. Fique nesse ponto por trinta segundos, depois deixe o olhar abrir para o todo.", f: "Neurociência: alternar foco estreito e visão ampla exercita a atenção e ajuda o cérebro a sair do modo de ruminação.", img: "ponto-quieto" },
-    { t: "Observe as sombras do ambiente onde você está. Escolha a mais bonita e acompanhe seu contorno com os olhos, bem devagar.", f: "Medicina chinesa: acolher a sombra é honrar o yin, a parte que descansa, e isso convida o corpo a desacelerar.", img: "sombra-tarde" },
-    { t: "Contemple algo simples sobre a mesa, um copo, uma fruta, uma caneta, e pense: isso também faz parte do mundo que foi dado a mim hoje.", f: "Cristianismo: ver o ordinário como dádiva transforma um objeto comum em motivo de pequena gratidão.", img: "fruta-mesa" },
-    { t: "Olhe ao redor e encontre algo que foi feito por mãos humanas. Contemple o cuidado invisível de quem fez aquilo para você usar.", f: "Amor: perceber o trabalho dos outros em coisas comuns nos lembra de que estamos cercados de gestos de cuidado.", img: "feito-a-mao" },
-    { t: "Se estiver chovendo, contemple a chuva por dois minutos: as gotas no vidro, o som, o cheiro. Se não estiver, contemple a imagem como se fosse um dia de chuva mansa.", f: "Neurociência: estímulos suaves e repetitivos, como a chuva, ajudam o sistema nervoso a baixar o estado de alerta.", img: "chuva-vidro" },
-    { t: "Escolha um objeto verde no ambiente ou na imagem e descanse os olhos nele por um minuto inteiro.", f: "Medicina chinesa: o verde nutre o elemento Madeira e suaviza o fígado, onde a irritação costuma se acumular.", img: "verde-descanso" },
-    { t: "Faça uma lectio divina da paisagem: olhe a imagem devagar, espere que algo nela toque você, e fique nesse detalhe como quem repete um versículo.", f: "Cristianismo: a lectio ensina a ler devagar até que algo fale ao coração, e isso vale também para o que os olhos leem.", img: "leitura-do-mundo" },
-    { t: "Contemple seu próprio reflexo por um momento, com olhos gentis, como olharia para um amigo querido chegando de viagem.", f: "Amor: dirigir a si mesmo o mesmo olhar que damos a quem amamos ensina o coração a se acolher.", img: "espelho-gentil" },
-    // 21-30
-    { t: "Olhe para a imagem e imagine o som daquele lugar: vento, água, silêncio. Fique um minuto dentro dessa cena.", f: "Neurociência: imaginar uma cena tranquila com vários sentidos ativa no cérebro circuitos parecidos com os de estar lá.", img: "lago-espelho" },
-    { t: "Observe uma textura bem de perto: a madeira da mesa, o tecido da roupa, a parede. Deixe os olhos passearem pelos detalhes como dedos.", f: "Medicina chinesa: levar a atenção à textura concentra o qi disperso e devolve a mente ao corpo.", img: "textura-madeira" },
-    { t: "Contemple suas mãos e ore em silêncio: obrigado por tudo o que estas mãos puderam fazer e tocar até hoje.", f: "Cristianismo: agradecer pelo corpo é reconhecer que a vida cotidiana também é lugar sagrado.", img: "maos-oracao" },
-    { t: "Encontre na imagem ou ao redor algo pequeno e frágil. Contemple-o com a ternura de quem protege.", f: "Amor: o gesto interno de proteger algo frágil desperta a ternura, e a ternura amolece a tensão.", img: "broto-pequeno" },
-    { t: "Por um minuto, observe apenas os movimentos ao seu redor: uma cortina, uma folha, uma pessoa passando. Só observe, sem comentar por dentro.", f: "Neurociência: observar movimento sem julgamento ocupa a atenção visual e dá pausa ao diálogo interno.", img: "cortina-vento" },
-    { t: "Olhe para o horizonte mais distante que conseguir encontrar, mesmo que seja o fim da rua. Respire três vezes olhando para longe.", f: "Medicina chinesa: o olhar distante expande o qi do pulmão e desfaz a sensação de aperto no peito.", img: "horizonte-rosa" },
-    { t: "Contemple a imagem como uma página da criação e pergunte: o que aqui me fala de cuidado? Fique com a primeira resposta que vier.", f: "Cristianismo: a tradição diz que a natureza é o primeiro livro de Deus, escrito antes de qualquer palavra.", img: "pagina-da-criacao" },
-    { t: "Pense em alguém que está longe e contemple o mesmo céu que essa pessoa vê. Deixe esse pensamento aproximar vocês por um instante.", f: "Amor: lembrar que dividimos o mesmo céu encurta distâncias e alivia a saudade.", img: "mesmo-ceu" },
-    { t: "Escolha uma cor e procure-a pelo ambiente por um minuto, como num jogo calmo. Quantos lugares ela aparece?", f: "Neurociência: a busca visual leve engaja a atenção de forma lúdica e interrompe ciclos de preocupação.", img: "caca-as-cores" },
-    { t: "Observe a água, se houver por perto: um copo, a torneira, a chuva. Contemple como ela se move e se acomoda.", f: "Medicina chinesa: contemplar a água nutre o elemento Água, ligado à calma profunda e à capacidade de fluir.", img: "agua-copo" },
-    // 31-40
-    { t: "Olhe para a imagem e escolha uma palavra que a resuma. Repita essa palavra devagar, três vezes, como uma pequena oração.", f: "Cristianismo: uma palavra repetida com calma, ao modo dos antigos monges, recolhe a mente dispersa.", img: "palavra-quieta" },
-    { t: "Contemple um objeto que foi presente de alguém. Lembre do momento em que você o recebeu.", f: "Amor: objetos dados com afeto guardam a presença de quem os deu, e olhá-los reacende esse laço.", img: "presente-guardado" },
-    { t: "Fique um minuto observando sua respiração mover o corpo: o peito, a barriga, os ombros. Só olhe, sem mudar nada.", f: "Neurociência: observar a respiração sem controlá-la ativa a percepção interna do corpo e regula o estado emocional.", img: "respiracao-visivel" },
-    { t: "Contemple a imagem procurando o ponto onde a luz é mais forte e o ponto onde é mais escura. Deixe os olhos caminharem entre os dois.", f: "Medicina chinesa: transitar entre claro e escuro com o olhar harmoniza yin e yang dentro de você.", img: "claro-escuro" },
-    { t: "Olhe pela janela e abençoe em silêncio a primeira pessoa que passar, ou o primeiro ser vivo que vir.", f: "Cristianismo: abençoar o que os olhos encontram transforma a contemplação em gesto de amor concreto.", img: "bencao-da-janela" },
-    { t: "Contemple uma foto antiga de família, se tiver uma por perto ou no celular. Note quem está ali e o que aquele dia significou.", f: "Amor: revisitar imagens de quem nos formou fortalece a sensação de pertencer a uma história maior.", img: "foto-antiga" },
-    { t: "Por dois minutos, observe o teto ou o ponto mais alto do ambiente. É um lugar para onde quase nunca olhamos.", f: "Neurociência: mudar o ângulo do olhar oferece novidade ao cérebro e desperta a atenção sem esforço.", img: "olhar-para-cima" },
-    { t: "Encontre algo redondo ao seu redor ou na imagem e contorne sua forma com os olhos, bem devagar, duas ou três voltas.", f: "Medicina chinesa: o movimento circular do olhar acompanha o fluxo natural do qi e acalma o coração.", img: "forma-redonda" },
-    { t: "Contemple a imagem em silêncio e termine com uma frase simples: obrigado por eu poder ver. Sinta o que essa frase faz em você.", f: "Cristianismo: a gratidão pelos sentidos é uma das orações mais antigas e mais simples que existem.", img: "obrigado-pelos-olhos" },
-    { t: "Olhe ao redor e encontre algo que você cuida: uma planta, um animal, um objeto querido. Contemple-o lembrando que cuidar é um privilégio.", f: "Amor: ver aquilo de que cuidamos nos devolve a certeza de que somos capazes de amar bem.", img: "aquilo-que-cuido" },
-    // 41-50
-    { t: "Observe as cores do entardecer ou do amanhecer, se for a hora. Se não for, contemple na imagem as cores que o dia tem agora.", f: "Neurociência: acompanhar as transições de luz do dia ajuda a sincronizar o relógio interno e o humor.", img: "entardecer-suave" },
-    { t: "Escolha uma folha, de planta ou de árvore, e contemple suas nervuras como se fossem rios vistos do alto.", f: "Medicina chinesa: as nervuras lembram os meridianos do corpo, e contemplá-las convida o qi a circular.", img: "folha-nervura" },
-    { t: "Contemple a imagem perguntando: se este lugar fosse um convite, para o que ele me convidaria? Fique com a resposta em silêncio.", f: "Cristianismo: a contemplação cristã escuta os convites discretos que a beleza faz à alma.", img: "convite-silencioso" },
-    { t: "Olhe para as próprias mãos e lembre de uma vez em que elas seguraram a mão de outra pessoa. Fique nessa lembrança um momento.", f: "Amor: a memória do toque afetuoso reativa no corpo a sensação de segurança que ele trouxe.", img: "maos-dadas" },
-    { t: "Por um minuto, observe um único objeto como se fosse a primeira vez que você o vê na vida. Estranhe-o. Descubra-o.", f: "Neurociência: o olhar de iniciante quebra o piloto automático e devolve frescor à percepção.", img: "primeira-vez" },
-    { t: "Contemple o vapor de uma bebida quente, se tiver uma. Acompanhe as voltas que ele faz no ar até desaparecer.", f: "Medicina chinesa: o vapor que sobe é imagem do qi em movimento, e segui-lo com os olhos aquieta a mente.", img: "vapor-cha" },
-    { t: "Olhe a imagem e imagine que ela é um salmo sem palavras. Que verso ela cantaria? Deixe um verso simples se formar em você.", f: "Cristianismo: os salmos nasceram de quem olhou a criação e não conseguiu ficar calado de gratidão.", img: "salmo-sem-palavras" },
-    { t: "Contemple o rosto de um bebê ou de um animal, em foto ou ao vivo, por um minuto. Note o que amolece em você.", f: "Amor: rostos de filhotes despertam nosso circuito de cuidado, e cuidar é um caminho rápido para a calma.", img: "rosto-de-filhote" },
-    { t: "Observe a linha onde duas coisas se encontram: parede e teto, mar e céu, mesa e sombra. Caminhe com os olhos por essa fronteira.", f: "Neurociência: seguir linhas com o olhar organiza a atenção visual e produz um foco tranquilo.", img: "linha-do-encontro" },
-    { t: "Fique um minuto contemplando algo amarelo ou dourado: a luz, uma fruta, um detalhe da imagem.", f: "Medicina chinesa: o dourado nutre o elemento Terra, que nos dá sensação de chão e de centro.", img: "dourado-quieto" },
-    // 51-60
-    { t: "Contemple a noite pela janela, se for noite: as luzes acesas, o escuro, talvez uma estrela. Cada luz é alguém vivendo sua história.", f: "Cristianismo: contemplar a noite com confiança é lembrar que o cuidado de Deus não dorme.", img: "estrela-noite" },
-    { t: "Escolha na imagem o lugar onde você sentaria para descansar. Imagine-se ali com alguém querido, sem pressa nenhuma.", f: "Amor: imaginar descanso na companhia certa ensina ao corpo como é estar em paz acompanhado.", img: "lugar-de-descanso" },
-    { t: "Observe um padrão que se repete: azulejos, tijolos, folhas, janelas de um prédio. Deixe os olhos seguirem o ritmo da repetição.", f: "Neurociência: padrões visuais regulares têm efeito organizador sobre a atenção e reduzem a agitação.", img: "padrao-repetido" },
-    { t: "Contemple uma pedra, real ou na imagem, e pense em quanto tempo ela existe. Empreste um pouco dessa paciência para o seu dia.", f: "Medicina chinesa: a pedra ensina a firmeza do yin profundo, que não se abala com o vento do momento.", img: "pedra-rio" },
-    { t: "Faça da janela um pequeno altar por dois minutos: olhe para fora e nomeie três coisas pelas quais pode agradecer agora.", f: "Cristianismo: nomear dádivas concretas transforma um olhar comum em oração de gratidão.", img: "altar-da-janela" },
-    { t: "Contemple uma mensagem carinhosa que você recebeu e guardou. Releia devagar, como quem olha uma foto.", f: "Amor: reler palavras de afeto reativa o vínculo com quem as escreveu e nos lembra de que somos queridos.", img: "mensagem-guardada" },
-    { t: "Por um minuto, olhe a imagem desfocando levemente os olhos, recebendo só as cores e formas, sem nomes.", f: "Neurociência: suspender a nomeação dá descanso às áreas de linguagem e abre um estado mais contemplativo.", img: "cores-sem-nome" },
-    { t: "Observe uma árvore, ao vivo ou na imagem, da raiz à copa, devagar. Note onde ela é firme e onde ela dança.", f: "Medicina chinesa: a árvore é mestra do equilíbrio entre enraizar e flexibilizar, firmeza embaixo e leveza em cima.", img: "arvore-inteira" },
-    { t: "Contemple suas mãos fechadas, depois abra-as lentamente. Deixe o gesto dizer: eu solto o que não posso controlar.", f: "Cristianismo: abrir as mãos é o gesto antigo da entrega, o corpo ensinando confiança à alma.", img: "maos-que-soltam" },
-    { t: "Olhe ao redor e encontre vestígios de pessoas que você ama: um copo usado, um casaco, um bilhete. Contemple essas presenças discretas.", f: "Amor: os rastros cotidianos de quem amamos são lembretes silenciosos de que não estamos sozinhos.", img: "vestigios-de-casa" },
-    // 61-70
-    { t: "Acompanhe com os olhos um pássaro, um inseto ou qualquer bicho que aparecer, pelo tempo que ele ficar à vista.", f: "Neurociência: seguir um ser vivo em movimento captura a atenção de forma natural e suspende a ruminação.", img: "passaro-no-fio" },
-    { t: "Contemple o branco mais limpo que encontrar: uma nuvem, um papel, uma parede. Descanse os olhos nesse vazio bom.", f: "Medicina chinesa: o branco acalma o pulmão e convida a soltar, no expirar, o que pesa.", img: "branco-limpo" },
-    { t: "Olhe a imagem e imagine Deus contemplando a mesma cena com você, em silêncio, sem cobrar nada.", f: "Cristianismo: a contemplação é, no fundo, deixar-se olhar com bondade enquanto se olha.", img: "olhar-compartilhado" },
-    { t: "Contemple uma cicatriz ou marca no seu corpo com gentileza. Ela conta uma história que você atravessou.", f: "Amor: olhar as próprias marcas com ternura é uma forma de amar a pessoa que sobreviveu a elas.", img: "marca-de-historia" },
-    { t: "Por dois minutos, observe como a luz do ambiente muda quando você se move: reflexos, brilhos, sombras novas.", f: "Neurociência: explorar ativamente o ambiente com o olhar engaja circuitos de curiosidade, que competem com os de ameaça.", img: "reflexos-moventes" },
-    { t: "Contemple algo azul, no céu, na tela ou no ambiente, e respire três vezes olhando para ele.", f: "Medicina chinesa: os tons profundos de azul tocam o elemento Água, fonte da serenidade que não se esgota.", img: "azul-profundo" },
-    { t: "Escolha um detalhe minúsculo da imagem, quase escondido, e contemple-o. As coisas pequenas também foram feitas com capricho.", f: "Cristianismo: quem aprende a ver Deus nos detalhes descobre que nada na criação é sem importância.", img: "detalhe-escondido" },
-    { t: "Contemple as mãos de alguém querido, em foto ou de memória: como elas trabalham, seguram, acenam.", f: "Amor: as mãos de quem amamos carregam a história dos cuidados que recebemos delas.", img: "maos-queridas" },
-    { t: "Fique um minuto olhando para a porta do lugar onde está, lembrando de quem já entrou por ela trazendo coisas boas.", f: "Neurociência: associar lugares a memórias positivas fortalece redes de segurança no cérebro.", img: "porta-antiga" },
-    { t: "Observe o caminho que a água faria se caísse onde você está: os declives, os cantos. Olhe o mundo como a água olharia.", f: "Medicina chinesa: pensar como a água ensina o caminho de menor esforço, que é o caminho do qi saudável.", img: "caminho-da-agua" },
-    // 71-80
-    { t: "Contemple um pão, uma fruta ou qualquer alimento que tiver por perto, lembrando de toda a terra, chuva e trabalho que ele contém.", f: "Cristianismo: contemplar o alimento é tocar o mistério do pão de cada dia, dado e repartido.", img: "pao-de-cada-dia" },
-    { t: "Olhe a imagem e pense em alguém que adoraria conhecer esse lugar. Guarde a cena para descrever a essa pessoa depois.", f: "Amor: guardar belezas para contar a alguém transforma a contemplação em ponte entre duas vidas.", img: "lugar-para-contar" },
-    { t: "Por um minuto, pisque devagar e de propósito, deixando os olhos descansarem um pouco mais fechados a cada piscada.", f: "Neurociência: piscar lento e consciente lubrifica os olhos e sinaliza relaxamento ao sistema nervoso.", img: "piscar-devagar" },
-    { t: "Contemple a linha do seu próprio braço, do ombro até os dedos, como se fosse uma paisagem com vales e colinas.", f: "Medicina chinesa: percorrer o corpo com o olhar acompanha os meridianos e desperta a circulação suave do qi.", img: "paisagem-do-braco" },
-    { t: "Olhe pela janela e contemple o que está crescendo: mato na calçada, uma árvore, o dia. Tudo cresce em silêncio.", f: "Cristianismo: a semente que cresce sem que se saiba como é a imagem que Jesus usou para a paciência confiante.", img: "o-que-cresce" },
-    { t: "Contemple por um minuto um lugar da sua casa onde já houve riso: a mesa, o sofá, a cozinha. Deixe a memória aquecer o lugar.", f: "Amor: lembrar onde fomos felizes com os outros reacende o calor desses encontros no corpo.", img: "lugar-de-riso" },
-    { t: "Observe a imagem e conte devagar quantos planos ela tem: o que está perto, o que está no meio, o que está longe.", f: "Neurociência: alternar profundidade de foco exercita o olhar e produz um estado de atenção calma.", img: "tres-planos" },
-    { t: "Contemple o chão que sustenta você agora. Sinta os pés apoiados enquanto olha para ele, agradecendo a firmeza.", f: "Medicina chinesa: levar olhar e atenção ao chão enraíza o qi e dá ao corpo a sensação de estar plantado.", img: "chao-firme" },
-    { t: "Escolha uma palavra da sua fé, como paz, luz ou graça, e contemple a imagem deixando essa palavra colorir o que você vê.", f: "Cristianismo: uma palavra sagrada repousada no coração transforma qualquer paisagem em lugar de oração.", img: "palavra-de-fe" },
-    { t: "Contemple uma dupla de coisas juntas: dois pássaros, duas xícaras, duas árvores. Deixe que elas lembrem você de uma boa companhia.", f: "Amor: o mundo aos pares nos lembra, com delicadeza, de que fomos feitos para estar com alguém.", img: "coisas-aos-pares" },
-    // 81-90
-    { t: "Por dois minutos, observe a rua ou o quintal como um documentarista paciente: sem julgar, só registrando o que acontece.", f: "Neurociência: o papel de observador neutro reduz a reatividade emocional e acalma a amígdala.", img: "documentario-da-rua" },
-    { t: "Contemple algo vermelho ou alaranjado, uma flor, uma fruta, um detalhe, e perceba o calor que essa cor carrega.", f: "Medicina chinesa: os tons de fogo nutrem o coração quando contemplados com calma, sem pressa.", img: "vermelho-vivo" },
-    { t: "Olhe a imagem e reze com os olhos: deixe que o percurso do seu olhar pela cena seja a própria oração, sem palavras.", f: "Cristianismo: quando faltam palavras, o Espírito ora em nós, e até o olhar pode ser intercessão.", img: "oracao-dos-olhos" },
-    { t: "Contemple seu animal de estimação dormindo ou descansando, se tiver um. Se não, contemple a lembrança de um bicho que você amou.", f: "Amor: o vínculo com os animais é um amor simples que baixa as defesas e aquece o peito.", img: "bicho-dormindo" },
-    { t: "Escolha o objeto mais antigo que conseguir ver e contemple as marcas do tempo nele. Ele durou; você também está durando.", f: "Neurociência: encontrar significado em objetos fortalece redes de memória e dá senso de continuidade.", img: "objeto-antigo" },
-    { t: "Observe as copas das árvores balançando, ao vivo ou de memória. Deixe seu corpo imaginar o mesmo balanço suave.", f: "Medicina chinesa: o balanço do vento nas folhas mostra o qi visível, e contemplá-lo embala o nosso.", img: "copas-ao-vento" },
-    { t: "Contemple a imagem e diga em silêncio: que bom que isto existe. Repita para mais duas coisas que você vê de onde está.", f: "Cristianismo: alegrar-se com a existência das coisas é ecoar o olhar do Criador, que viu que tudo era bom.", img: "que-bom-que-existe" },
-    { t: "Olhe a foto de um lugar onde você foi feliz com alguém. Permita-se sorrir para a lembrança.", f: "Amor: lugares guardam os encontros que vivemos neles, e revê-los é reencontrar um pouco as pessoas.", img: "lugar-feliz" },
-    { t: "Por um minuto, acompanhe com o olhar o contorno de tudo o que está na sua frente, como se desenhasse a cena sem lápis.", f: "Neurociência: desenhar com os olhos engaja a atenção plena visual e silencia o excesso de pensamento.", img: "desenho-sem-lapis" },
-    { t: "Contemple o vazio de um espaço: o céu sem nuvens, uma parede lisa, o ar entre as coisas. O vazio também descansa.", f: "Medicina chinesa: o espaço vazio é o yin que permite tudo acontecer, e contemplá-lo esvazia o excesso da mente.", img: "vazio-que-acolhe" },
-    // 91-100
-    { t: "Contemple suas conquistas pequenas de hoje: a cama feita, a louça limpa, a mensagem respondida. Olhe para elas como quem olha um jardim.", f: "Cristianismo: reconhecer os frutos do dia, mesmo miúdos, é gratidão que devolve sentido ao trabalho comum.", img: "jardim-do-dia" },
-    { t: "Olhe nos olhos de alguém da casa por alguns segundos a mais que o normal, com um sorriso leve. Se estiver só, contemple olhos queridos numa foto.", f: "Amor: o contato visual gentil é uma das formas mais diretas de dizer ao outro: eu vejo você.", img: "olhos-nos-olhos" },
-    { t: "Observe a imagem por um minuto e depois feche os olhos e tente revê-la por dentro. Abra e compare com carinho.", f: "Neurociência: alternar percepção e visualização fortalece a memória visual e concentra a mente com suavidade.", img: "cena-de-olhos-fechados" },
-    { t: "Contemple o amanhecer ou o início do seu dia, mesmo que já tenha passado: relembre a primeira luz que você viu hoje.", f: "Medicina chinesa: honrar o nascer do yang do dia alinha nosso ritmo interno ao ritmo do céu.", img: "primeira-luz" },
-    { t: "Olhe para o céu e entregue, em silêncio, uma preocupação de hoje. Deixe-a ir como quem solta um papel ao vento.", f: "Cristianismo: lançar sobre Deus a ansiedade é um convite antigo, feito a quem se sente carregando demais.", img: "ceu-da-entrega" },
-    { t: "Contemple um desenho, bilhete ou lembrança que uma criança ou amigo te deu. Veja o carinho antes de ver o traço.", f: "Amor: presentes feitos à mão são amor em forma visível, e contemplá-los nos devolve esse amor.", img: "desenho-de-crianca" },
-    { t: "Por dois minutos, olhe a imagem sem nenhuma meta, nem relaxar, nem sentir algo. Só esteja diante dela, como quem faz companhia.", f: "Neurociência: abrir mão de metas reduz a autocobrança e permite ao cérebro entrar num descanso de verdade.", img: "companhia-silenciosa" },
-    { t: "Contemple a fumaça, o vapor ou a poeira dançando num feixe de luz, se encontrar. São coisas que só aparecem para quem para.", f: "Medicina chinesa: o quase invisível dançando na luz lembra que o sutil também é real, como o qi que nos move.", img: "poeira-na-luz" },
-    { t: "Encerre o dia, ou este momento, contemplando uma única coisa bela que ele teve. Guarde-a como quem guarda uma pedra bonita no bolso.", f: "Cristianismo: recolher a beleza do dia é o começo do exame de gratidão que os antigos rezavam ao anoitecer.", img: "pedra-no-bolso" },
-    { t: "Contemple a imagem e mande-a, em pensamento, para alguém que precisa de paz hoje. Deseje que essa pessoa encontre um lugar assim por dentro.", f: "Amor: desejar o bem de alguém em silêncio já muda quem deseja, e aproxima quem é lembrado.", img: "paz-enviada" }
+    {
+      t: "Deixe o olhar descansar nesta imagem por 1 minuto, sem procurar nada nela. Só receba, como quem olha pela janela de um trem.",
+      f: "A “fascinação suave” — atenção sem esforço a cenas naturais — restaura a capacidade de concentração esgotada, segundo a Teoria da Restauração da Atenção.",
+      fonte: "Universidade de Michigan · Kaplan & Kaplan, Attention Restoration Theory",
+      img: "ceu-aberto"
+    },
+    {
+      t: "Encontre nesta imagem três tons de cor diferentes e nomeie cada um mentalmente, bem devagar.",
+      f: "Nomear percepções ativa o córtex pré-frontal e reduz a atividade da amígdala — o efeito “nomear para domar” demonstrado em neuroimagem.",
+      fonte: "Psychological Science · Lieberman, affect labeling",
+      img: "floresta-nevoa"
+    },
+    {
+      t: "Olhe pela janela mais próxima por 2 minutos inteiros, sem pressa e sem celular. Note o que se move e o que está parado.",
+      f: "No estudo clássico de Roger Ulrich, pacientes com vista para árvores se recuperaram de cirurgia mais rápido e com menos analgésicos do que os com vista para um muro.",
+      fonte: "Science, 1984 · Ulrich, vista pela janela e recuperação",
+      img: "janela-arvores"
+    },
+    {
+      t: "Micropausa verde: olhe para qualquer planta, jardim ou copa de árvore por 40 segundos, com atenção total.",
+      f: "Micropausas de 40 segundos olhando um telhado verde melhoraram a atenção sustentada em comparação com olhar concreto, em estudo experimental.",
+      fonte: "Journal of Environmental Psychology, 2015 · Lee et al.",
+      img: "musgo-verde"
+    },
+    {
+      t: "Contemple esta imagem como se fosse a primeira imagem que você vê na vida. O que chama sua atenção primeiro? E em segundo?",
+      f: "A “mente de principiante” interrompe o processamento automático e reativa circuitos de novidade e curiosidade, com efeito mensurável sobre o humor.",
+      fonte: "Mindfulness · atenção plena e novidade perceptual",
+      img: "montanha-lago"
+    },
+    {
+      t: "Se puder ver o céu agora, observe-o por 2 minutos. Nuvens, luz, profundidade. Sinta o próprio tamanho diante dele.",
+      f: "Experiências de vastidão (awe) reduzem a autocentralidade e a ruminação; “caminhadas de assombro” semanais aumentaram emoções positivas em idosos em 8 semanas.",
+      fonte: "Emotion, 2020 · Sturm et al., UCSF — awe walks",
+      n: "Sentir-se pequeno diante do céu costuma deixar os problemas do tamanho certo.",
+      img: "ceu-nuvens"
+    },
+    {
+      t: "Procure nesta imagem o detalhe mais discreto — algo que ninguém notaria à primeira vista — e fique com ele por 30 segundos.",
+      f: "O direcionamento voluntário da atenção a detalhes neutros treina o controle atencional, capacidade-base que protege contra a captura da mente pela preocupação.",
+      fonte: "Clinical Psychology Review · treino de controle atencional",
+      img: "pedras-rio"
+    },
+    {
+      t: "Contemple as próprias mãos por 1 minuto: linhas, relevo, as marcas do que elas já fizeram por você.",
+      f: "Focar a atenção em partes do corpo com curiosidade (e não julgamento) fortalece a interocepção, associada em neuroimagem a melhor regulação emocional.",
+      fonte: "NeuroImage · interocepção e ínsula",
+      img: "maos-luz"
+    },
+    {
+      t: "Observe esta imagem e respire devagar: inspire enquanto explora a metade de cima, expire descendo o olhar para a metade de baixo. 6 vezes.",
+      f: "Sincronizar olhar e respiração une dois canais de acalmia; movimentos oculares lentos e verticais acompanham estados de baixa ativação.",
+      fonte: "Frontiers in Human Neuroscience · oculomotricidade e estado autonômico",
+      img: "praia-amanhecer"
+    },
+    {
+      t: "Ande até o ponto com mais natureza que você alcança em 5 minutos — um quintal, uma árvore de calçada — e fique lá 10 minutos, só observando.",
+      f: "Vinte minutos de contato com natureza urbana bastaram para reduzir significativamente o cortisol no estudo que ficou conhecido como “pílula de natureza”.",
+      fonte: "Frontiers in Psychology, 2019 · Hunter et al.",
+      img: "arvore-calcada"
+    },
+    {
+      t: "Contemple um objeto comum da sua mesa por 2 minutos como se fosse uma peça de museu: material, textura, história, função.",
+      f: "Visitas contemplativas a galerias reduziram cortisol em minutos no estudo de Westminster; o ingrediente é o modo de olhar, não o museu.",
+      fonte: "Journal of Holistic Healthcare, 2006 · Clow & Fredhoi",
+      img: "objeto-mesa"
+    },
+    {
+      t: "Olhe esta imagem procurando padrões que se repetem — galhos, ondas, pedras. Siga as ramificações com o olhar.",
+      f: "Padrões fractais da natureza são processados com fluência especial pelo sistema visual e reduzem o estresse fisiológico ao serem observados.",
+      fonte: "Journal of Vision · Richard Taylor, fluência fractal",
+      img: "galhos-fractais"
+    },
+    {
+      t: "Contemplação da chuva (real ou lembrada): observe ou imagine gotas escorrendo num vidro, escolhendo uma gota por vez para acompanhar até o fim.",
+      f: "Seguir um estímulo lento e contínuo induz o estado atencional difuso que precede o relaxamento profundo, segundo estudos de EEG sobre atenção aberta.",
+      fonte: "Frontiers in Psychology · monitoramento aberto e ondas alfa",
+      img: "chuva-vidro"
+    },
+    {
+      t: "Olhe uma foto de alguém que você ama por 1 minuto inteiro, deixando as memórias virem sem editar nenhuma.",
+      f: "Ver o rosto de pessoas amadas ativa circuitos de recompensa e reduz a percepção de dor — efeito demonstrado até em contexto experimental com estímulos dolorosos.",
+      fonte: "PLOS ONE · Younger et al., fotos de parceiros e analgesia",
+      n: "Um rosto amado é um lugar de descanso que cabe no bolso.",
+      img: "retrato-afeto"
+    },
+    {
+      t: "Pôr do sol ou luz do fim de tarde: hoje, pare de verdade por 3 minutos para assistir à luz mudando. Marque um lembrete se precisar.",
+      f: "Assistir ao pôr do sol e outras experiências de beleza natural elevam emoções de assombro e gratidão, associadas a maior bem-estar e comportamento prossocial.",
+      fonte: "Journal of Positive Psychology · beleza natural e awe",
+      img: "por-do-sol"
+    },
+    {
+      t: "Contemple esta imagem e nomeie em silêncio: três coisas que você vê, duas texturas que imagina ao toque, um som que o lugar teria.",
+      f: "A varredura sensorial estruturada (variação do 5-4-3-2-1) é técnica de aterramento usada clinicamente para interromper espirais de ansiedade.",
+      fonte: "Manuais clínicos de grounding · TCC para ansiedade",
+      img: "campo-tarde"
+    },
+    {
+      t: "Observe a luz no ambiente onde você está: de onde vem, onde bate, que sombras cria. 2 minutos só com a luz.",
+      f: "Tornar-se observador do ambiente desloca o cérebro do modo narrativo (ruminação) para o modo experiencial — redes distintas, demonstradas por neuroimagem.",
+      fonte: "Social Cognitive and Affective Neuroscience · Farb et al., modos narrativo e experiencial",
+      img: "luz-parede"
+    },
+    {
+      t: "Contemple uma vela ou chama (real ou a desta imagem) por 1 a 2 minutos, piscando quando precisar, voltando sempre à chama.",
+      f: "A fixação suave do olhar num ponto único reduziu a frequência de piscadas e melhorou atenção sustentada em estudos do trataka, a contemplação clássica da chama.",
+      fonte: "International Journal of Yoga · estudos de trataka",
+      n: "Práticas contemplativas de muitas culturas convergem nesse gesto: um ponto de luz, a mente inteira.",
+      img: "vela-chama"
+    },
+    {
+      t: "Olhe para esta imagem e pergunte-se apenas: o que há de bonito aqui? Fique com a resposta por um momento.",
+      f: "O “engajamento com beleza” é mensurável e correlaciona com gratidão e satisfação com a vida; procurar beleza deliberadamente fortalece esse traço.",
+      fonte: "The Journal of Positive Psychology · Diessner, engagement with beauty",
+      img: "lago-espelho"
+    },
+    {
+      t: "Janela do tempo: observe algo que muda devagar — nuvens, sombra caminhando, água. Fique até perceber a mudança acontecer.",
+      f: "Atender a mudanças lentas recalibra o ritmo atencional acelerado pelas telas, reduzindo a sensação subjetiva de pressa, segundo a pesquisa sobre percepção temporal.",
+      fonte: "Trends in Cognitive Sciences · percepção de tempo e atenção",
+      img: "nuvens-lentas"
+    },
+    {
+      t: "Contemple um alimento antes de comê-lo por 30 segundos: cor, forma, brilho, cheiro. Só então prove.",
+      f: "A atenção pré-refeição aumenta a resposta sensorial e a saciedade percebida — base dos protocolos de mindful eating estudados para regulação alimentar.",
+      fonte: "Appetite · mindful eating",
+      img: "fruta-mesa"
+    },
+    {
+      t: "Procure o horizonte mais distante que conseguir ver de onde está e deixe o olhar repousar nele por 1 minuto.",
+      f: "O olhar panorâmico (em oposição ao foco estreito) reduz a ativação dos circuitos de alerta — visão e estado de ameaça são neurologicamente acoplados.",
+      fonte: "Current Biology · visão panorâmica e arousal",
+      img: "horizonte-mar"
+    },
+    {
+      t: "Contemple esta imagem em silêncio e, ao final, escolha uma palavra que descreva o que ela te fez sentir. Só uma.",
+      f: "Rotular emoções com precisão (granularidade emocional) está associado a melhor regulação e menos reatividade, em estudos de Lisa Feldman Barrett, da Northeastern.",
+      fonte: "Trends in Cognitive Sciences · Barrett, granularidade emocional",
+      img: "neblina-vale"
+    },
+    {
+      t: "Observe por 2 minutos algo vivo se movendo — um pássaro, formigas, um cachorro, folhas ao vento — sem interferir.",
+      f: "Observar vida em movimento evoca fascinação suave e conexão com a natureza, dimensões que predizem bem-estar em escalas validadas de nature relatedness.",
+      fonte: "Journal of Happiness Studies · conexão com a natureza",
+      img: "passaro-galho"
+    },
+    {
+      t: "Contemple a água — desta imagem, de um copo, da torneira correndo — por 1 minuto, acompanhando seu movimento ou sua quietude.",
+      f: "Ambientes aquáticos (“espaços azuis”) estão entre os cenários com maior efeito restaurador medido em psicologia ambiental, acima até de áreas verdes em alguns estudos.",
+      fonte: "Health & Place · blue spaces e bem-estar",
+      img: "agua-corrente"
+    }
   ]
 };

@@ -1,5 +1,5 @@
 /* Service worker do Presente: deixa o app inteiro disponível offline. */
-var CACHE = "presente-v1";
+var CACHE = "presente-v2";
 
 var APP_SHELL = [
   "./",
@@ -7,6 +7,7 @@ var APP_SHELL = [
   "manifest.webmanifest",
   "css/style.css",
   "js/app.js",
+  "js/breath.js",
   "js/data/visualizacao.js",
   "js/data/gratidao.js",
   "js/data/respiracao.js",

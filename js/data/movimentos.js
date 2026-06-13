@@ -1,105 +1,138 @@
 window.PRACTICES = window.PRACTICES || {};
 window.PRACTICES["movimentos"] = {
   tarefas: [
-    { t: "Levante-se e sacuda o corpo inteiro por 1 minuto: mãos, braços, pernas, ombros, como se chacoalhasse poeira para fora. Termine parado, sentindo o formigamento.", f: "Neurociência: sacudir o corpo descarrega a ativação do estresse, como fazem os animais depois do susto." },
-    { t: "Suba e desça os ombros até as orelhas 10 vezes, bem devagar, soltando-os com um suspiro a cada descida.", f: "Medicina chinesa: os ombros acumulam qi estagnado da preocupação; movê-los com fôlego restaura o fluxo." },
-    { t: "Abra os braços em cruz, peito para frente, queixo suave, e fique assim por 5 respirações, como quem recebe o dia.", f: "Cristianismo: o corpo aberto em cruz é gesto de entrega e acolhida — uma oração sem palavras." },
-    { t: "Faça uma automassagem nas próprias mãos por 2 minutos: amasse a palma, deslize por cada dedo, sem pressa.", f: "Amor: o toque atento nas próprias mãos libera ocitocina, o mesmo bálsamo químico do carinho recebido." },
-    { t: "Massageie o ponto entre as sobrancelhas com o dedo médio, em círculos lentos, por 1 minuto, com os olhos fechados.", f: "Medicina chinesa: o ponto yintang acalma o shen e é usado há séculos para aquietar a mente ansiosa." },
-    { t: "Espreguice-se de propósito, com vontade, em pelo menos 3 direções diferentes, incluindo som se vier.", f: "Neurociência: o espreguiçar (pandiculação) reinicia o tônus muscular e desperta o corpo da rigidez." },
-    { t: "Solte a mandíbula: deixe a boca entreaberta, massageie os músculos perto das orelhas em círculos por 1 minuto.", f: "Neurociência: a mandíbula tensa mantém o cérebro em alerta; soltá-la sinaliza segurança ao sistema nervoso." },
-    { t: "Dance uma música inteira, do seu jeito, sem plateia. Vale fechar a porta e exagerar.", f: "Neurociência: dançar combina movimento, música e alegria, liberando dopamina e endorfina de uma só vez." },
-    { t: "Caminhe pela casa ou rua por 3 minutos prestando atenção apenas na sola dos pés tocando o chão.", f: "Medicina chinesa: a sola dos pés abriga o yong quan, a fonte borbulhante; caminhar com atenção nela enraíza a energia." },
-    { t: "Fique em pé, pés afastados na largura dos ombros, joelhos levemente flexionados, e balance os braços soltos de um lado para o outro, girando o tronco, por 2 minutos.", f: "Medicina chinesa: este balanço clássico do qigong torce suavemente a cintura e massageia os órgãos internos." },
-    { t: "Estique os braços para o alto, entrelace os dedos com as palmas para cima e cresça por 5 respirações, sem forçar.", f: "Medicina chinesa: sustentar o céu com as mãos é o primeiro dos oito brocados, harmonizando o triplo aquecedor." },
-    { t: "Faça 10 círculos lentos com o pescoço para cada lado, pequenos e gentis, parando onde houver tensão para respirar ali.", f: "Neurociência: movimentos lentos do pescoço estimulam receptores que ajudam a regular o sistema de equilíbrio e a calma." },
-    { t: "Massageie a nuca com as duas mãos, polegares na base do crânio, em círculos, por 2 minutos.", f: "Medicina chinesa: a base do crânio guarda os pontos da brisa, portas por onde a tensão sai quando convidada." },
-    { t: "Tire os sapatos e pise descalço no chão (de preferência terra ou grama, mas o piso serve) por 2 minutos, sentindo cada apoio.", f: "Neurociência: o contato plantar consciente melhora a propriocepção e reduz a sensação de estar 'na cabeça'." },
-    { t: "Fique de pé em um pé só por 30 segundos (perto de um apoio, se precisar), depois troque. Repita 2 vezes.", f: "Neurociência: o equilíbrio exige presença total — é impossível ruminar enquanto o corpo se equilibra." },
-    { t: "Sente-se ereto e faça uma torção suave: mão no joelho oposto, olhe por cima do ombro, 5 respirações de cada lado, sem forçar.", f: "Medicina chinesa: torções suaves espremem e liberam o fígado, órgão que sofre com a raiva contida." },
-    { t: "Bata palmas com vontade por 30 segundos e depois esfregue as palmas até esquentarem. Coloque-as sobre os olhos fechados.", f: "Medicina chinesa: as palmas concentram pontos dos meridianos; aquecê-las e levá-las aos olhos nutre e acalma." },
-    { t: "Faça o gato-vaca: em quatro apoios (ou sentado), arredonde as costas expirando e abra o peito inspirando, 8 vezes, no seu ritmo.", f: "Neurociência: ondular a coluna com a respiração estimula o nervo vago ao longo de todo o tronco." },
-    { t: "Caminhe 5 minutos como se cada passo dissesse 'obrigado' ao chão.", f: "Cristianismo: caminhar com gratidão transforma o trajeto em procissão silenciosa." },
-    { t: "Massageie os pés, um de cada vez, por 2 minutos: calcanhar, arco, dedos. Pode usar um creme ou fazer por cima da meia.", f: "Medicina chinesa: os pés concentram o início e o fim de vários meridianos; massageá-los cuida do corpo inteiro." },
-    { t: "Abra e feche as mãos com força 20 vezes, depois deixe-as penduradas e soltas por 30 segundos, sentindo o sangue circular.", f: "Neurociência: contrair e soltar grupos musculares ensina o corpo a reconhecer a diferença entre tensão e descanso." },
-    { t: "Faça um alongamento de peito na porta: antebraços no batente, um passo à frente, peito aberto, 5 respirações.", f: "Neurociência: abrir o peito contraria a postura de proteção da ansiedade e muda o estado emocional pelo corpo." },
-    { t: "Deite no chão por 2 minutos, braços e pernas abertos, entregando todo o peso à terra.", f: "Cristianismo: deitar-se por inteiro é gesto de entrega — descansar como quem confia em quem sustenta." },
-    { t: "Suba um lance de escada prestando atenção total em cada degrau, como se fosse a primeira escada da sua vida.", f: "Neurociência: tarefas comuns feitas com atenção plena viram treino de presença sem custo extra de tempo." },
-    { t: "Faça tapping suave: com as pontas dos dedos, tamborile delicadamente no alto da cabeça, têmporas, maçãs do rosto e peito, 30 segundos em cada.", f: "Neurociência: o toque rítmico leve acalma o sistema nervoso e traz a atenção para o mapa do corpo." },
-    { t: "Gire os punhos e os tornozelos, 10 vezes para cada lado, como quem lubrifica dobradiças preciosas.", f: "Medicina chinesa: as articulações são portões do qi; girá-las com cuidado mantém os portões abertos." },
-    { t: "Abrace a si mesmo apertando os braços em volta do tronco e balance suavemente de um lado para outro por 1 minuto.", f: "Amor: o abraço próprio com balanço evoca o embalo recebido na infância e acalma o sistema de apego." },
-    { t: "Estique-se para um lado com o braço por cima da cabeça, como uma lua crescente, 5 respirações de cada lado.", f: "Medicina chinesa: alongar as laterais do corpo abre os meridianos da vesícula biliar, soltando a rigidez da irritação." },
-    { t: "Polichinelo gentil: faça 15 polichinelos no seu ritmo (ou só o movimento dos braços, se preferir) e note o calor que aparece.", f: "Neurociência: 30 segundos de movimento vigoroso já elevam a noradrenalina e tiram a mente da letargia." },
-    { t: "Lave o rosto com água fresca, massageando, e termine com as mãos repousadas nas bochechas por 3 respirações.", f: "Neurociência: água fria no rosto ativa o reflexo de mergulho, desacelerando o coração quase instantaneamente." },
-    { t: "Caminhe para trás por 20 passos num espaço seguro, devagar, sentindo o corpo recalcular tudo.", f: "Neurociência: padrões de movimento invertidos acordam o cerebelo e quebram o piloto automático mental." },
-    { t: "Fique na ponta dos pés e desça devagar, 10 vezes, sentindo as panturrilhas trabalharem como segundo coração.", f: "Medicina chinesa: elevar os calcanhares e descer é o último dos oito brocados, dito para afastar as cem doenças." },
-    { t: "Faça círculos lentos com o quadril, como se desenhasse com a cintura, 10 para cada lado.", f: "Medicina chinesa: a cintura é o território dos rins; movê-la com suavidade nutre a raiz da vitalidade." },
-    { t: "Ajoelhe-se ou incline o tronco para frente devagar, deixando a cabeça pender, e fique 5 respirações nessa reverência.", f: "Cristianismo: inclinar-se é oração do corpo; a humildade física amansa o orgulho da mente." },
-    { t: "Massageie a barriga em círculos no sentido horário, com a palma morna, por 2 minutos.", f: "Medicina chinesa: o círculo horário acompanha o intestino e fortalece o baço, sede da preocupação." },
-    { t: "Pegue algo no chão usando o agachamento completo, devagar, e levante com a mesma atenção. Repita 5 vezes sem peso.", f: "Neurociência: agachar com consciência treina mobilidade e diz ao cérebro que o corpo é capaz e seguro." },
-    { t: "Estique os braços à frente, entrelace os dedos e empurre as palmas para longe, arredondando as costas, 5 respirações.", f: "Neurociência: abrir o espaço entre as escápulas alivia a tensão de quem passa horas em telas." },
-    { t: "Boceje 5 vezes de propósito, alongando o rosto inteiro, e perceba os olhos marejarem e o corpo soltar.", f: "Neurociência: o bocejo intencional relaxa a garganta e o rosto, regiões-chave do nervo vago." },
-    { t: "Caminhe 2 minutos balançando os braços exageradamente, como criança feliz indo para o recreio.", f: "Amor: imitar o corpo da alegria convida a alegria de volta — o gesto abre a porta da emoção." },
-    { t: "Pressione com o polegar o centro da palma da mão oposta por 30 segundos, respirando devagar. Troque de mão.", f: "Medicina chinesa: o ponto lao gong, no centro da palma, drena o calor do coração e acalma a agitação." },
-    { t: "Encoste as costas inteiras numa parede, dos calcanhares à cabeça, e respire 5 vezes sentindo o apoio.", f: "Neurociência: o apoio firme nas costas reduz a vigilância — o cérebro entende que nada vem por trás." },
-    { t: "Faça o movimento de nadar no ar: braçadas lentas de peito, 10 vezes, abrindo espaço à sua frente.", f: "Medicina chinesa: braçadas amplas abrem o meridiano do pulmão, que rege o fôlego e dissolve a tristeza." },
-    { t: "Sente e levante da cadeira 8 vezes, devagar, sem usar as mãos se puder, prestando atenção nas pernas.", f: "Neurociência: força de pernas é um dos melhores preditores de saúde do cérebro no envelhecimento." },
-    { t: "Deite com as pernas para cima na parede por 3 minutos, braços abertos, e não faça mais nada.", f: "Medicina chinesa: inverter as pernas devolve o sangue e o qi ao centro, acalmando o coração e a mente." },
-    { t: "Faça caretas exageradas por 30 segundos: estique, comprima, torça o rosto. Termine com o rosto neutro, notando o relaxamento.", f: "Neurociência: contrair e soltar os músculos faciais libera a tensão que sustenta o humor fechado." },
-    { t: "Dê 10 passos em câmera lenta, tão devagar que precise se equilibrar em cada apoio.", f: "Neurociência: a lentidão extrema exige atenção total e silencia o tagarelar mental." },
-    { t: "Esfregue a parte de trás da cintura (região dos rins) com as costas das mãos, para cima e para baixo, até aquecer, por 1 minuto.", f: "Medicina chinesa: aquecer os rins fortalece a energia ancestral e dissolve o frio do medo." },
-    { t: "Levante os braços ao céu e fique 5 respirações assim, como quem louva ou celebra uma vitória.", f: "Cristianismo: elevar as mãos é gesto antigo de louvor — o corpo ensina o coração a se elevar junto." },
-    { t: "Faça uma onda com os braços: comece o movimento no ombro e deixe fluir até a ponta dos dedos, 10 vezes de cada lado.", f: "Medicina chinesa: o movimento ondulante imita o fluxo natural do qi, ensinando o corpo a não travar." },
-    { t: "Pule levemente no lugar, calcanhares quicando, braços soltos, por 1 minuto, como quem desamassa o corpo.", f: "Neurociência: o impacto leve e rítmico estimula a circulação linfática e desperta o estado de alerta saudável." },
-    { t: "Massageie o couro cabeludo com as pontas dos dedos, como uma boa lavagem de salão, por 2 minutos.", f: "Amor: o toque no couro cabeludo evoca o cuidado recebido — um carinho que você pode se dar agora." },
-    { t: "Junte as palmas das mãos na frente do peito e pressione uma contra a outra por 10 segundos, depois solte. 5 vezes.", f: "Neurociência: a pressão isométrica seguida de soltura descarrega tensão acumulada nos braços e peito." },
-    { t: "Caminhe até a janela mais próxima, abra-a (se possível) e alongue-se na direção da luz por 3 respirações.", f: "Cristianismo: buscar a luz com o corpo é parábola viva — quem se volta para ela, ela aquece." },
-    { t: "Sente no chão de pernas cruzadas (ou na cadeira) e balance o tronco em círculos pequenos, como um pião desacelerando, por 1 minuto.", f: "Neurociência: movimentos circulares lentos do tronco acalmam o sistema vestibular, ligado ao equilíbrio emocional." },
-    { t: "Aperte suavemente o músculo entre o pescoço e o ombro (trapézio) com a mão oposta, 30 segundos de cada lado, respirando.", f: "Medicina chinesa: ali vive o ponto poço do ombro, famoso por derreter o peso das responsabilidades carregadas." },
-    { t: "Imite o voo de um pássaro: braços abrindo e fechando devagar como asas, joelhos acompanhando, por 1 minuto.", f: "Medicina chinesa: o gesto da garça no qigong une leveza e enraizamento, acalmando o coração." },
-    { t: "Estique os dedos das mãos abrindo-os ao máximo por 5 segundos e relaxe. Repita 8 vezes.", f: "Neurociência: as mãos têm representação gigante no cérebro; soltá-las relaxa uma área cortical enorme." },
-    { t: "Dê um abraço de verdade em alguém hoje, de pelo menos 10 segundos, com presença total.", f: "Amor: abraços de 10 segundos ou mais liberam ocitocina suficiente para baixar a pressão e o estresse de ambos." },
-    { t: "Alongue a parte de trás das pernas: incline o tronco à frente com joelhos levemente dobrados e fique 5 respirações pendurado, solto.", f: "Medicina chinesa: a parte de trás das pernas pertence ao meridiano da bexiga, onde o medo enrijece; soltá-la liberta." },
-    { t: "Faça 10 respirações em pé na postura do cavaleiro: pés afastados, joelhos semiflexionados, mãos como se segurassem uma bola na frente da barriga.", f: "Medicina chinesa: a postura clássica zhan zhuang cultiva o qi como uma árvore parada cultiva raízes." },
-    { t: "Gire os olhos devagar: olhe para cima, direita, baixo, esquerda, 3 voltas em cada sentido, depois feche-os por 10 segundos.", f: "Neurociência: mover os olhos conscientemente relaxa a musculatura ocular ligada ao estado de alerta." },
-    { t: "Limpe uma pequena área da casa (uma mesa, uma prateleira) em movimento lento e atento, como cerimônia.", f: "Cristianismo: o trabalho simples feito com amor é oração — varrer o chão pode ser cuidar do templo." },
-    { t: "Pressione o ponto entre o polegar e o indicador (na membrana) com o polegar da outra mão por 30 segundos, cada lado.", f: "Medicina chinesa: o ponto he gu move o qi estagnado e é um dos mais usados para aliviar tensão e dor de cabeça." },
-    { t: "Caminhe pela casa equilibrando um livro na cabeça por 2 minutos, rindo das quedas.", f: "Neurociência: desafios de postura com leveza unem foco, equilíbrio e humor numa só prática." },
-    { t: "Deite de barriga para cima e abrace os joelhos contra o peito, balançando suavemente para os lados, por 1 minuto.", f: "Neurociência: a compressão suave do próprio corpo acalma como um abraço e massageia a lombar." },
-    { t: "Acompanhe uma música batendo palmas ou batucando na perna, seguindo o ritmo por 1 minuto inteiro.", f: "Neurociência: sincronizar-se a um ritmo externo organiza os circuitos motores e melhora o humor." },
-    { t: "Estique o corpo todo na diagonal: braço direito para cima e à esquerda, depois troque. 5 respirações de cada lado.", f: "Medicina chinesa: alongamentos diagonais cruzam vários meridianos de uma vez, como arar um campo inteiro." },
-    { t: "Faça uma pausa de postura agora: pés firmes, coluna ereta, ombros para trás e para baixo, queixo paralelo ao chão. Fique 1 minuto assim.", f: "Neurociência: a postura ereta por 1 minuto já altera hormônios e a sensação subjetiva de confiança." },
-    { t: "Suba os braços inspirando e desça-os expirando, como se regesse uma orquestra muito lenta, 10 vezes.", f: "Medicina chinesa: este é o movimento de abertura do tai chi, que ensina o qi a subir e descer em paz." },
-    { t: "Dê risada com o corpo: jogue a cabeça para trás, abra os braços e ria (mesmo que forçado) por 30 segundos.", f: "Neurociência: o corpo da risada convoca a química da risada — o cérebro não distingue bem o ensaio da estreia." },
-    { t: "Massageie as orelhas inteiras com os dedos, das bordas ao lóbulo, por 1 minuto, terminando com um puxãozinho gentil para baixo.", f: "Medicina chinesa: a orelha é um mapa do corpo inteiro; massageá-la é cuidar de tudo em miniatura." },
-    { t: "Fique 1 minuto na posição da criança: ajoelhe, sente nos calcanhares e incline o tronco à frente, testa apoiada (no chão ou nas mãos).", f: "Neurociência: a testa apoiada e o corpo recolhido ativam o descanso profundo do sistema nervoso." },
-    { t: "Caminhe 3 minutos ao ar livre sem celular, só observando o que se move: folhas, pessoas, nuvens, pássaros.", f: "Neurociência: caminhar observando movimento externo acalma a amígdala e arejam-se os pensamentos." },
-    { t: "Empurre uma parede com as duas mãos, com força moderada, por 10 segundos, e solte. Repita 5 vezes.", f: "Neurociência: o esforço isométrico dá destino à energia da ansiedade, que existe para agir." },
-    { t: "Desenhe com o nariz, no ar, o seu nome completo, devagar, movendo só a cabeça.", f: "Neurociência: movimentos cervicais lúdicos e variados soltam o pescoço sem o medo que trava o alongamento." },
-    { t: "Sente e levante os calcanhares alternadamente, como se caminhasse sentado, por 1 minuto, massageando o retorno do sangue.", f: "Medicina chinesa: bombear os tornozelos movimenta os três meridianos yin da perna, nutrindo baço, fígado e rim." },
-    { t: "Estique-se na cama (ou sofá) como um gato ao acordar: arqueie, alongue, torça, no seu tempo, por 1 minuto.", f: "Amor: dar-se o direito do espreguiçar completo é tratar o próprio corpo com a ternura de quem ama." },
-    { t: "Faça 5 reverências lentas: em pé, incline o tronco à frente com as mãos no coração e volte. Como agradecimento ao dia.", f: "Cristianismo: o corpo que agradece curvando-se ensina a alma a reconhecer que tudo é recebido." },
-    { t: "Ande na ponta dos pés por 20 passos, depois nos calcanhares por 20, e normal por 20, notando as diferenças.", f: "Neurociência: variar padrões de marcha desperta mapas cerebrais adormecidos e melhora o equilíbrio." },
-    { t: "Coloque uma música calma e mova-se como ela mandar, sem coreografia, por 2 minutos, de olhos fechados se for seguro.", f: "Amor: deixar o corpo ser movido pela música é um diálogo de confiança consigo mesmo." },
-    { t: "Aperte um travesseiro contra o peito com força por 10 segundos e solte devagar. Repita 5 vezes.", f: "Neurociência: pressão profunda no peito acalma o sistema nervoso como um abraço apertado." },
-    { t: "Levante-se agora e beba um copo de água em pé, esticando o corpo antes e depois.", f: "Medicina chinesa: água mais movimento desperta o qi estagnado de quem ficou muito tempo sentado." },
-    { t: "Trace círculos grandes com os braços, como moinho lento, 10 para frente e 10 para trás.", f: "Medicina chinesa: girar os ombros em círculos completos abre as portas do peito e arejam-se coração e pulmão." },
-    { t: "Fique 30 segundos pendurado em algo firme (barra, porta robusta) ou apenas estique os braços para cima segurando um batente, alongando o tronco.", f: "Neurociência: a tração suave descomprime a coluna e dá uma rara sensação de espaço interno." },
-    { t: "Faça o alongamento do bocejo de corpo inteiro: inspire abrindo braços e boca ao máximo, expire soltando tudo com som. 3 vezes.", f: "Neurociência: combinar bocejo, som e alongamento dispara um relaxamento em cascata pelo corpo." },
-    { t: "Ajude seu corpo a digerir: caminhe em ritmo tranquilo por 5 minutos após a próxima refeição.", f: "Medicina chinesa: cem passos depois de comer fortalecem o baço-estômago, dizem os antigos." },
-    { t: "Massageie a têmpora e o maxilar de alguém querido por 2 minutos (com consentimento!) ou ensine alguém a fazer em você.", f: "Amor: o toque de cura trocado entre pessoas queridas regula os dois sistemas nervosos ao mesmo tempo." },
-    { t: "Em pé, transfira o peso devagar: para a direita, centro, esquerda, frente, trás. 5 voltas completas, como bambu ao vento.", f: "Medicina chinesa: ceder ao movimento sem sair da raiz é a lição do bambu — flexível em cima, firme embaixo." },
-    { t: "Suba os joelhos alternadamente em marcha parada por 1 minuto, tocando cada joelho com a mão oposta.", f: "Neurociência: movimentos cruzados integram os dois hemisférios e melhoram foco e coordenação." },
-    { t: "Esfregue as mãos até esquentar e coloque-as sobre qualquer parte do corpo que esteja dolorida ou tensa, por 5 respirações.", f: "Amor: as próprias mãos mornas são a forma mais disponível de consolo — cura que você carrega consigo." },
-    { t: "Faça 3 minutos de alongamento livre, sem regra: pergunte ao corpo o que ele quer esticar e obedeça.", f: "Neurociência: ouvir os pedidos do corpo treina a interocepção, sentido-chave da regulação emocional." },
-    { t: "Ande de mãos dadas com alguém hoje, mesmo que por um quarteirão, no mesmo passo.", f: "Amor: caminhar de mãos dadas sincroniza passos e corações — dois corpos lembrando que ninguém anda só." },
-    { t: "Pegue uma vassoura ou cabo e segure-o atrás da nuca, sobre os ombros, girando o tronco devagar de um lado a outro, 10 vezes.", f: "Medicina chinesa: a torção com os braços abertos espreme os meridianos do tronco como quem torce a água de um pano." },
-    { t: "Dê 20 passos contando-os em voz baixa, depois 20 sem contar, só sentindo. Compare as duas experiências.", f: "Neurociência: alternar atenção dirigida e atenção aberta exercita os dois grandes modos do cérebro." },
-    { t: "Bata suavemente com os punhos frouxos nas laterais das pernas, do quadril ao tornozelo e de volta, 3 descidas e subidas.", f: "Medicina chinesa: percutir os meridianos das pernas desperta a circulação do qi como tambor desperta aldeia." },
-    { t: "Estique o pescoço inclinando a orelha em direção ao ombro, ajudando levemente com a mão, 5 respirações de cada lado, sem puxar.", f: "Neurociência: alongar com gentileza e fôlego ensina aos músculos que podem soltar sem perigo." },
-    { t: "Ajoelhe-se ao lado da cama (ou onde estiver) por 1 minuto em silêncio, mãos abertas sobre os joelhos.", f: "Cristianismo: ajoelhar-se com as mãos abertas é o corpo dizendo: estou pronto para receber e para entregar." },
-    { t: "Faça agora 10 respirações em movimento: qualquer gesto lento que acompanhe o ar entrando e saindo, inventado por você.", f: "Medicina chinesa: quando fôlego e gesto se casam, nasce o qigong — e o seu corpo sabe inventar o próprio." },
-    { t: "Termine qualquer prática de hoje ficando 30 segundos imóvel, de olhos fechados, escutando os efeitos no corpo.", f: "Neurociência: a pausa de integração consolida no cérebro os ganhos do movimento — o silêncio é parte do remédio." },
-    { t: "Escolha o movimento mais gostoso que você fez nesta semana e repita-o agora, três vezes, com um sorriso.", f: "Amor: repetir o que faz bem, de propósito, é como dizer ao corpo: eu te escuto e cuido de você." }
+    {
+      t: "Abertura do tai chi: em pé, pés na largura dos ombros, suba os braços devagar ao inspirar e desça-os ao expirar, como se a água os movesse. Repita 10 vezes.",
+      f: "Programas de tai chi melhoram equilíbrio, humor e qualidade de vida em dezenas de ensaios clínicos revisados pelo grupo de pesquisa de Harvard dedicado à prática.",
+      fonte: "Harvard Medical School · Peter Wayne, Guide to Tai Chi",
+      n: "No tai chi, o gesto lento ensina o corpo a não travar: fluidez fora, fluidez dentro."
+    },
+    {
+      t: "Caminhe por 10 minutos, agora se possível. Sem fone, sem meta — apenas num ritmo que deixe a respiração levemente mais profunda.",
+      f: "Caminhadas regulares têm efeito antidepressivo comparável ao de intervenções formais em meta-análises; mesmo doses curtas elevam o humor de forma aguda.",
+      fonte: "BMJ, 2024 · Noetel et al., meta-análise de exercício e depressão"
+    },
+    {
+      t: "Relaxamento muscular progressivo: tensione com força os ombros por 5 segundos e solte de uma vez. Repita com mãos, rosto e pernas, sentindo o contraste.",
+      f: "A técnica de Jacobson reduz ansiedade e insônia em ensaios clínicos há décadas; o contraste ensina o corpo a reconhecer e desligar a tensão escondida.",
+      fonte: "Harvard Health Publishing · relaxamento muscular progressivo"
+    },
+    {
+      t: "Dance uma música inteira, do seu jeito, sem plateia. Vale fechar a porta.",
+      f: "Na maior meta-análise já feita sobre exercício e depressão, a dança apareceu entre as modalidades com maior efeito sobre o humor.",
+      fonte: "BMJ, 2024 · Noetel et al."
+    },
+    {
+      t: "Caminhada criativa: leve um problema em aberto para uma volta de 15 minutos a pé. Não force a solução; deixe-a aparecer.",
+      f: "Em experimentos de Stanford, caminhar aumentou a geração de ideias criativas em cerca de 60% em comparação com permanecer sentado — dentro ou fora de casa.",
+      fonte: "Journal of Experimental Psychology, 2014 · Oppezzo & Schwartz, Stanford"
+    },
+    {
+      t: "Balanço de qigong: pés firmes, gire o tronco para os lados deixando os braços soltos baterem suavemente no corpo, por 2 minutos.",
+      f: "Revisões de qigong mostram redução de ansiedade e de pressão arterial; movimentos rítmicos e repetitivos com respiração lenta são o ingrediente ativo comum.",
+      fonte: "American Journal of Health Promotion · Jahnke et al., revisão de qigong",
+      n: "Na medicina chinesa, o balanço solta o qi estagnado da cintura, território dos rins."
+    },
+    {
+      t: "Massageie as próprias mãos por 2 minutos: amasse a palma com o polegar oposto, deslize por cada dedo, sem pressa.",
+      f: "Massagem de mãos de poucos minutos reduziu ansiedade e cortisol em ensaios com pacientes pré-cirúrgicos e cuidadores.",
+      fonte: "Journal of Clinical Nursing · ensaios de hand massage",
+      n: "O toque atento em si mesmo aciona o mesmo sistema de conforto do carinho recebido."
+    },
+    {
+      t: "Pressione suavemente o ponto entre as sobrancelhas com o dedo médio, em círculos lentos, por 1 minuto, de olhos fechados.",
+      f: "A acupressão no ponto yintang reduziu ansiedade pré-operatória em ensaios randomizados, com efeito superior a pontos placebo.",
+      fonte: "Anesthesia & Analgesia · acupressão yintang",
+      n: "Na medicina chinesa, o yintang é o ponto clássico para aquietar o shen, a mente."
+    },
+    {
+      t: "Alongue-se na porta: antebraços no batente, um passo à frente, peito aberto, 5 respirações lentas.",
+      f: "Abrir a postura contraria o padrão corporal de proteção da ansiedade; posturas eretas melhoram afeto e energia em estudos experimentais com postura sentada e em pé.",
+      fonte: "Journal of Behavior Therapy and Experimental Psychiatry · postura e afeto"
+    },
+    {
+      t: "Suba e desça um lance de escadas duas vezes, com atenção total nos apoios. Conte como seu “lanche de exercício” de agora.",
+      f: "“Exercise snacks” — doses de 1 a 2 minutos de esforço espalhadas pelo dia — melhoram condicionamento e disposição, segundo estudos da Universidade McMaster.",
+      fonte: "Applied Physiology, Nutrition, and Metabolism · McMaster University"
+    },
+    {
+      t: "Fique em um pé só por 30 segundos (perto de um apoio), depois troque. Se ficar fácil, feche os olhos por alguns segundos.",
+      f: "Equilíbrio unipodal é marcador de saúde neuromotora e seu treino exige presença total — não há como ruminar e se equilibrar ao mesmo tempo.",
+      fonte: "British Journal of Sports Medicine · equilíbrio e saúde"
+    },
+    {
+      t: "Solte a mandíbula: dentes separados, língua repousada, e massageie os músculos perto das orelhas em círculos por 1 minuto.",
+      f: "A musculatura mandibular é um dos principais depósitos de tensão do estresse; relaxá-la reduz a atividade do sistema de alerta por feedback proprioceptivo.",
+      fonte: "Journal of Oral Rehabilitation · bruxismo e estresse"
+    },
+    {
+      t: "Gato-vaca: em quatro apoios ou sentado, arredonde as costas ao expirar e abra o peito ao inspirar, 8 vezes, no seu ritmo.",
+      f: "Práticas de yoga com movimento e respiração elevaram os níveis de GABA — neurotransmissor ligado à calma — em estudos de espectroscopia da Universidade de Boston.",
+      fonte: "Journal of Alternative and Complementary Medicine · Streeter et al."
+    },
+    {
+      t: "Sacuda o corpo por 1 minuto: mãos, braços, pernas, ombros, como se chacoalhasse a poeira do dia. Termine parado, sentindo o formigamento.",
+      f: "Movimento vigoroso breve descarrega a ativação fisiológica do estresse e eleva noradrenalina e endorfinas — o mecanismo agudo pelo qual exercício melhora o humor.",
+      fonte: "Harvard Health Publishing · exercício como ansiolítico natural"
+    },
+    {
+      t: "Esfregue as palmas até aquecerem e pouse-as sobre os olhos fechados por 5 respirações.",
+      f: "Calor e escuridão reduzem o estímulo visual e ativam o reflexo oculocardíaco, que desacelera suavemente o coração.",
+      fonte: "Fisiologia clínica · reflexo oculocardíaco",
+      n: "Gesto clássico do qigong dos olhos, usado para nutrir e descansar a visão."
+    },
+    {
+      t: "Caminhada consciente: 3 minutos andando devagar, atenção na sola dos pés — calcanhar, planta, dedos — a cada passo.",
+      f: "A caminhada meditativa reduz ansiedade mais do que caminhar distraído, em estudos que compararam as duas condições com a mesma dose de movimento.",
+      fonte: "Mindfulness · meditação caminhando"
+    },
+    {
+      t: "Torção suave sentado: mão no joelho oposto, cresça na inspiração e gire um pouco mais na expiração. 5 respirações para cada lado, sem forçar.",
+      f: "Alongamentos suaves reduzem a ansiedade-estado e a tensão muscular percebida em estudos com trabalhadores de escritório.",
+      fonte: "Journal of Occupational Health · alongamento e ansiedade",
+      n: "Na medicina chinesa, torcer o tronco é espremer e liberar o fígado, órgão da raiva contida."
+    },
+    {
+      t: "Pernas na parede: deite-se e apoie as pernas elevadas na parede por 3 minutos, braços abertos, respirando devagar.",
+      f: "Posturas restaurativas invertidas ativam o barorreflexo e o sistema parassimpático, reduzindo frequência cardíaca — base das práticas de yoga restaurativo estudadas para estresse.",
+      fonte: "International Journal of Yoga Therapy · yoga restaurativo"
+    },
+    {
+      t: "Abrace alguém por 10 segundos ou mais hoje, com presença total. (Um travesseiro apertado contra o peito vale como ensaio.)",
+      f: "Abraços frequentes estão associados a menor reatividade cardiovascular ao estresse e até a menor suscetibilidade a infecções em estudos prospectivos.",
+      fonte: "Psychological Science · Cohen et al., abraços e saúde",
+      n: "Pressão profunda e calor humano são a forma mais antiga de regulação a dois."
+    },
+    {
+      t: "Levante e sente da cadeira 8 vezes, devagar, sem usar as mãos se puder. Atenção nas pernas trabalhando.",
+      f: "Força de membros inferiores é um dos preditores mais robustos de envelhecimento saudável do corpo e do cérebro em estudos longitudinais.",
+      fonte: "Gerontology · força de pernas e cognição"
+    },
+    {
+      t: "Bocejo e espreguiçada de propósito: 3 bocejos bem abertos com alongamento de braços em direções diferentes, com som se vier.",
+      f: "A pandiculação — o espreguiçar involuntário que você está imitando — reinicia o tônus muscular e marca transições de estado no sistema nervoso.",
+      fonte: "Frontiers in Neurology · bocejo e termorregulação cerebral"
+    },
+    {
+      t: "Postura do cavaleiro (zhan zhuang): pés afastados, joelhos semiflexionados, mãos como se abraçassem uma bola à frente do peito. Fique 10 respirações.",
+      f: "Posturas estáticas de qigong melhoraram força, equilíbrio e marcadores de estresse em ensaios clínicos com adultos e idosos.",
+      fonte: "Evidence-Based Complementary and Alternative Medicine · zhan zhuang",
+      n: "Cultivar raiz parado é a lição da árvore: firmeza embaixo, leveza em cima."
+    },
+    {
+      t: "Automassagem na nuca: polegares na base do crânio, círculos lentos por 2 minutos, cabeça levemente inclinada para trás.",
+      f: "Massagem na região cervical reduz cortisol e ativa o sistema parassimpático, segundo a linha de pesquisa do Touch Research Institute.",
+      fonte: "International Journal of Neuroscience · Tiffany Field, Univ. de Miami"
+    },
+    {
+      t: "Marcha cruzada: 1 minuto de marcha parada tocando cada joelho com a mão oposta, num ritmo confortável.",
+      f: "Movimentos coordenados cruzando a linha média do corpo exigem integração inter-hemisférica e atenção — combinação que desperta sem agitar.",
+      fonte: "Harvard Health Publishing · exercício e função cognitiva"
+    },
+    {
+      t: "Encoste as costas inteiras numa parede — calcanhares, lombar, ombros, cabeça — e respire 5 vezes sentindo o apoio.",
+      f: "Suporte postural firme reduz a vigilância de fundo do sistema nervoso; propriocepção de segurança é insumo direto da regulação emocional.",
+      fonte: "Neuroscience & Biobehavioral Reviews · propriocepção e afeto"
+    }
   ]
 };
