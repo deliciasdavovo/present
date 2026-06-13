@@ -19,6 +19,7 @@
     <h1>Presente</h1>
     <p class="hero-sub">O que você precisa agora?</p>
     <p class="hero-note">Escolha uma dimensão e receba uma prática para este momento, com base em pesquisas publicadas.</p>
+    <p class="hero-streak" id="hero-streak" hidden></p>
   </header>
 
   <main>
@@ -43,7 +44,13 @@
         <button class="mode-opt" data-mode="imagem">Com imagem</button>
         <button class="mode-opt" data-mode="vida">Na vida real</button>
       </div>
+      <div id="gratidao-head" class="gratidao-head" hidden>
+        <p id="gratidao-date" class="gratidao-date"></p>
+        <p class="gratidao-kicker">Coluna do dia</p>
+        <p id="gratidao-prompt" class="gratidao-prompt"></p>
+      </div>
       <div id="breath-guide" class="breath-guide" hidden></div>
+      <div id="move-guide" class="move-guide" hidden></div>
       <div id="practice-img-wrap" class="practice-img-wrap" hidden>
         <img id="practice-img" alt="Imagem para contemplação" />
       </div>
@@ -67,6 +74,7 @@
         <p id="practice-source" class="practice-source"></p>
       </div>
       <p id="practice-note" class="practice-note" hidden></p>
+      <p id="streak-feedback" class="streak-feedback" hidden></p>
       <div class="practice-actions">
         <button id="done-btn" class="btn btn-primary">Concluir</button>
         <button id="another-btn" class="btn btn-ghost">Outra prática</button>
@@ -85,8 +93,10 @@
   <script src="js/data/bondade.js"></script>
   <script src="js/data/palavras.js"></script>
   <script src="js/breath.js"></script>
+  <script src="js/move.js"></script>
   <script src="js/timer.js"></script>
   <script src="js/audio.js"></script>
+  <script src="js/streak.js"></script>
   <script src="js/app.js"></script>
   <script>
     if ("serviceWorker" in navigator) {

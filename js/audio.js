@@ -139,12 +139,13 @@
     }, 500);
   }
 
-  function mount(container, defaultKey) {
+  function mount(container, defaultKey, onState) {
     container.innerHTML = "";
     container.hidden = false;
 
     var current = SOUNDS[defaultKey] ? defaultKey : "tons";
     var playing = false;
+    function notify() { if (typeof onState === "function") onState(playing); }
 
     var row = document.createElement("div");
     row.className = "audio-row";
@@ -196,6 +197,7 @@
         playing = true;
       }
       update();
+      notify();
     });
 
     container.appendChild(row);
