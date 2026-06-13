@@ -1,5 +1,5 @@
 /* Service worker do Presente: deixa o app inteiro disponível offline. */
-var CACHE = "presente-v3";
+var CACHE = "presente-v4";
 
 var APP_SHELL = [
   "./",
@@ -43,22 +43,6 @@ self.addEventListener("activate", function (e) {
 self.addEventListener("fetch", function (e) {
   if (e.request.method !== "GET") return;
   var url = new URL(e.request.url);
-
-  // Imagens de contemplação (picsum): cache na primeira visita, usa o cache depois.
-  if (url.hostname.indexOf("picsum.photos") !== -1) {
-    e.respondWith(
-      caches.open(CACHE + "-img").then(function (c) {
-        return c.match(e.request).then(function (hit) {
-          if (hit) return hit;
-          return fetch(e.request).then(function (res) {
-            if (res && (res.ok || res.type === "opaque")) c.put(e.request, res.clone());
-            return res;
-          });
-        });
-      })
-    );
-    return;
-  }
 
   // App shell e fontes: cache primeiro, rede como reserva (e atualiza o cache).
   e.respondWith(

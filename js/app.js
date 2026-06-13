@@ -45,7 +45,7 @@
     {
       id: "contemplacao",
       titulo: "Contemplação",
-      desc: "Com imagem ou na vida real — você escolhe.",
+      desc: "Olhar o mundo ao redor com atenção plena.",
       accent: "#4aa3a3"
     },
     {
@@ -75,7 +75,6 @@
   ];
 
   var STORAGE_KEY = "presente-bag-v3";
-  var MODE_KEY = "presente-contemplacao-modo";
   var NOTES_KEY = "presente-notas";
   var currentDim = null;
   var breathCtl = null;
@@ -109,7 +108,6 @@
   }
 
   // filter: função opcional (tarefa -> bool); bagKey separa os "sacos"
-  // (ex.: contemplação com imagem × na vida real)
   function drawTask(dimId, filter, bagKey) {
     var data = window.PRACTICES && window.PRACTICES[dimId];
     if (!data || !data.tarefas || !data.tarefas.length) return null;
@@ -157,8 +155,6 @@
   var sourceEl = document.getElementById("practice-source");
   var noteEl = document.getElementById("practice-note");
   var countEl = document.getElementById("practice-count");
-  var imgWrap = document.getElementById("practice-img-wrap");
-  var imgEl = document.getElementById("practice-img");
   var guideEl = document.getElementById("breath-guide");
   var poemEl = document.getElementById("practice-poem");
   var poemTextEl = document.getElementById("poem-text");
@@ -168,7 +164,6 @@
   var writeEl = document.getElementById("practice-write");
   var writeArea = document.getElementById("write-area");
   var writeStatus = document.getElementById("write-status");
-  var modeEl = document.getElementById("practice-mode");
   var sheetEl = document.querySelector(".practice-card");
 
   DIMENSIONS.forEach(function (dim) {
@@ -192,41 +187,18 @@
     audioEl.hidden = true;
     poemEl.hidden = true;
     writeEl.hidden = true;
-    modeEl.hidden = true;
-  }
-
-  function getContemplacaoModo() {
-    var m = localStorage.getItem(MODE_KEY);
-    return m === "vida" ? "vida" : "imagem";
-  }
-
-  function syncModeButtons() {
-    var modo = getContemplacaoModo();
-    modeEl.querySelectorAll(".mode-opt").forEach(function (b) {
-      b.setAttribute("aria-pressed", String(b.dataset.mode === modo));
-    });
   }
 
   function openPractice(dim) {
     stopExtras();
 
-    var result;
-    if (dim.id === "contemplacao") {
-      var modo = getContemplacaoModo();
-      result = drawTask(dim.id, function (t) { return t.modo === modo; },
-        dim.id + ":" + modo);
-      modeEl.hidden = false;
-      syncModeButtons();
-    } else {
-      result = drawTask(dim.id);
-    }
+    var result = drawTask(dim.id);
 
     if (!result) {
       textEl.textContent = "As práticas desta dimensão ainda não foram carregadas. Tente recarregar a página.";
       scienceEl.hidden = true;
       noteEl.hidden = true;
       countEl.textContent = "";
-      imgWrap.hidden = true;
     } else {
       var t = result.tarefa;
       textEl.textContent = t.t;
@@ -241,14 +213,6 @@
 
       countEl.textContent =
         "Prática " + (result.total - result.restantes) + " de " + result.total + " desta rodada";
-
-      if (t.img) {
-        imgEl.src = "https://picsum.photos/seed/" + encodeURIComponent(t.img) + "/800/500";
-        imgWrap.hidden = false;
-      } else {
-        imgWrap.hidden = true;
-        imgEl.removeAttribute("src");
-      }
 
       if (t.poema) {
         poemTextEl.textContent = t.poema;
@@ -292,14 +256,6 @@
     document.body.style.overflow = "";
     currentDim = null;
   }
-
-  // alternador imagem / vida real (contemplação)
-  modeEl.querySelectorAll(".mode-opt").forEach(function (b) {
-    b.addEventListener("click", function () {
-      try { localStorage.setItem(MODE_KEY, b.dataset.mode); } catch (e) { /* ok */ }
-      if (currentDim) openPractice(currentDim);
-    });
-  });
 
   // diário de gratidão
   document.getElementById("write-save").addEventListener("click", function () {
