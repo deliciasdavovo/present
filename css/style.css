@@ -313,7 +313,7 @@ body {
 }
 
 .poem-text {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Shippori Mincho B1", Georgia, "Times New Roman", serif;
   font-size: 1.08rem;
   line-height: 1.7;
   color: var(--ink);
