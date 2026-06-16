@@ -285,9 +285,43 @@ body {
 .btn-primary {
   background: var(--ink);
   color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.15s var(--ease), background 0.25s, opacity 0.2s;
 }
 
 .btn-primary:hover { opacity: 0.85; }
+
+.btn-primary .check-icon { display: none; flex-shrink: 0; }
+
+.btn-primary.done-anim {
+  background: #34c759;
+  pointer-events: none;
+  padding: 12px 28px;
+}
+
+.btn-primary.done-anim .btn-label { display: none; }
+
+.btn-primary.done-anim .check-icon {
+  display: block;
+  animation: checkPop 0.18s var(--ease) forwards;
+}
+
+@keyframes checkPop {
+  from { transform: scale(0.5); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
+}
+
+.btn-primary.done-anim .check-path {
+  stroke-dasharray: 22;
+  stroke-dashoffset: 22;
+  animation: checkDraw 0.38s ease 0.12s forwards;
+}
+
+@keyframes checkDraw {
+  to { stroke-dashoffset: 0; }
+}
 
 .btn-ghost {
   background: transparent;
@@ -296,6 +330,24 @@ body {
 }
 
 .btn-ghost:hover { background: #f5f5f7; }
+
+.btn-arrow {
+  background: transparent;
+  color: #c7c7cc;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.15s var(--ease), background 0.2s, color 0.2s;
+}
+
+.btn-arrow:active { transform: scale(0.9); }
+.btn-arrow:hover  { background: rgba(0,0,0,0.05); color: var(--ink-3); }
 
 .practice-count {
   margin-top: 16px;

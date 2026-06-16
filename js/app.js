@@ -291,6 +291,7 @@
     overlay.hidden = true;
     document.body.style.overflow = "";
     currentDim = null;
+    document.getElementById("done-btn").classList.remove("done-anim");
   }
 
   // alternador imagem / vida real (contemplação)
@@ -319,7 +320,11 @@
   });
 
   document.getElementById("close-btn").addEventListener("click", closePractice);
-  document.getElementById("done-btn").addEventListener("click", closePractice);
+  document.getElementById("done-btn").addEventListener("click", function () {
+    var btn = document.getElementById("done-btn");
+    btn.classList.add("done-anim");
+    setTimeout(closePractice, 680);
+  });
   document.getElementById("another-btn").addEventListener("click", function () {
     if (currentDim) openPractice(currentDim);
   });
