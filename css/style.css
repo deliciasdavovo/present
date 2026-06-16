@@ -285,42 +285,59 @@ body {
 .btn-primary {
   background: var(--ink);
   color: #fff;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: transform 0.15s var(--ease), background 0.25s, opacity 0.2s;
 }
 
 .btn-primary:hover { opacity: 0.85; }
 
-.btn-primary .check-icon { display: none; flex-shrink: 0; }
+/* ---------- Bolha de sabão (Concluir) ---------- */
 
-.btn-primary.done-anim {
-  background: #34c759;
+.bubble-wrap {
+  position: fixed;
   pointer-events: none;
-  padding: 12px 28px;
+  z-index: 200;
+  transform: translate(-50%, -50%);
 }
 
-.btn-primary.done-anim .btn-label { display: none; }
-
-.btn-primary.done-anim .check-icon {
-  display: block;
-  animation: checkPop 0.18s var(--ease) forwards;
+.bubble-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid rgba(160, 220, 255, 0.65);
+  background: radial-gradient(circle at 35% 28%,
+    rgba(255,255,255,0.75) 0%,
+    rgba(180,235,255,0.18) 45%,
+    transparent 70%);
+  margin: -32px 0 0 -32px;
+  animation: bubblePop 0.58s ease-out forwards;
 }
 
-@keyframes checkPop {
-  from { transform: scale(0.5); opacity: 0; }
-  to   { transform: scale(1);   opacity: 1; }
+@keyframes bubblePop {
+  0%   { transform: scale(0.15); opacity: 0;    }
+  28%  { transform: scale(0.85); opacity: 1;    }
+  62%  { transform: scale(1.08); opacity: 0.85; }
+  82%  { transform: scale(1.35); opacity: 0;    filter: blur(1.5px); }
+  100% { transform: scale(1.6);  opacity: 0;    }
 }
 
-.btn-primary.done-anim .check-path {
-  stroke-dasharray: 22;
-  stroke-dashoffset: 22;
-  animation: checkDraw 0.38s ease 0.12s forwards;
+.bubble-dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(140, 215, 255, 0.9);
+  margin: -2.5px 0 0 -2.5px;
+  opacity: 0;
+  animation: dotFly 0.48s ease-out 0.26s forwards;
 }
 
-@keyframes checkDraw {
-  to { stroke-dashoffset: 0; }
+@keyframes dotFly {
+  0%   { transform: translate(0, 0) scale(1.2); opacity: 0.95; }
+  100% { transform: translate(var(--tx), var(--ty)) scale(0);   opacity: 0; }
 }
 
 .btn-ghost {
