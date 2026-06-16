@@ -291,7 +291,6 @@
     overlay.hidden = true;
     document.body.style.overflow = "";
     currentDim = null;
-    document.getElementById("done-btn").classList.remove("done-anim");
   }
 
   // alternador imagem / vida real (contemplação)
@@ -321,9 +320,34 @@
 
   document.getElementById("close-btn").addEventListener("click", closePractice);
   document.getElementById("done-btn").addEventListener("click", function () {
-    var btn = document.getElementById("done-btn");
-    btn.classList.add("done-anim");
-    setTimeout(closePractice, 680);
+    var rect = this.getBoundingClientRect();
+    var cx = rect.left + rect.width / 2;
+    var cy = rect.top + rect.height / 2;
+
+    var wrap = document.createElement("div");
+    wrap.className = "bubble-wrap";
+    wrap.style.cssText = "left:" + cx + "px;top:" + cy + "px;";
+
+    var ring = document.createElement("div");
+    ring.className = "bubble-ring";
+    wrap.appendChild(ring);
+
+    var count = 8;
+    for (var i = 0; i < count; i++) {
+      var dot = document.createElement("div");
+      dot.className = "bubble-dot";
+      var angle = (i / count) * Math.PI * 2;
+      var dist = 26 + Math.random() * 16;
+      dot.style.setProperty("--tx", (Math.cos(angle) * dist).toFixed(1) + "px");
+      dot.style.setProperty("--ty", (Math.sin(angle) * dist).toFixed(1) + "px");
+      wrap.appendChild(dot);
+    }
+
+    document.body.appendChild(wrap);
+    setTimeout(function () {
+      if (wrap.parentNode) wrap.parentNode.removeChild(wrap);
+      closePractice();
+    }, 680);
   });
   document.getElementById("another-btn").addEventListener("click", function () {
     if (currentDim) openPractice(currentDim);
