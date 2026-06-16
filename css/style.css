@@ -680,6 +680,78 @@ body {
 
 .breath-ctl:hover { background: #f5f5f7; }
 
+/* ---------- Story mode (contemplação com imagem — tela cheia) ---------- */
+
+.overlay.story-mode {
+  background: #000;
+}
+
+.overlay.story-mode .practice-card {
+  padding: 0;
+  background: #000;
+}
+
+.overlay.story-mode .practice-head,
+.overlay.story-mode .practice-text,
+.overlay.story-mode .practice-science,
+.overlay.story-mode .practice-note,
+.overlay.story-mode .practice-count {
+  display: none;
+}
+
+.overlay.story-mode .practice-img-wrap {
+  position: fixed;
+  inset: 0;
+  border-radius: 0;
+  aspect-ratio: unset;
+  margin: 0;
+  max-width: none;
+  z-index: 1;
+}
+
+.overlay.story-mode .practice-actions {
+  position: fixed;
+  bottom: calc(44px + env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  max-width: none;
+  width: auto;
+  z-index: 10;
+  justify-content: center;
+}
+
+.overlay.story-mode .close-btn {
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.overlay.story-mode .close-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay.story-mode .btn-primary {
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.overlay.story-mode .btn-primary:hover { opacity: 0.8; }
+
+.overlay.story-mode .btn-arrow {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.overlay.story-mode .btn-arrow:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
