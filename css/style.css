@@ -227,7 +227,7 @@ body {
 
 .practice-text {
   font-size: clamp(1.2rem, 3.4vw, 1.4rem);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -0.02em;
   line-height: 1.4;
 }
