@@ -99,6 +99,17 @@
       svg.appendChild(parts.ball);
     }
 
+    function setLabel(text) {
+      var i = text.indexOf(' ');
+      if (i === -1) {
+        labelEl.innerHTML = '<strong class="breath-verb">' + text + '</strong>';
+      } else {
+        labelEl.innerHTML =
+          '<strong class="breath-verb">' + text.slice(0, i) + '</strong>' +
+          '<span class="breath-qual">' + text.slice(i) + '</span>';
+      }
+    }
+
     // ----- estado -----
     var phases = anim.phases;
     var totalCycles = anim.cycles || 6;
@@ -124,7 +135,7 @@
       var t = Math.min(elapsed / p.dur, 1);
       var level = lerp(levelStart, phaseLevelTarget(phaseIdx), easeInOut(t));
 
-      labelEl.textContent = p.label;
+      setLabel(p.label);
       var remaining = Math.max(Math.ceil(p.dur - elapsed), 0);
       counterEl.textContent = finished
         ? "Concluído"
@@ -180,7 +191,7 @@
             running = false;
             phaseIdx = phases.length - 1;
             elapsed = phases[phaseIdx].dur;
-            labelEl.textContent = "Muito bem";
+            setLabel("Muito bem");
             counterEl.textContent = "Prática concluída";
             ctl.textContent = "Repetir";
             return;
