@@ -61,12 +61,6 @@
       accent: "#a3845c"
     },
     {
-      id: "humor",
-      titulo: "Humor",
-      desc: "Uma dose de riso para agora.",
-      accent: "#e08e4f"
-    },
-    {
       id: "bondade",
       titulo: "Fazer o bem",
       desc: "Pequenos atos de generosidade.",
@@ -211,15 +205,18 @@
     stopExtras();
 
     var result;
+    var storyMode = false;
     if (dim.id === "contemplacao") {
       var modo = getContemplacaoModo();
       result = drawTask(dim.id, function (t) { return t.modo === modo; },
         dim.id + ":" + modo);
-      modeEl.hidden = false;
-      syncModeButtons();
+      storyMode = modo === "imagem";
+      modeEl.hidden = storyMode;
+      if (!storyMode) syncModeButtons();
     } else {
       result = drawTask(dim.id);
     }
+    overlay.classList.toggle("story-mode", storyMode);
 
     if (!result) {
       textEl.textContent = "As práticas desta dimensão ainda não foram carregadas. Tente recarregar a página.";
@@ -289,6 +286,7 @@
   function closePractice() {
     stopExtras();
     overlay.hidden = true;
+    overlay.classList.remove("story-mode");
     document.body.style.overflow = "";
     currentDim = null;
   }
