@@ -10,6 +10,7 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+[hidden] { display: none !important; }
 
 html { -webkit-text-size-adjust: 100%; }
 
@@ -380,7 +381,6 @@ body {
 /* ---------- Timer ---------- */
 
 .practice-timer { display: flex; flex-direction: column; align-items: center; gap: 8px; margin: 18px 0 4px; }
-.practice-timer[hidden] { display: none; }
 
 .timer-ring { width: 120px; height: 120px; }
 
@@ -490,8 +490,6 @@ body {
   gap: 12px;
 }
 
-.practice-audio[hidden] { display: none; }
-
 .audio-row {
   display: flex;
   align-items: center;
@@ -584,8 +582,6 @@ body {
   gap: 8px;
   margin: 4px 0 22px;
 }
-
-.breath-guide[hidden] { display: none; }
 
 .breath-stage {
   width: min(300px, 78vw);
